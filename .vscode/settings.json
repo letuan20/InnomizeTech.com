@@ -10,11 +10,7 @@
     "node_modules": true,
     "yarn-error.log": true
   },
-  "cSpell.words": [
-    "esnext",
-    "frontmatter",
-    "minibio"
-  ],
+  "cSpell.words": ["esnext", "frontmatter", "minibio"],
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -29,5 +25,7 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "git.enabled": false,
+  "git.autofetch": false
 }

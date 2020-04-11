@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
 import { ThemeProvider } from 'emotion-theming';
 import { MDXProvider } from '@mdx-js/react';
@@ -76,7 +76,7 @@ export default function LayoutWithSiteData(props: LayoutProps) {
           }
         }
       `}
-      render={data => <Layout data={data} {...props} />}
+      render={(data) => <Layout data={data} {...props} />}
     />
   );
 }

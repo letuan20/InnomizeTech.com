@@ -51,7 +51,7 @@ export default function BlogPageWithData(props: any) {
           }
         }
       `}
-      render={data => <BlogPage data={data} {...props} />}
+      render={(data) => <BlogPage data={data} {...props} />}
     />
   );
 }

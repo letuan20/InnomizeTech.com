@@ -9,14 +9,14 @@ const Blog = ({ data: { allMdx }, pageContext: { pagination } }) => {
   const { page, nextPagePath, previousPagePath } = pagination;
 
   const posts = page
-    .map(id =>
+    .map((id) =>
       allMdx.edges.find(
-        edge =>
+        (edge) =>
           edge.node.id === id &&
           edge.node.parent.sourceInstanceName !== 'pages',
       ),
     )
-    .filter(post => post !== undefined);
+    .filter((post) => post !== undefined);
 
   return (
     <Layout>

@@ -9,6 +9,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "noUnusedLocals": false,
+    "noImplicitAny": false,
     "allowJs": true,
     "types": ["lodash", "node"]
   },

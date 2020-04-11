@@ -2,7 +2,13 @@ import React from 'react';
 import { css } from '@emotion/core';
 import { bpMaxSM } from '../lib/breakpoints';
 
-const Container = props => {
+const Container = (props: {
+  [x: string]: any;
+  children?: any;
+  maxWidth?: number;
+  noHorizontalPadding?: boolean;
+  noVerticalPadding?: boolean;
+}) => {
   const {
     maxWidth = 1024,
     noHorizontalPadding = false,
