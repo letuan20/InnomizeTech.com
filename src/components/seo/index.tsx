@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import SchemaOrg from './schema-org';
 
 import config from '../../../config/website';
-import defaultMetaImage from '../../../static/images/metaImage.png';
+import defaultMetaImage from '../../../static/img/metaImage.png';
 
 interface SEOProps {
   siteMetadata?: any;

@@ -62,6 +62,8 @@ module.exports = {
       },
     },
 
+    'gatsby-plugin-sass',
+
     // A Gatsby source plugin for sourcing data into your Gatsby application from your local filesystem.
     {
       resolve: `gatsby-source-filesystem`,

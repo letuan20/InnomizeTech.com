@@ -4,6 +4,8 @@ import { graphql, StaticQuery } from 'gatsby';
 import { ThemeProvider } from 'emotion-theming';
 import { MDXProvider } from '@mdx-js/react';
 
+import '../styles/style.scss';
+
 import config from '../../config/website';
 import theme from '../../config/theme';
 import Header from './header';

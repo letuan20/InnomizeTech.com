@@ -1,17 +1,17 @@
 import { darken, lighten } from 'polished';
-// import {fonts} from '../src/lib/typography'
+import { fonts } from '../src/lib/typography';
 
 const brand = {
-  primary: '#573EDE',
-  secondary: '#EEF4F2',
+  primary: '#EF3B24',
+  secondary: '#F29620',
 };
 
 const colors = {
   primary_light: `${lighten(0.55, brand.primary)}`,
   gray: '#D3D3D3',
   black: '#000',
-  white: '#fff',
-  bg_color: '#fafafa',
+  white: '#FFFFFF',
+  bg_color: '#FAFAFA',
   body_color: '#222426',
   link_color: brand.primary,
   link_color_hover: `${darken(0.07, brand.primary)}`,
@@ -20,12 +20,12 @@ const colors = {
   blue: '#327CDC',
   yellow: '#FFB700',
   purple: '#8242F6',
-  purple_dark: '#231c42',
+  purple_dark: '#231C42',
 };
 
 const theme = {
   colors,
-  //   fonts,
+  fonts,
   brand,
   breakpoints: {
     xs: '400px',
