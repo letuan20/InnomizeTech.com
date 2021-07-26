@@ -10,7 +10,24 @@
     "node_modules": true,
     "yarn-error.log": true
   },
-  "cSpell.words": ["esnext", "frontmatter", "minibio"],
+  "cSpell.words": [
+    "boxicons",
+    "embedded",
+    "esnext",
+    "flaticon",
+    "frontmatter",
+    "iframe",
+    "kirsti",
+    "linkedin",
+    "merriweather",
+    "minibio",
+    "nprogress",
+    "opentype",
+    "prismjs",
+    "speak",
+    "truetype",
+    "youtube"
+  ],
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

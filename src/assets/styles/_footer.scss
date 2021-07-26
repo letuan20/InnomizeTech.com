@@ -1,0 +1,255 @@
+/*================================================
+Footer Area CSS
+=================================================*/
+.footer-area {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+
+  &.bg-color {
+    background-color: #fefcf8;
+  }
+}
+.single-footer-widget {
+  margin-bottom: 30px;
+
+  .logo {
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .social-link {
+    padding-left: 0;
+    list-style-type: none;
+    margin: {
+      bottom: 0;
+      top: 18px;
+    }
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        color: $white-color;
+        background-color: #6b6b84;
+        font-size: 18px;
+        position: relative;
+        border-radius: 2px;
+
+        i {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          right: 0;
+          transform: translateY(-48%);
+        }
+        &:hover {
+          background-color: $main-color;
+          color: $white-color;
+        }
+      }
+    }
+  }
+  h3 {
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+  .footer-links-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 12px;
+      color: $optional-color;
+      font-weight: 600;
+
+      a {
+        color: $optional-color;
+        display: inline-block;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .footer-contact-info {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 13px;
+      color: $optional-color;
+      position: relative;
+      padding-left: 23px;
+      font-weight: 600;
+
+      a {
+        color: $optional-color;
+        display: inline-block;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      i {
+        position: absolute;
+        left: 0;
+        color: $main-color;
+        top: 4px;
+
+        &.bxs-inbox {
+          top: 3px;
+        }
+      }
+    }
+  }
+}
+.footer-bottom-area {
+  margin-top: 70px;
+  border-top: 1px solid #f3f2ee;
+  padding: {
+    top: 25px;
+    bottom: 25px;
+  }
+  p {
+    i {
+      position: relative;
+      top: 1.3px;
+    }
+    a {
+      color: $main-color;
+      font-weight: 600;
+
+      &:hover {
+        color: $black-color;
+      }
+    }
+    strong {
+      color: $black-color;
+    }
+  }
+  ul {
+    text-align: right;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      color: $optional-color;
+      position: relative;
+      display: inline-block;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+
+        &::before {
+          display: none;
+        }
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        right: -12px;
+        top: 5.6px;
+        width: 1px;
+        height: 14px;
+        background-color: $optional-color;
+      }
+      a {
+        display: block;
+        color: $optional-color;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
+.footer-map {
+  position: absolute;
+  right: 20%;
+  top: 40%;
+  transform: translateY(-40%);
+  z-index: -1;
+  opacity: 0.8;
+
+  img {
+    animation: moveleftbounce 5s linear infinite;
+  }
+}
+@keyframes moveleftbounce {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*================================================
+  Go Top CSS
+  =================================================*/
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: -100px;
+  right: 20px;
+  color: $white-color;
+  background-color: $black-color;
+  z-index: 4;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.9s;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+
+  i {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px;
+  }
+  &:hover {
+    background-color: $main-color;
+    color: $white-color;
+    transition: $transition;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/layout';
+import Layout from '../components/app/Layout';
 import SEO from '../components/seo';
 
 interface NotFoundPageProps {
@@ -25,7 +25,7 @@ class NotFoundPage extends React.Component<NotFoundPageProps, {}> {
     const siteTitle = data.site.siteMetadata.title;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <SEO />
         <h1>Not Found</h1>
         <p>The page that you are looking could not be found.</p>

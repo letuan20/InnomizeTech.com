@@ -64,46 +64,6 @@ module.exports = {
 
     'gatsby-plugin-sass',
 
-    // A Gatsby source plugin for sourcing data into your Gatsby application from your local filesystem.
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-
-    // Allows write JSX in the markdown, see https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: {
-          default: root('./src/templates/markdown-page.tsx'),
-        },
-        extensions: ['.mdx', '.md', '.markdown'],
-        gatsbyRemarkPlugins: [
-          { resolve: 'gatsby-remark-copy-linked-files' },
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              backgroundColor: '#fafafa',
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 1035,
-            },
-          },
-        ],
-      },
-    },
-
     // Process images in markdowns for production uses
     // see https://www.gatsbyjs.org/packages/gatsby-remark-images/?=gatsby-remark-images
     {
@@ -183,21 +143,13 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/InnomizeTech-symbol.png`,
+        icon: `static/InnomizeTech-symbol.png`,
       },
     },
 
     // Manage document head data with react-helmet
     // Provides drop-in support for server rendering data added with React Helmet.
     `gatsby-plugin-react-helmet`,
-
-    // Setup server side rendering of Typography
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/lib/typography`,
-      },
-    },
 
     // Google Analytics
     {

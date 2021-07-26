@@ -1,4 +1,3 @@
-import path from 'path';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -42,7 +41,7 @@ const SEO = ({
     seo.description,
   image = `${seo.canonicalUrl}${metaImage || defaultMetaImage}`,
   url = postMeta.slug
-    ? `${seo.canonicalUrl}${path.sep}${postMeta.slug}`
+    ? `${seo.canonicalUrl}/${postMeta.slug}`
     : seo.canonicalUrl,
   datePublished = isBlogPost ? postMeta.datePublished : false,
 }: SEOProps) => {

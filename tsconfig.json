@@ -11,7 +11,7 @@
     "noUnusedLocals": false,
     "noImplicitAny": false,
     "allowJs": true,
-    "types": ["lodash", "node"]
+    "types": ["node"]
   },
   "exclude": ["node_modules", "public", ".cache"]
 }

@@ -10,10 +10,6 @@ interface HTMLProps {
 }
 
 export default class HTML extends React.Component<HTMLProps, {}> {
-  constructor(props: HTMLProps, context: any) {
-    super(props, context);
-  }
-
   render() {
     return (
       <html lang="en" {...this.props.htmlAttributes}>

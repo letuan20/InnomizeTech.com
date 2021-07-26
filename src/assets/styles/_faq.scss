@@ -1,0 +1,76 @@
+/*================================================
+FAQ Area CSS
+=================================================*/
+.faq-accordion {
+  .accordion {
+    list-style-type: none;
+    padding-left: 0;
+    border: none;
+    margin: {
+      bottom: 0;
+    }
+    .accordion__item {
+      border-radius: 5px;
+      display: block;
+      box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
+      background: $white-color;
+      margin-bottom: 20px;
+      padding: 0;
+      border: none;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .accordion__button {
+      background-color: #fff;
+      color: $black-color;
+      position: relative;
+      display: block;
+      padding: 20px 30px;
+      border-radius: 5px;
+      font: {
+        size: 18px;
+        weight: 800;
+      }
+      i {
+        position: absolute;
+        left: 25px;
+        top: 18px;
+        font-size: 25px;
+        transition: $transition;
+      }
+      &.active {
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    .accordion__panel {
+      position: relative;
+      margin-top: -5px;
+      padding: {
+        bottom: 20px;
+        right: 25px;
+        left: 50px;
+        top: 0;
+      }
+      p {
+        line-height: 1.8;
+        font-size: 15px;
+      }
+      &.show {
+        display: block;
+      }
+    }
+  }
+}
+.tab {
+  .tabs-item {
+    display: none;
+
+    &:first-child {
+      display: block;
+    }
+  }
+}
