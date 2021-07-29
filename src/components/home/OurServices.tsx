@@ -33,27 +33,27 @@ const OurServices = () => {
                   </p>
                   <ul className="about-list mb-0">
                     <li>
-                      <i className="flaticon-tick"></i>
-                      Serverless Computing
+                      <i className="circle"></i>
+                      Serverless Arch
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Cloud Consulting
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Cloud Migration
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Cloud Optimization
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Cloud Integration
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       DevSecOps
                     </li>
                   </ul>
@@ -85,27 +85,27 @@ const OurServices = () => {
 
                   <ul className="our-mission-list mb-0">
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Web Development
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Mobile Development
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Product Migration
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Platform Optimizing
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       UX/UI Design
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Software Integration
                     </li>
                   </ul>
@@ -148,29 +148,29 @@ const OurServices = () => {
                   </p>
                   <ul className="about-list mb-0">
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       In-house control level resources
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Wide range of technology expertise
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
-                      No recruitment costs
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Scalable resources
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Bring fresh ideas to you and your own in-house IT
                       department
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Free up your IT department to focus on critical tasks
+                    </li>
+                    <li>
+                      <i className="circle"></i>
+                      No recruitment costs
+                    </li>
+                    <li>
+                      <i className="circle"></i>
+                      Scalable resources
                     </li>
                   </ul>
                 </div>
@@ -202,19 +202,19 @@ const OurServices = () => {
 
                   <ul className="our-mission-list mb-0">
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Optimized Solutions: ERP, CRM, HRM
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Odoo Installation and Customization
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       Enterprise Integration
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>
+                      <i className="circle"></i>
                       E-commerce Integration
                     </li>
                   </ul>

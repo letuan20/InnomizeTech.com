@@ -41,7 +41,7 @@ const Navbar = () => {
                 onClick={() => setCollapsed(true)}
                 className="navbar-brand"
               >
-                <img width="148" height="53" src={logo} alt="logo" />
+                <img width="156" height="32" src={logo} alt="logo" />
               </Link>
 
               <button
@@ -61,22 +61,6 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <Link to="/" activeClassName="active" className="nav-link">
-                      Home
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      to="/about-us"
-                      activeClassName="active"
-                      className="nav-link"
-                    >
-                      About Us
-                    </Link>
-                  </li>
-
                   <li className="nav-item">
                     <Link
                       to="#"
@@ -132,7 +116,15 @@ const Navbar = () => {
                       Blog
                     </Link>
                   </li>
-
+                  <li className="nav-item">
+                    <Link
+                      to="/about-us"
+                      activeClassName="active"
+                      className="nav-link"
+                    >
+                      About Us
+                    </Link>
+                  </li>
                   <li className="nav-item">
                     <Link
                       to="/career"
@@ -145,19 +137,6 @@ const Navbar = () => {
                 </ul>
 
                 <div className="others-option d-flex align-items-center">
-                  <div className="option-item" style={{ visibility: 'hidden' }}>
-                    <form className="search-box">
-                      <input
-                        type="text"
-                        className="input-search"
-                        placeholder="Search for anything"
-                      />
-                      <button type="submit">
-                        <i className="flaticon-loupe"></i>
-                      </button>
-                    </form>
-                  </div>
-
                   <div className="option-item">
                     <Link
                       to="/contact"
@@ -165,8 +144,7 @@ const Navbar = () => {
                       onClick={() => setCollapsed(true)}
                       className="default-btn"
                     >
-                      <i className="flaticon-right"></i> Contact Us{' '}
-                      <span></span>
+                      Contact Us <span></span>
                     </Link>
                   </div>
                 </div>

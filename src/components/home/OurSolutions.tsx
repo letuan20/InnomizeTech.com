@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import starIcon from '../../assets/images/star-icon.png';
+import icon1 from '../../assets/images/icon-1.png';
+import icon2 from '../../assets/images/icon-2.png';
+import icon3 from '../../assets/images/icon-3.png';
 
 const OurSolutions = () => {
   return (
     <section className="solutions-area pb-70 pt-100">
       <div className="container">
         <div className="section-title">
-          <span className="sub-title">
-            <img src={starIcon} alt="star" />
-            Our Core Values
-          </span>
-          {/* <h2>We Different From Others Should Choose Us</h2> */}
+          <span className="sub-title">Our Core Values</span>
           <p>
             Founded in 2018, our mission is to create awesome products that will
             make your everyday life easier. Our experienced engineering and
@@ -23,13 +21,13 @@ const OurSolutions = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-sm-6">
+          <div className="col-lg-4 col-sm-6 col-12">
             <div className="single-solutions-box">
               <div className="icon">
-                <i className="flaticon-rocket"></i>
+                <img width="188" height="188" src={icon1} alt="icon1" />
               </div>
               <h3>
-                <Link style={{ color: '#f29620' }} to="#">
+                <Link style={{ color: '#E5181E' }} to="#">
                   Committed
                 </Link>
               </h3>
@@ -39,21 +37,17 @@ const OurSolutions = () => {
                 above and beyond and showing initiative to deliver quality
                 solutions.
               </p>
-
-              {/* <Link to="/service-details" className="view-details-btn">
-                                View Details
-                            </Link> */}
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-6">
+          <div className="col-lg-4 col-sm-6 col-12">
             <div className="single-solutions-box">
               <div className="icon">
-                <i className="flaticon-laptop"></i>
+                <img width="188" height="188" src={icon2} alt="icon2" />
               </div>
 
               <h3>
-                <Link style={{ color: '#f29620' }} to="#">
+                <Link style={{ color: '#E5181E' }} to="#">
                   Team Focused
                 </Link>
               </h3>
@@ -64,21 +58,17 @@ const OurSolutions = () => {
                 effectively and on-time. Focusing on quality is part of our
                 culture.
               </p>
-
-              {/* <Link to="/service-details" className="view-details-btn">
-                                View Details
-                            </Link> */}
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+          <div className="col-lg-4 col-sm-6 col-12">
             <div className="single-solutions-box">
               <div className="icon">
-                <i className="flaticon-money"></i>
+                <img width="188" height="188" src={icon3} alt="icon3" />
               </div>
 
               <h3>
-                <Link style={{ color: '#f29620' }} to="#">
+                <Link style={{ color: '#E5181E' }} to="#">
                   Responsible
                 </Link>
               </h3>
@@ -88,10 +78,6 @@ const OurSolutions = () => {
                 and proactively work with each developer to ensure solutions are
                 expertly designed, developed and delivered.
               </p>
-
-              {/* <Link to="/service-details" className="view-details-btn">
-                                View Details
-                            </Link> */}
             </div>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import starIcon from '../../assets/images/star-icon.png';
 import blog1 from '../../assets/images/blog/post-1.png';
 import blog2 from '../../assets/images/blog/post-2.png';
 import blog3 from '../../assets/images/blog/post-3.jpg';
@@ -11,10 +10,7 @@ const OurBlog = () => {
     <section className="blog-area pt-100 pb-70 bg-fffbf5">
       <div className="container">
         <div className="section-title">
-          <span className="sub-title">
-            <img src={starIcon} alt="blog" />
-            Our Blog
-          </span>
+          <span className="sub-title">Our Blog</span>
           <h2>Latest Valuable Insights</h2>
         </div>
 
@@ -39,9 +35,7 @@ const OurBlog = () => {
                       <span>Hoang Le</span>
                     </div>
                   </li>
-                  <li>
-                    <i className="flaticon-calendar"></i> April 30, 2020
-                  </li>
+                  <li>April 30, 2020</li>
                 </ul>
                 <h3>
                   <Link to="https://medium.com/innomizetech/building-serverless-web-crawler-with-puppeteer-on-aws-fargate-1202c8a66ec4?source=collection_home---4------0-----------------------">
@@ -73,9 +67,7 @@ const OurBlog = () => {
                       <span>Hoang Le</span>
                     </div>
                   </li>
-                  <li>
-                    <i className="flaticon-calendar"></i> April 28, 2020
-                  </li>
+                  <li>April 28, 2020</li>
                 </ul>
                 <h3>
                   <Link to="https://medium.com/innomizetech/top-reasons-why-we-use-aws-cdk-over-cloudformation-6dd55b59b1dd?source=collection_home---4------1-----------------------">
@@ -86,7 +78,7 @@ const OurBlog = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+          <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
                 <Link to="/blog-details">
@@ -106,9 +98,7 @@ const OurBlog = () => {
                       <span>Hoang Le</span>
                     </div>
                   </li>
-                  <li>
-                    <i className="flaticon-calendar"></i> April 29, 2020
-                  </li>
+                  <li>April 29, 2020</li>
                 </ul>
                 <h3>
                   <Link to="https://medium.com/innomizetech/continuous-delivery-deploying-a-node-js-app-to-aws-ec2-using-ansible-39bdab26f02a?source=collection_home---4------0-----------------------">

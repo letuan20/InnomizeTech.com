@@ -13,7 +13,7 @@ const Banner = () => {
               <ReactWOW delay=".1s" animation="fadeInLeft">
                 <h1>
                   We provide{' '}
-                  <span style={{ color: '#ef3b24' }}>
+                  <span style={{ color: '#E5181E' }}>
                     optimized IT solutions
                   </span>{' '}
                   for your business!
@@ -22,16 +22,15 @@ const Banner = () => {
 
               <ReactWOW delay=".1s" animation="fadeInLeft">
                 <p>
-                  We experts in Cloud computing, Full Lifecycle Software
-                  Development, DevOps Engineering, and Software Integration
-                  solutions
+                  We are experts in Cloud computing, Web Development, Mobile
+                  Development, DevOps, and Automation Testing that help you meet
+                  your business needs.
                 </p>
               </ReactWOW>
 
               <ReactWOW delay=".1s" animation="fadeInRight">
                 <div className="btn-box">
                   <Link to="/services" className="default-btn">
-                    <i className="flaticon-right"></i>
                     Our Services <span></span>
                   </Link>
                 </div>

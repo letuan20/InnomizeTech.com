@@ -32,17 +32,56 @@ Main Banner Area CSS
   margin-top: -50px;
 
   h1 {
-    font-size: 57px;
-    margin: {
-      bottom: 18px;
-      top: -10px;
+    font-style: var(--font-style-normal);
+    font-weight: bold;
+    font-size: var(--font-size-48) !important;
+    font-family: var(--font-family-poppins);
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
+    text-align: left;
+    line-height: 1;
+    top: 158px;
+    left: 69px;
+    width: 538px;
+    height: 187px;
+    span {
+      font-style: var(--font-style-normal);
+      font-weight: bold;
+      font-size: var(--font-size-48);
+      font-family: var(--font-family-poppins);
+      letter-spacing: var(--character-spacing-0);
+      color: '#E5181E';
+      text-align: left;
+      line-height: 1.5;
     }
   }
+  p {
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+    font-size: 17px;
+    font-family: var(--font-family-poppins);
+    letter-spacing: var(--character-spacing-0);
+    color: var(--body);
+    text-align: left;
+    top: 369px;
+    left: 69px;
+    width: 396px;
+    height: 102px;
+  }
   .btn-box {
-    margin-top: 35px;
+    margin-top: 39px;
 
     .default-btn {
-      margin-bottom: -7px;
+      background: var(--color-e5181e) 0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      font-style: var(--font-style-normal);
+      font-weight: var(--font-weight-normal);
+      font-size: var(--font-size-16);
+      line-height: var(--line-spacing-25);
+      font-family: var(--font-family-poppins);
+      letter-spacing: var(--character-spacing-0);
+      text-align: center;
     }
     .video-btn {
       position: absolute;
@@ -156,6 +195,9 @@ Main Banner Area CSS
 }
 .main-banner-image {
   text-align: center;
+  div {
+    width: 543px;
+  }
 }
 .banner-section {
   position: relative;
@@ -782,12 +824,15 @@ Main Banner Area CSS
 .seo-agency-banner {
   position: relative;
   z-index: 1;
-  background: transparent url(../images/banner-bg2.jpg) left top no-repeat;
+  background: transparent url(../images/pink-circle.png) right top no-repeat;
   padding: {
     top: 170px;
     bottom: 100px;
   }
   border-bottom: 1px solid #f7f7f7;
+  .container {
+    padding-left: 0;
+  }
   .container-fluid {
     max-width: 1360px;
   }

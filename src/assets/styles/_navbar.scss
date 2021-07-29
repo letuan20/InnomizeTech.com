@@ -2,7 +2,12 @@
 Navbar Area CSS
 =================================================*/
 .tarn-nav {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-bottom: 1px solid #d9d9d9;
+  opacity: 1;
+  height: 78px;
   .container-fluid {
+    height: 78px;
     padding: {
       left: 50px;
       right: 50px;
@@ -10,15 +15,15 @@ Navbar Area CSS
   }
   .navbar {
     position: inherit;
-    padding: {
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-    }
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 69px;
+    height: 100%;
     .navbar-brand {
       font-size: inherit;
       line-height: 1;
+      width: 166px;
+      height: 32px;
       padding: {
         top: 0;
         bottom: 0;
@@ -38,21 +43,23 @@ Navbar Area CSS
       .nav-item {
         position: relative;
         margin: {
-          left: 14px;
-          right: 14px;
+          left: 40px;
         }
+        padding-top: 24px;
+        padding-bottom: 26px;
         a {
-          color: $black-color;
-          font: {
-            size: $font-size;
-            weight: 700;
-          }
-          padding: {
-            left: 0;
-            right: 0;
-            top: 25px;
-            bottom: 25px;
-          }
+          font-style: var(--font-style-normal);
+          font-weight: var(--font-weight-normal);
+          font-size: var(--font-size-20);
+          line-height: var(--line-spacing-30);
+          font-family: var(--font-family-poppins);
+          letter-spacing: var(--character-spacing-0);
+          color: var(--title);
+          text-align: left;
+          letter-spacing: 0px;
+          color: #262626;
+          opacity: 1;
+          padding: 0;
           i {
             font-size: 18px;
             position: relative;
@@ -69,9 +76,7 @@ Navbar Area CSS
             color: $main-color;
           }
         }
-        &:last-child {
-          margin-right: 0;
-        }
+
         &:first-child {
           margin-left: 0;
         }
@@ -87,7 +92,7 @@ Navbar Area CSS
           left: 0;
           z-index: 99;
           opacity: 0;
-          width: 300px;
+          width: 371px;
           display: block;
           border-radius: 0;
           padding: 10px 0;
@@ -101,15 +106,19 @@ Navbar Area CSS
 
           li {
             margin: 0;
-
+            padding: 0;
             a {
-              padding: 10px 20px;
+              padding: 8px 0 8px 16px;
               position: relative;
               display: block;
-              color: $black-color;
+              letter-spacing: var(--character-spacing-0);
+              color: var(--title);
+              text-align: left;
               font: {
-                size: 16.5px;
-                weight: 700;
+                style: var(--font-style-normal);
+                weight: var(--font-weight-normal);
+                size: var(--font-size-20);
+                family: var(--font-family-poppins);
               }
               i {
                 margin: 0;
@@ -122,7 +131,7 @@ Navbar Area CSS
               &:hover,
               &:focus,
               &.active {
-                color: $main-color;
+                color: var(--color-e5181e);
               }
             }
             .dropdown-menu {
@@ -420,13 +429,15 @@ Navbar Area CSS
       }
     }
     .others-option {
-      margin-left: 30px;
-
+      margin-left: 96px;
+      margin-top: 15px;
+      margin-bottom: 15px;
       .option-item {
         margin-left: 30px;
 
         &:first-child {
           margin-left: 0;
+          height: 48px;
         }
         .search-box {
           position: relative;
@@ -478,7 +489,21 @@ Navbar Area CSS
           }
         }
         .default-btn {
-          margin-bottom: -6px;
+          background: var(--color-e5181e) 0% 0% no-repeat padding-box;
+          background: #e5181e 0% 0% no-repeat padding-box;
+          border-radius: 4px;
+          opacity: 1;
+          font-style: var(--font-style-normal);
+          font-weight: var(--font-weight-normal);
+          font-size: var(--font-size-16);
+          line-height: var(--line-spacing-25);
+          font-family: var(--font-family-poppins);
+          letter-spacing: var(--character-spacing-0);
+          text-align: center;
+          letter-spacing: 0px;
+          color: #ffffff;
+          padding: 12px 12px;
+          height: 48px;
         }
       }
     }
@@ -492,10 +517,6 @@ Navbar Area CSS
   width: 100%;
   height: auto;
   z-index: 999;
-  padding: {
-    top: 10px;
-    bottom: 10px;
-  }
   &.is-sticky {
     position: fixed;
     top: 0;
@@ -505,10 +526,6 @@ Navbar Area CSS
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     background-color: $white-color !important;
     // animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    padding: {
-      top: 5px;
-      bottom: 5px;
-    }
   }
   &.navbar-style-two {
     position: relative;
@@ -724,31 +741,21 @@ Navbar Area CSS
 // Mobile and iPad Navbar
 @media only screen and (max-width: 1199px) {
   .navbar-area {
-    padding: {
-      top: 15px;
-      bottom: 15px;
-    }
-    &.is-sticky {
-      padding: {
-        top: 10px;
-        bottom: 10px;
-      }
-      .others-option-for-responsive {
+    .others-option-for-responsive {
+      .container {
         .container {
-          .container {
-            top: 10px;
-          }
+          top: 10px;
         }
       }
     }
-    &.navbar-style-two {
-      padding: {
-        top: 17px;
-        bottom: 17px;
-      }
+  }
+  &.navbar-style-two {
+    padding: {
+      top: 17px;
+      bottom: 17px;
     }
   }
-  .others-option-for-responsive {
-    display: block;
-  }
+}
+.others-option-for-responsive {
+  display: block;
 }

@@ -5,16 +5,19 @@ Our Mission Area CSS
   .content {
     max-width: 585px;
     margin-left: auto;
-
     .sub-title {
       position: relative;
       display: block;
       text-transform: uppercase;
-      margin-bottom: 15px;
-      color: $main-color;
+      margin-bottom: 24px;
+      color: var(--title);
+      letter-spacing: var(--character-spacing-0);
       font: {
-        weight: 700;
-        size: 15px;
+        style: var(--font-style-normal);
+        weight: bold;
+        size: var(--font-size-24);
+        line-height: (--line-spacing-35);
+        family: var(--font-family-poppins);
       }
       img {
         margin-right: 5px;
@@ -27,14 +30,24 @@ Our Mission Area CSS
       }
     }
     h2 {
-      margin-bottom: 15px;
+      margin-bottom: 12px;
+      color: var(--title);
       font: {
-        size: 44px;
+        style: var(--font-style-normal);
+        weight: bold;
+        size: var(--font-size-48);
+        family: var(--font-family-poppins);
       }
     }
     p {
-      margin-bottom: 20px;
-
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size: 17px;
+        family: var(--font-family-poppins);
+      }
+      color: var(--caption);
+      margin-bottom: 24px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -46,27 +59,39 @@ Our Mission Area CSS
       padding-bottom: 7px;
       margin: {
         bottom: 30px;
-        top: -20px;
         left: -15px;
         right: -15px;
       }
       li {
-        width: 45%;
+        background: #fafafa 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 3px #0000001a;
+        opacity: 1;
         float: left;
-        margin: {
-          left: 15px;
-          right: 15px;
-          top: 30px;
-        }
+        margin-bottom: 12px;
         position: relative;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-        padding: 20px 15px 20px 68px;
+        padding: 18px 24px 18px 52px;
         border-radius: 5px;
         z-index: 1;
         background-color: $white-color;
+        color: var(--title);
+        letter-spacing: var(--character-spacing-0);
         font: {
-          size: 19px;
-          weight: 800;
+          style: var(--font-style-normal);
+          weight: var(--font-weight-normal);
+          size: var(--font-size-20);
+          family: var(--font-family-poppins);
+        }
+        &:nth-child(odd) {
+          width: calc(calc(100% / 2) - 10px);
+          margin: {
+            right: 10px;
+          }
+        }
+        &:nth-child(even) {
+          width: calc(calc(100% / 2) - 10px);
+          margin: {
+            left: 10px;
+          }
         }
         i {
           position: absolute;
@@ -82,6 +107,12 @@ Our Mission Area CSS
           background-color: #deecf4;
           font-size: 20px;
         }
+        .circle {
+          background: var(--color-e5181e) 0% 0% no-repeat padding-box;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
         img {
           position: absolute;
           right: 0;
@@ -96,6 +127,7 @@ Our Mission Area CSS
         }
       }
     }
+
     .features-list {
       padding-left: 0;
       list-style-type: none;
@@ -141,6 +173,10 @@ Our Mission Area CSS
     }
   }
 }
+.our-mission-img {
+  max-width: 584px;
+  max-height: 438px;
+}
 .our-mission-image {
   text-align: center;
   position: relative;
@@ -166,7 +202,7 @@ Services Area CSS
   text-align: center;
   margin-bottom: 30px;
   background-color: $white-color;
-  padding: 30px 30px 80px;
+  padding: 16px;
   position: relative;
   border-radius: 5px;
   z-index: 1;
@@ -175,54 +211,37 @@ Services Area CSS
   .icon {
     margin-bottom: 25px;
   }
-  h3 {
-    margin-bottom: 12px;
-    font: {
-      size: 25px;
-    }
+  .box-link {
+    margin-top: 16px;
+    margin-bottom: 8px;
     a {
-      display: inline-block;
+      letter-spacing: var(--character-spacing-0);
+      color: var(--color-e5181e);
+      font: {
+        style: var(--font-style-normal);
+        weight: bold;
+        size: var(--font-size-20);
+        family: var(--font-family-poppins);
+      }
     }
   }
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: -80%;
-    left: 0;
-    width: 132%;
-    height: 100%;
-    z-index: -1;
-    transition: $transition;
-    background: linear-gradient(
-      to right top,
-      #66eaff,
-      #8feffd,
-      #b0f3fd,
-      #ccf7fc,
-      #e7fbfd
-    );
-    transform: rotate(-12deg);
+
+  .red_line {
+    border: 1px solid var(--color-e5181e);
+    opacity: 1;
+    width: 192px;
+    margin-bottom: 8px;
+    margin: auto;
   }
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -80%;
-    left: 0;
-    width: 132%;
-    height: 100%;
-    z-index: -1;
-    transition: $transition;
-    background: linear-gradient(
-      to right top,
-      #ff8008,
-      #ff8a0d,
-      #ff9413,
-      #ff9d1a,
-      #ffa621
-    );
-    transform: rotate(-12deg);
-    opacity: 0;
-    visibility: hidden;
+  .box-description {
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
+    font: {
+      style: var(--font-style-normal);
+      weight: var(--font-weight-normal);
+      size: 17px;
+      family: var(--font-family-poppins);
+    }
   }
   .read-more-btn {
     display: inline-block;

@@ -4,7 +4,7 @@ Testimonials Area CSS
 .testimonials-area {
   position: relative;
   z-index: 1;
-
+  padding-top: 20px;
   &.bg-color {
     &::before {
       content: '';
@@ -17,32 +17,26 @@ Testimonials Area CSS
       background-color: #f1f8fb;
     }
   }
-  &.bg-23173a {
-    background-color: $black-color;
-
-    .section-title {
-      h2 {
-        color: $white-color;
-
-        .overlay {
-          background-color: $white-color;
-        }
-      }
-      p {
-        color: $white-color;
-      }
+  .section-title {
+    max-width: 1020px;
+    h2 {
+      margin-top: 12px;
     }
   }
 }
+// .owl-item {
+//   width: 1200px !important;
+// }
 .single-testimonials-item {
   margin-bottom: 30px;
   background-color: transparent;
   border-radius: 5px;
   position: relative;
   z-index: 1;
-  padding: 130px 50px 50px;
+  padding: 0px 50px 50px;
   text-align: center;
-
+  display: flex;
+  flex-direction: row;
   p {
     margin-bottom: 0;
     font-size: 18px;
@@ -52,50 +46,56 @@ Testimonials Area CSS
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: $white-color;
     z-index: -1;
     height: 87%;
     border-radius: 5px;
     right: 0;
   }
-  &::after {
-    content: '\f106';
-    position: absolute;
-    left: 0;
-    color: $black-color;
-    top: -20px;
-    line-height: 1;
-    z-index: -1;
-    right: 0;
-    opacity: 0.05;
-    font: {
-      family: Flaticon;
-      size: 150px;
-    }
-  }
-  .client-info {
-    margin-top: 25px;
 
+  .client-info {
+    width: 187px;
     img {
-      width: 50px !important;
-      height: 50px;
+      width: 187px !important;
+      height: 187px !important;
       display: inline-block !important;
       border-radius: 50%;
     }
-    .title {
-      text-align: left;
-      margin-left: 15px;
-
-      h3 {
-        font-size: 18px;
-        margin-bottom: 3px;
+  }
+  .title {
+    width: calc(100% - 219px);
+    margin-left: 32px;
+    h3 {
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size: var(--font-size-20);
+        family: var(--font-family-poppins);
       }
-      span {
-        color: $optional-color;
-        font: {
-          size: 15px;
-          weight: 600;
-        }
+      letter-spacing: var(--character-spacing-0);
+      color: var(--color-e5181e);
+      text-align: left;
+      margin-bottom: 3px;
+    }
+    h4 {
+      letter-spacing: var(--character-spacing-0);
+      color: var(--title);
+      text-align: left;
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size: var(--font-size-20);
+        family: var(--font-family-poppins);
+      }
+    }
+    p {
+      letter-spacing: var(--character-spacing-0);
+      color: var(--title);
+      text-align: left;
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size: 17px;
+        family: var(--font-family-poppins);
       }
     }
   }
@@ -183,30 +183,22 @@ Testimonials Area CSS
       .owl-prev,
       .owl-next {
         position: absolute;
-        left: 0;
-        width: 40px;
-        top: -10px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: $white-color;
-        color: $black-color;
-        border: 1px solid #eae2d7;
-        line-height: 40px;
-        transition: $transition;
-        padding: 0;
-        font-size: 16px;
-
+        left: -40px;
+        background: url('../images/icons/arrow-left.png') no-repeat;
+        width: 64px;
+        height: 64px;
+        top: 18%;
         &:hover {
-          background-color: $main-color;
-          border-color: $main-color;
-          box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
-            0 1px 3px rgba(0, 0, 0, 0.08);
-          color: $white-color;
+          background: url('../images/icons/arrow-left.png') no-repeat;
         }
       }
       .owl-next {
+        background: url('../images/icons/arrow-right.png') no-repeat;
         left: auto;
-        right: 0;
+        right: -40px;
+        &:hover {
+          background: url('../images/icons/arrow-right.png') no-repeat;
+        }
       }
     }
   }

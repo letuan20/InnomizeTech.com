@@ -4,7 +4,7 @@ Default CSS
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 $font-family: 'Nunito', sans-serif;
-$main-color: #ff5d22;
+$main-color: #e5181e;
 $white-color: #ffffff;
 $black-color: #221638;
 $optional-color: #6b6b84;
@@ -18,6 +18,7 @@ body {
     size: $font-size;
     family: $font-family;
   }
+  background: #fafafa 0% 0% no-repeat padding-box;
 }
 .container {
   max-width: 1230px;
@@ -123,14 +124,14 @@ a {
   border: none;
   position: relative;
   display: inline-block;
-  text-align: center;
+
   overflow: hidden;
   z-index: 1;
   color: $white-color;
   background-color: $main-color;
   transition: $transition;
   border-radius: 5px;
-  padding: 12px 25px 12px 50px;
+  padding: 12px 24px;
   font: {
     weight: 700;
     size: 16px;
@@ -184,12 +185,14 @@ a {
     position: relative;
     display: block;
     text-transform: uppercase;
-    margin-bottom: 15px;
-    color: $main-color;
-    font: {
-      weight: 700;
-      size: 15px;
-    }
+    margin-bottom: 12px;
+    font-style: var(--font-style-normal);
+    font-weight: bold;
+    font-size: var(--font-size-24);
+    line-height: var(--line-spacing-35);
+    font-family: var(--font-family-poppins);
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
     img {
       margin-right: 5px;
       animation: {
@@ -204,8 +207,14 @@ a {
     margin-bottom: 0;
     position: relative;
     display: inline-block;
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
+    text-align: center;
     font: {
-      size: 44px;
+      style: var(--font-style-normal);
+      weight: bold;
+      size: var(--font-size-48);
+      family: var(--font-family-poppins);
     }
     .overlay {
       position: absolute;
@@ -219,7 +228,13 @@ a {
   }
   p {
     display: block;
-    max-width: 600px;
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+    font-size: 17px;
+    font-family: var(--font-family-poppins);
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
+    text-align: center;
     margin: {
       left: auto;
       right: auto;

@@ -18,7 +18,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
-    "lint": "tslint 'src/**/*.ts?(x)'",
+    "lint": "tslint \"src/**/*.ts?(x)\"",
     "start": "yarn run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
