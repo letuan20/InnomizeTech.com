@@ -4,7 +4,7 @@ Testimonials Area CSS
 .testimonials-area {
   position: relative;
   z-index: 1;
-  padding-top: 20px;
+  padding-top: 40px;
   &.bg-color {
     &::before {
       content: '';
@@ -40,16 +40,6 @@ Testimonials Area CSS
   p {
     margin-bottom: 0;
     font-size: 18px;
-  }
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    height: 87%;
-    border-radius: 5px;
-    right: 0;
   }
 
   .client-info {

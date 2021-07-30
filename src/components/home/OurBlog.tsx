@@ -7,7 +7,7 @@ import hoangle from '../../assets/images/hoangle.jpeg';
 
 const OurBlog = () => {
   return (
-    <section className="blog-area pt-100 pb-70 bg-fffbf5">
+    <section className="blog-area">
       <div className="container">
         <div className="section-title">
           <span className="sub-title">Our Blog</span>

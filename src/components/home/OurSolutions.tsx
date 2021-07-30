@@ -6,7 +6,7 @@ import icon3 from '../../assets/images/icon-3.png';
 
 const OurSolutions = () => {
   return (
-    <section className="solutions-area pb-70 pt-100">
+    <section className="solutions-area pb-70">
       <div className="container">
         <div className="section-title">
           <span className="sub-title">Our Core Values</span>

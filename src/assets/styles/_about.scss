@@ -4,24 +4,32 @@ About Area CSS
 .about-area {
   position: relative;
   z-index: 1;
-
+  padding-bottom: 52px;
   .container-fluid {
     max-width: 1228px;
+    padding: 0;
     .row {
       margin: 0;
+      [class*='col-'] {
+        padding: 0;
+      }
     }
   }
 }
 .our-mission-area {
+  padding-bottom: 40px;
   .container-fluid {
     max-width: 1228px;
+    padding: 0;
     .row {
       margin: 0;
+      [class*='col-'] {
+        padding: 0;
+      }
     }
   }
 }
 .about-img {
-  max-width: 584px;
   max-height: 438px;
 }
 .about-content {
@@ -71,7 +79,6 @@ About Area CSS
         family: var(--font-family-poppins);
       }
       color: var(--caption);
-      margin-bottom: 24px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -81,43 +88,57 @@ About Area CSS
       list-style-type: none;
       display: block;
       margin: {
-        bottom: 25px;
-        top: -20px;
-        left: -15px;
-        right: -15px;
+        top: 30px;
       }
       overflow: hidden;
       li {
         width: 45%;
         margin: {
-          left: 15px;
-          right: 15px;
-          top: 30px;
+          bottom: 12px;
         }
         float: left;
-
+        overflow: hidden;
         display: block;
         border: 1px solid #f0eae2;
         border-radius: 5px;
-        padding: 20px 20px 20px 95px;
+        padding: 15px 0px 15px 84px;
         position: relative;
         background-color: $white-color;
         transition: $transition;
 
+        &:nth-child(odd) {
+          margin: {
+            right: 20px;
+          }
+        }
         img {
           position: absolute;
           left: 20px;
+          width: 86px;
           top: 50%;
-          transform: translateY(-50%);
+          transform: translateX(-55%) translateY(-50%);
         }
         h3 {
-          margin-bottom: 3px;
+          letter-spacing: var(--character-spacing-0);
+          color: var(--color-e5181e);
+          text-align: left;
+          margin-bottom: 8px;
           font: {
-            size: 25px;
+            style: var(--font-style-normal);
+            weight: bold;
+            size: var(--font-size-24);
+            family: var(--font-family-poppins);
           }
         }
-        &:hover {
-          border-color: $main-color;
+        p {
+          letter-spacing: var(--character-spacing-0);
+          color: var(--title);
+          text-align: left;
+          font: {
+            style: var(--font-style-normal);
+            weight: var(--font-weight-normal);
+            family: var(--font-family-poppins);
+          }
         }
       }
     }
@@ -620,6 +641,69 @@ How It's Work Area CSS
           display: none;
         }
       }
+    }
+  }
+}
+
+/*================================================
+Scientist Area CSS
+=================================================*/
+.scientist-area {
+  padding-top: 40px;
+  padding-bottom: 38px;
+  background: #ffffff;
+
+  .section-title {
+    max-width: 1020px;
+  }
+}
+.single-scientist-item-box {
+  padding: 0 33px 0;
+  .image {
+    text-align: center;
+    border-bottom: 2px solid var(--color-e5181e);
+  }
+  .content {
+    h3 {
+      letter-spacing: var(--character-spacing-0);
+      color: var(--color-e5181e);
+      text-align: center;
+      margin: {
+        top: 18px;
+        bottom: 8px;
+      }
+      font: {
+        style: var(--font-style-normal);
+        weight: bold;
+        size: var(--font-size-20);
+        family: var(--font-family-poppins);
+      }
+    }
+    p {
+      letter-spacing: var(--character-spacing-0);
+      text-align: center;
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size: 17px;
+        family: var(--font-family-poppins);
+      }
+    }
+  }
+}
+
+/*================================================
+How its work  Area CSS
+=================================================*/
+.how-its-work-area {
+  .section-title {
+    text-align: left;
+    margin-left: unset;
+    h2 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
     }
   }
 }

@@ -8,17 +8,17 @@ Navbar Area CSS
   height: 78px;
   .container-fluid {
     height: 78px;
+    max-width: 1366px;
     padding: {
-      left: 50px;
-      right: 50px;
+      left: 69px;
+      right: 69px;
     }
   }
   .navbar {
     position: inherit;
-    max-width: 1366px;
     margin: auto;
-    padding: 0 69px;
     height: 100%;
+    padding: 0;
     .navbar-brand {
       font-size: inherit;
       line-height: 1;

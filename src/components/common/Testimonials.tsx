@@ -10,8 +10,11 @@ const options = {
   loop: true,
   nav: true,
   dots: false,
-  // autoplayHoverPause: true,
-  // autoplay: true,
+  margin: 30,
+  smartSpeed: 600,
+  fluidSpeed: false,
+  autoplayHoverPause: true,
+  autoplay: true,
   navText: [
     "<i class='flaticon-left-1'></i>",
     "<i class='flaticon-right-1'></i>",

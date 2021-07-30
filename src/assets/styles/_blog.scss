@@ -2,24 +2,28 @@
 Blog Area CSS
 =================================================*/
 .blog-area {
+  background-color: #f7f7f7;
   position: relative;
   z-index: 1;
-
-  .row {
-    &.align-items-center {
-      margin: {
-        left: -40px;
-        right: -40px;
-      }
-      .col-lg-4 {
-        padding: {
-          left: 40px;
-          right: 40px;
+  padding: 40px 0;
+  .container {
+    padding: 0;
+    .row {
+      &.align-items-center {
+        margin: {
+          left: -40px;
+          right: -40px;
         }
-        &:nth-child(2) {
+        .col-lg-4 {
           padding: {
-            left: 0;
-            right: 0;
+            left: 40px;
+            right: 40px;
+          }
+          &:nth-child(2) {
+            padding: {
+              left: 0;
+              right: 0;
+            }
           }
         }
       }
@@ -30,9 +34,11 @@ Blog Area CSS
   margin-bottom: 30px;
   background-color: $white-color;
   transition: $transition;
-
+  border: 1px solid var(--color-d9d9d9);
+  border-radius: 4px 4px 0px 0px;
   .post-image {
     border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid var(--color-d9d9d9);
 
     a {
       display: block;
@@ -41,6 +47,7 @@ Blog Area CSS
       img {
         border-radius: 5px 5px 0 0;
         width: 100%;
+        height: 288px;
       }
     }
   }
@@ -103,7 +110,10 @@ Blog Area CSS
       font-size: 24px;
 
       a {
-        display: inline-block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
         letter-spacing: var(--character-spacing-0);
         color: var(--title);
         text-align: left;

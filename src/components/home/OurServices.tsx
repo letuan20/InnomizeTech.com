@@ -9,7 +9,7 @@ const OurServices = () => {
   return (
     <React.Fragment>
       {/* Service Left Image Style */}
-      <div className="about-area pb-100">
+      <div className="about-area">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -19,7 +19,7 @@ const OurServices = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div className="about-content">
+              <div className="about-content" style={{ color: '#E5181E' }}>
                 <div className="content">
                   <span className="sub-title">
                     <img src={starIcon} alt="icon" /> Services
@@ -66,7 +66,7 @@ const OurServices = () => {
       {/* End Service Left Image Style */}
 
       {/* Service Right Image Style */}
-      <div className="our-mission-area pb-100">
+      <div className="our-mission-area ">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -124,7 +124,7 @@ const OurServices = () => {
       {/* End Service Right Image Style */}
 
       {/* Service Left Image Style */}
-      <div className="about-area pb-100">
+      <div className="about-area">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -182,7 +182,7 @@ const OurServices = () => {
       {/* End Service Left Image Style */}
 
       {/* Service Right Image Style */}
-      <div className="our-mission-area pb-100">
+      <div className="our-mission-area">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">

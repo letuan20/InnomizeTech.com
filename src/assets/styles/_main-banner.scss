@@ -29,7 +29,7 @@ Main Banner Area CSS
   }
 }
 .main-banner-content {
-  margin-top: -50px;
+  margin-top: 160px;
 
   h1 {
     font-style: var(--font-style-normal);
@@ -117,6 +117,9 @@ Main Banner Area CSS
       }
     }
   }
+  img {
+    margin-top: 128px;
+  }
 }
 .main-banner-animation-image {
   position: relative;
@@ -195,6 +198,8 @@ Main Banner Area CSS
 }
 .main-banner-image {
   text-align: center;
+  background: transparent url(../images/pink-circle.png) no-repeat;
+  background-size: cover;
   div {
     width: 543px;
   }
@@ -824,11 +829,6 @@ Main Banner Area CSS
 .seo-agency-banner {
   position: relative;
   z-index: 1;
-  background: transparent url(../images/pink-circle.png) right top no-repeat;
-  padding: {
-    top: 170px;
-    bottom: 100px;
-  }
   border-bottom: 1px solid #f7f7f7;
   .container {
     padding-left: 0;

@@ -21,7 +21,7 @@ body {
   background: #fafafa 0% 0% no-repeat padding-box;
 }
 .container {
-  max-width: 1230px;
+  max-width: 1228px;
 }
 img {
   max-width: 100%;
@@ -280,16 +280,35 @@ textarea.form-control {
 .page-title-area {
   position: relative;
   z-index: 1;
-  background: transparent url(../images/page-title-bg.jpg) right top no-repeat;
+  // background: transparent url(../images/Banner.svg)  no-repeat;
   border-bottom: 1px solid #fafafa;
   padding: {
-    top: 200px;
+    top: 78px;
     bottom: 100px;
   }
-  .shape-img1 {
-    top: auto;
-    bottom: 25%;
-    left: 5%;
+  img {
+    width: 100%;
+  }
+  .container {
+    position: absolute;
+    top: 203px;
+    max-width: 100%;
+    padding: 0 69px;
+    .page-title-content {
+      max-width: 1366px;
+      margin: auto;
+      padding: 0 69px;
+      h2 {
+        letter-spacing: var(--character-spacing-0);
+        color: var(--title);
+        font: {
+          style: var(--font-style-normal);
+          weight: bold;
+          size: var(--font-size-48);
+          family: var(--font-family-poppins);
+        }
+      }
+    }
   }
   &.page-title-style-two {
     padding: {
@@ -358,22 +377,7 @@ textarea.form-control {
     }
   }
 }
-.shape-img2 {
-  position: absolute;
-  bottom: 10%;
-  z-index: -1;
-  right: 30px;
-  animation: rotate3d 4s linear infinite;
-  opacity: 0.25;
-}
-.shape-img3 {
-  position: absolute;
-  left: 20%;
-  top: 5%;
-  z-index: -1;
-  animation: movebounce 5s linear infinite;
-  opacity: 0.15;
-}
+
 @keyframes rotate3d {
   0% {
     transform: rotateY(0deg);

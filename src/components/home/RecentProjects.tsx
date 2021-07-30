@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import permits from '../../assets/images/permits.png';
-import tutoring from '../../assets/images/1-1-tutoring.png';
-import totter from '../../assets/images/totter.png';
+import permits from '../../assets/images/projects/permits.png';
+import tutoring from '../../assets/images/projects/1-1-tutoring.png';
+import totter from '../../assets/images/projects/totter.png';
 
 const RecentProjects = () => {
   return (
-    <section className="projects-area bg-color pt-100 pb-70">
+    <section className="projects-area bg-color pb-70">
       <div className="container">
         <div className="section-title">
           <span className="sub-title">Recent Projects</span>
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6">
             <div className="single-services-box">
               <img src={permits} width={364} height={275} />
               <h3 className="box-link">

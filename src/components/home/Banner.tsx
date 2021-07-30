@@ -2,6 +2,7 @@ import React from 'react';
 import ReactWOW from 'react-wow';
 import { Link } from 'gatsby';
 import bannerImg from '../../assets/images/banner-img1.png';
+import scrollIcon from '../../assets/images/icons/scrolldown-icon.png';
 
 const Banner = () => {
   return (
@@ -35,6 +36,7 @@ const Banner = () => {
                   </Link>
                 </div>
               </ReactWOW>
+              <img src={scrollIcon} alt="scroll" />
             </div>
           </div>
 

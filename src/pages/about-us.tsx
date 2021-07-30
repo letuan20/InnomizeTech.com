@@ -6,10 +6,10 @@ import PageBanner from '../components/common/PageBanner';
 import Footer from '../components/app/Footer';
 import AboutUsContent from '../components/about-us/AboutUsContent';
 import WhyChooseUs from '../components/about-us/WhyChooseUs';
-import Partner from '../components/common/Partner';
 import TeamMembers from '../components/common/TeamMember';
 import Testimonials from '../components/common/Testimonials';
 import SEO from '../components/seo';
+import StartProject from '../components/common/StartProject';
 
 class About extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class About extends React.Component {
         <WhyChooseUs />
         <TeamMembers />
         <Testimonials />
-        <Partner />
+        <StartProject />
         <Footer />
       </Layout>
     );

@@ -1,20 +1,17 @@
 import React from 'react';
-import starIcon from '../../assets/images/star-icon.png';
-import team1 from '../../assets/images/team/team1.jpg';
-import team2 from '../../assets/images/team/team2.jpg';
-import team3 from '../../assets/images/team/team3.jpg';
-import team4 from '../../assets/images/team/team4.jpg';
+import AnhHoang from '../../assets/images/team/AnhHoang.png';
+import HiepDinh from '../../assets/images/team/HiepDinh.png';
+import HoangLe from '../../assets/images/team/HoangLe.png';
+import KhoaTran from '../../assets/images/team/KhoaTran.png';
+import PhongTran from '../../assets/images/team/PhongTran.png';
+import TuanNguyen from '../../assets/images/team/TuanNguyen.png';
 
 const TeamMember = () => {
   return (
-    <section className="scientist-area pt-100 pb-70">
+    <section className="scientist-area">
       <div className="container">
         <div className="section-title">
-          <span className="sub-title">
-            <img src={starIcon} alt="team" />
-            Team Members
-          </span>
-          <h2>Our Awesome Team</h2>
+          <h2>Meet Our Team</h2>
           <p>
             We are a team of professional, passionate, enthusiastic and talented
             individuals with one goal - to bring more value to your business by
@@ -24,50 +21,74 @@ const TeamMember = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team1} alt="team" />
+                <img src={HoangLe} alt="team" />
               </div>
               <div className="content">
                 <h3>Hoang Le</h3>
-                <span>Co-Founder, CEO</span>
+                <p>Co-Founder, CEO</p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team2} alt="team" />
+                <img src={PhongTran} alt="team" />
               </div>
               <div className="content">
-                <h3>Kirk Borne</h3>
-                <span>UX/UI Designer</span>
+                <h3>Phong Tran</h3>
+                <p>Co-Founder, COO</p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team3} alt="team" />
+                <img src={KhoaTran} alt="team" />
               </div>
               <div className="content">
-                <h3>Carla Gentry</h3>
-                <span>Web Developer</span>
+                <h3>Khoa Tran</h3>
+                <p>Project Manager</p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team4} alt="team" />
+                <img src={HiepDinh} alt="team" />
               </div>
               <div className="content">
-                <h3>Marie Curie</h3>
-                <span>Support</span>
+                <h3>Hiep Dinh</h3>
+                <p>Technical Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-scientist-item-box">
+              <div className="image">
+                <img src={TuanNguyen} alt="team" />
+              </div>
+              <div className="content">
+                <h3>Tuan Nguyen</h3>
+                <p>Technical Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-scientist-item-box">
+              <div className="image">
+                <img src={AnhHoang} alt="team" />
+              </div>
+              <div className="content">
+                <h3>Anh Hoang</h3>
+                <p>Automation Developer</p>
               </div>
             </div>
           </div>
