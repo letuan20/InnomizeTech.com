@@ -1,15 +1,15 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/app/Layout';
-import Navbar from '../components/app/Navbar';
-import PageBanner from '../components/common/PageBanner';
-import Footer from '../components/app/Footer';
+import Layout from '../components/App/Layout';
+import Navbar from '../components/App/Navbar';
+import PageBanner from '../components/Common/PageBanner';
+import Footer from '../components/App/Footer';
 import AboutUsContent from '../components/about-us/AboutUsContent';
 import WhyChooseUs from '../components/about-us/WhyChooseUs';
-import TeamMembers from '../components/common/TeamMember';
-import Testimonials from '../components/common/Testimonials';
+import TeamMembers from '../components/Common/TeamMember';
+import Testimonials from '../components/Common/Testimonials';
 import SEO from '../components/seo';
-import StartProject from '../components/common/StartProject';
+import StartProject from '../components/Common/StartProject';
 
 import video from "../assets/images/Videos/About Us.mp4";
 

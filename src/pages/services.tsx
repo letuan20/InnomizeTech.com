@@ -1,11 +1,11 @@
 import React from 'react';
 
 import SEO from '../components/seo';
-import Layout from '../components/app/Layout';
-import Navbar from '../components/app/Navbar';
-import Footer from '../components/app/Footer';
-import PageBanner from '../components/common/PageBanner';
-import StartProject from '../components/common/StartProject';
+import Layout from '../components/App/Layout';
+import Navbar from '../components/App/Navbar';
+import Footer from '../components/App/Footer';
+import PageBanner from '../components/Common/PageBanner';
+import StartProject from '../components/Common/StartProject';
 import OurServices from '../components/home/OurServices';
 
 import video from "../assets/images/Videos/Our Services.mp4";

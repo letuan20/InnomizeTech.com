@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/app/Layout';
-import Navbar from '../components/app/Navbar';
+import Layout from '../components/App/Layout';
+import Navbar from '../components/App/Navbar';
 import PageBanner from '../components/contact/ContactBanner';
-import Footer from '../components/app/Footer';
+import Footer from '../components/App/Footer';
 import ContactInfo from '../components/contact/ContactInfo';
 import ContactForm from '../components/contact/ContactForm';
 
