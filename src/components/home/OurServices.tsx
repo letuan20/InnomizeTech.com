@@ -59,7 +59,7 @@ const OurServices = () => {
                   </p>
                   <ul className="about-list mb-0">
                     <li>
-                     <img src={serverless} />
+                      <img src={serverless} />
                       Serverless Arch
                     </li>
                     <li>
@@ -232,7 +232,7 @@ const OurServices = () => {
                       Optimized Solutions: ERP, CRM, HRM
                     </li>
                     <li>
-                      <img src={category2} alt=""/>
+                      <img src={category2} alt="" />
                       Odoo Installation and Customization
                     </li>
                     <li>
@@ -240,7 +240,7 @@ const OurServices = () => {
                       Enterprise Integration
                     </li>
                     <li>
-                      <img src={eCommerceIntegration} alt=""/>
+                      <img src={eCommerceIntegration} alt="" />
                       E-commerce Integration
                     </li>
                   </ul>

@@ -6,7 +6,7 @@ import Footer from '../components/App/Footer';
 import CareerContent from '../components/careers/CareerContent';
 import ProjectStartArea from '../components/home/ProjectStartArea';
 
-import video from "../assets/images/Videos/Career.mp4";
+import video from '../assets/images/Videos/Career.mp4';
 
 const Details = () => {
   return (
@@ -17,7 +17,7 @@ const Details = () => {
         homePageText="Home"
         homePageUrl="/"
         activePageText="Career"
-        video = {video}
+        video={video}
       />
       <CareerContent />
       <ProjectStartArea />

@@ -9,9 +9,14 @@ const PageBanner = ({
 }) => {
   return (
     <div className="page-title-area">
-     <video style={{ objectFit: 'cover', width: '100%'}} height="350" autoPlay muted>
-        <source src= {video} type="video/mp4" />
-      </video> 
+      <video
+        style={{ objectFit: 'cover', width: '100%' }}
+        height="350"
+        autoPlay
+        muted
+      >
+        <source src={video} type="video/mp4" />
+      </video>
       <div className="container">
         <div className="page-title-content">
           <h2>{pageTitle}</h2>

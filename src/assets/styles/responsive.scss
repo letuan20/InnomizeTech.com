@@ -70,7 +70,7 @@ $value_nine: 1550px;
       }
     }
   }
-  .how-its-work-area { 
+  .how-its-work-area {
     .container {
       .row {
         .col-12 {
@@ -124,7 +124,7 @@ $value_nine: 1550px;
   .navbar-area {
     background-color: #fff;
     border-bottom: 1px solid #f7f7f7;
-  } 
+  }
   .services-details-desc {
     .row {
       [class*='col-'] {
@@ -133,9 +133,9 @@ $value_nine: 1550px;
             font-size: 15px;
           }
         }
-      } 
-    } 
-  } 
+      }
+    }
+  }
   .tarn-nav {
     .container-fluid {
       padding-left: 20px;
@@ -215,11 +215,11 @@ $value_nine: 1550px;
       font-size: 14px;
     }
   }
-  .main-banner-content .default-btn { 
+  .main-banner-content .default-btn {
     padding: 11px 20px 11px 20px;
     display: block;
     margin: auto;
-    width: fit-content
+    width: fit-content;
   }
   .section-title {
     max-width: 100%;
@@ -1832,7 +1832,7 @@ $value_nine: 1550px;
     &::before {
       height: 95%;
     }
-   
+
     .client-info {
       margin-top: 20px;
 
@@ -2442,7 +2442,7 @@ $value_nine: 1550px;
         }
         ul {
           margin-top: 12px;
-    
+
           li {
             font-size: 14.5px;
             &:first-child {
@@ -2456,8 +2456,8 @@ $value_nine: 1550px;
         }
       }
     }
-  } 
- 
+  }
+
   .shape-img1,
   .shape-img2,
   .shape-img3 {
@@ -2541,7 +2541,9 @@ $value_nine: 1550px;
       ul {
         li {
           display: block;
-          input,textarea,select {
+          input,
+          textarea,
+          select {
             width: 100%;
           }
         }
@@ -2970,14 +2972,13 @@ $value_nine: 1550px;
 
 /* Min width 576px to Max width 767px */
 @media only #{$media} and ($feature_min : $value_one) and ($feature_max : $value_two) {
-
   .services-details-desc {
     .row {
       [class*='col-'] {
         max-width: 45%;
       }
-    } 
-  } 
+    }
+  }
   .single-services-box {
     h3 {
       font-size: 18px;
@@ -4409,7 +4410,6 @@ $value_nine: 1550px;
         font-size: 16px;
       }
     }
-  
   }
   .contact-form {
     margin: {
@@ -6063,8 +6063,8 @@ $value_nine: 1550px;
         visibility: visible;
       }
     }
-  } 
- 
+  }
+
   .solutions-area {
     .container {
       .row {
@@ -6084,8 +6084,8 @@ $value_nine: 1550px;
   }
 
   .services-details-desc {
-    .row { 
-      [class*='col-'] { 
+    .row {
+      [class*='col-'] {
         max-width: 292px;
       }
     }

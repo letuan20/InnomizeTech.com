@@ -10,7 +10,7 @@ const ContactBanner = ({
 }) => {
   return (
     <div className="page-title-area">
-     <img src={banner} style={{ height: '350px'}} /> 
+      <img src={banner} style={{ height: '350px' }} />
       <div className="container">
         <div className="page-title-content">
           <h2>{pageTitle}</h2>

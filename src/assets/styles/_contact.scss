@@ -7,7 +7,7 @@ Contact Area CSS
     .row {
       margin-bottom: 40px;
       [class*='col-'] {
-        &:nth-child(odd) { 
+        &:nth-child(odd) {
           padding-left: 0;
         }
       }
@@ -15,12 +15,11 @@ Contact Area CSS
   }
 }
 .contact-info-area {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   padding: {
     top: 40px;
     bottom: 49px;
   }
-
 }
 .contact-info-box {
   margin-bottom: 30px;
@@ -44,18 +43,18 @@ Contact Area CSS
       margin-bottom: 8px;
       font: {
         style: var(--font-style-normal);
-        weight: bold; 
+        weight: bold;
         size: var(--font-size-24);
         family: var(--font-family-poppins);
-      } 
+      }
     }
     p {
       font: {
         style: var(--font-style-normal);
-        weight:  var(--font-weight-normal);
-        size: 17px; 
+        weight: var(--font-weight-normal);
+        size: 17px;
         family: var(--font-family-poppins);
-      } 
+      }
       letter-spacing: var(--character-spacing-0);
       color: var(--title);
       text-align: left;
@@ -63,9 +62,8 @@ Contact Area CSS
       a {
         color: var(--color-e5181e);
       }
-    }  
+    }
   }
-
 }
 .contact-image {
   text-align: center;
@@ -75,7 +73,7 @@ Contact Area CSS
   padding-left: 15px;
   border: 1px solid var(--color-d9d9d9);
   border-top: 8px solid var(--color-e5181e);
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 4px;
   p {
     letter-spacing: var(--character-spacing-0);
@@ -87,40 +85,42 @@ Contact Area CSS
       weight: bold;
       size: var(--font-size-16);
       family: var(--font-family-poppins);
-    }  
+    }
   }
   form {
-      ul {
-       list-style: none;
-       padding-left: 0;
-       li {
-         display: flex;
-         margin-bottom: 24px;
-         justify-content: space-between;
-         &:last-child {
-           margin-bottom: 0;
-          }
-         label {
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        display: flex;
+        margin-bottom: 24px;
+        justify-content: space-between;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        label {
           letter-spacing: var(--character-spacing-0);
           text-align: left;
-           font: {
-             style: var(--font-style-normal);
-             weight: var(--font-weight-normal);
-             size: 17px; 
-             family: var(--font-family-poppins);
-           }
-           span { 
-             color : var(--color-e5181e)
-           }
-         }
-         input,textarea,select {
+          font: {
+            style: var(--font-style-normal);
+            weight: var(--font-weight-normal);
+            size: 17px;
+            family: var(--font-family-poppins);
+          }
+          span {
+            color: var(--color-e5181e);
+          }
+        }
+        input,
+        textarea,
+        select {
           border: 1px solid var(--color-d9d9d9);
-          background: #FFFFFF 0% 0% no-repeat padding-box;
+          background: #ffffff 0% 0% no-repeat padding-box;
           width: 423px;
-          height:40px;
+          height: 40px;
           border-radius: 4px;
-         }
-         select {
+        }
+        select {
           letter-spacing: var(--character-spacing-0);
           color: var(--disable);
           text-align: left;
@@ -130,14 +130,14 @@ Contact Area CSS
             weight: var(--font-weight-normal);
             size: 17px;
             family: var(--font-family-poppins);
-          } 
-         }
-         input[type=submit] {
+          }
+        }
+        input[type='submit'] {
           background: var(--color-e5181e) 0% 0% no-repeat padding-box;
           border-radius: 4px;
           letter-spacing: var(--character-spacing-0);
           text-align: center;
-          color: #FFFFFF;
+          color: #ffffff;
           font: {
             style: var(--font-style-normal);
             weight: var(--font-weight-normal);
@@ -148,9 +148,9 @@ Contact Area CSS
         textarea {
           height: 92px;
         }
-       }
       }
-    
+    }
+
     .default-btn {
       margin-top: 5px;
     }

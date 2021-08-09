@@ -17,7 +17,6 @@ import PhongTranGray from '../../assets/images/team/Phong Tran-Grayscale.png';
 import TuanNguyen from '../../assets/images/team/Tuan Nguyen.png';
 import TuanNguyenGray from '../../assets/images/team/Tuan Nguyen-Grayscale.png';
 
-
 const TeamMember = () => {
   return (
     <section className="scientist-area">
@@ -63,7 +62,7 @@ const TeamMember = () => {
             <div className="single-scientist-item-box">
               <div className="image">
                 <img src={KhoaTran} className="image-normal" alt="team" />
-                <img src={KhoaTranGray} className="image-gray"/>
+                <img src={KhoaTranGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Khoa Tran</h3>

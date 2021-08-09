@@ -7,7 +7,7 @@ import Footer from '../components/App/Footer';
 import TwoColumns from '../components/case-study/CaseStudies';
 import StartProject from '../components/Common/StartProject';
 
-import video from "../assets/images/Videos/Case studies.mp4";
+import video from '../assets/images/Videos/Case studies.mp4';
 
 // Functional component
 const CaseStudies = () => {
@@ -20,7 +20,7 @@ const CaseStudies = () => {
         homePageText="Home"
         homePageUrl="/"
         activePageText="Case Studies"
-        video= {video}
+        video={video}
       />
       <TwoColumns />
       <StartProject />

@@ -127,8 +127,14 @@ const Footer = () => {
         </div>
         <div className="footer-bottom-area">
           <div className="row align-items-center">
-            <div className="col-lg-12 col-md-12" style={{textAlign: "center"}}>
-              <p>Copyright @2021 <strong>Innomize Co.,Ltd.</strong> All Rights Reserved</p>
+            <div
+              className="col-lg-12 col-md-12"
+              style={{ textAlign: 'center' }}
+            >
+              <p>
+                Copyright @2021 <strong>Innomize Co.,Ltd.</strong> All Rights
+                Reserved
+              </p>
             </div>
           </div>
         </div>

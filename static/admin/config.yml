@@ -5,9 +5,8 @@ backend:
 
 media_folder: static/assets
 public_folder: assets
-  
-collections: 
 
+collections:
   - name: career
     label: Career jobs
     folder: careers
@@ -22,7 +21,3 @@ collections:
       - { name: niceToHave, label: Requirements nice to have, widget: markdown }
       - { name: id, label: Id }
       - { name: date, label: Date, widget: datetime }
-
-
-       
-

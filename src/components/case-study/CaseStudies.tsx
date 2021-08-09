@@ -39,21 +39,19 @@ const CaseStudies = () => {
               className="col-lg-4 col-md-6 col-sm-6"
             >
               <div className="single-services-box">
-              <Link to="/">
-                <Img
-                  fluid={service.frontmatter.thumbnail.childImageSharp.fluid}
-                  alt="service"
-                />
-                <h3 className="box-link">
-                 {service.frontmatter.title}
-                </h3>
-                <div className="red_line"></div>
-                <p className="box-description">
-                  {service.frontmatter.subtitle}
-                </p>
+                <Link to="/">
+                  <Img
+                    fluid={service.frontmatter.thumbnail.childImageSharp.fluid}
+                    alt="service"
+                  />
+                  <h3 className="box-link">{service.frontmatter.title}</h3>
+                  <div className="red_line"></div>
+                  <p className="box-description">
+                    {service.frontmatter.subtitle}
+                  </p>
                 </Link>
-              </div>       
-            </div>            
+              </div>
+            </div>
           ))}
         </div>
       </div>

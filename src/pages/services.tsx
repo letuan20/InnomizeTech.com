@@ -8,7 +8,7 @@ import PageBanner from '../components/Common/PageBanner';
 import StartProject from '../components/Common/StartProject';
 import OurServices from '../components/home/OurServices';
 
-import video from "../assets/images/Videos/Our Services.mp4";
+import video from '../assets/images/Videos/Our Services.mp4';
 
 const Services = () => {
   return (
@@ -20,7 +20,7 @@ const Services = () => {
         homePageText="Home"
         homePageUrl="/"
         activePageText="Services"
-        video= {video}
+        video={video}
       />
       <OurServices />
       <StartProject />

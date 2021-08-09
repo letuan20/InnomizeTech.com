@@ -16,11 +16,10 @@ import springMVC from '../../assets/images/services/StackIcon/SpringMVC-SpringBo
 import springBoot from '../../assets/images/services/StackIcon/Spring Boot.svg';
 import rubyOnRails from '../../assets/images/services/StackIcon/Ruby on rails.svg';
 import dotNet from '../../assets/images/services/StackIcon/Net.svg';
-import angular from '../../assets/images/services/StackIcon/Angular.svg'
+import angular from '../../assets/images/services/StackIcon/Angular.svg';
 import react from '../../assets/images/services/StackIcon/React.svg';
 import mySql from '../../assets/images/services/StackIcon/My SQL.svg';
 import Postgres from '../../assets/images/services/StackIcon/Postgres.svg';
-import noSql from '../../assets/images/services/StackIcon/SQL.svg';
 import jenkins from '../../assets/images/services/StackIcon/Jenkins.svg';
 import ansible from '../../assets/images/services/StackIcon/Ansible.svg';
 import docker from '../../assets/images/services/StackIcon/Docker.svg';
@@ -58,7 +57,6 @@ import vargrant from '../../assets/images/services/StackIcon/Vargrant.svg';
 import Accordion from './accordion';
 
 const ServiceDetailsContent = () => {
-
   return (
     <section className="services-details-area">
       <div className="container">
@@ -73,9 +71,7 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={erp} alt="erp" />
                     </div>
-                    <p>
-                    ERP
-                    </p>                   
+                    <p>ERP</p>
                   </div>
                 </div>
 
@@ -84,9 +80,7 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={healthCare} alt="health Care" />
                     </div>
-                    <p>
-                    Healthcare
-                    </p>
+                    <p>Healthcare</p>
                   </div>
                 </div>
 
@@ -95,9 +89,7 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={eCommerce} alt="E-commerce" />
                     </div>
-                    <p>
-                    E-commerce
-                    </p>
+                    <p>E-commerce</p>
                   </div>
                 </div>
 
@@ -106,9 +98,7 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={finance} alt="Finance" />
                     </div>
-                    <p>
-                    Finance
-                    </p>
+                    <p>Finance</p>
                   </div>
                 </div>
 
@@ -117,9 +107,7 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={realEstate} alt="Real Estate" />
                     </div>
-                    <p>
-                    Real Estate
-                    </p>
+                    <p>Real Estate</p>
                   </div>
                 </div>
 
@@ -128,308 +116,315 @@ const ServiceDetailsContent = () => {
                     <div className="icon">
                       <img src={fitness} alt="fitness" />
                     </div>
-                    <p>
-                    Fitness
-                    </p>
+                    <p>Fitness</p>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-sm-6 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={eLearning} alt="eLearning" />
                     </div>
-                    <p>
-                    E-Learning
-                    </p>
+                    <p>E-Learning</p>
                   </div>
                 </div>
-               
+
                 <div className="col-lg-3 col-sm-6 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={retails} alt="retails" />
                     </div>
-                    <p>
-                    Retails
-                    </p>
+                    <p>Retails</p>
                   </div>
                 </div>
-               
+
                 <div className="col-lg-3 col-sm-6 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={law} alt="law" />
                     </div>
-                    <p>
-                    Law
-                    </p>
+                    <p>Law</p>
                   </div>
                 </div>
               </div>
 
-             <Accordion title="Web Technologies" content={
-                <ul className="technologies-features">
-                <li>
-                  <span>Serverless Architecture</span>
-                  <div>
-                    <img src={serverless} alt="serverless"/>
-                  </div>
-                </li>
-                <li>
-                  <span>Nodejs</span>
-                  <div>
-                    <img src={nodejs} alt="nodejs"/>
-                  </div>
-                </li>
-                <li>
-                  <span>SpringMVC/SpringBoot</span>
-                  <div>
-                    <img src={springMVC} />
-                    <img src={springBoot} />
-                  </div>
-                </li>
-                <li>
-                  <span>Ruby on Rails</span>
-                  <div>
-                    <img src={rubyOnRails} />
-                  </div>
-                </li>
-                <li>
-                  <span>.NET MVC/ASP.NET</span>
-                  <div>
-                    <img src={dotNet} />
-                  </div>
-                </li>
-                <li>
-                  <span>Angular, React, React Native</span>
-                  <div>
-                    <img src={angular} />
-                    <img src={react} />
-                  </div>
-                </li>
-                <li>
-                  <span>MySQL, Postgres, NoSQL</span>
-                  <div>
-                    <img src={mySql} />
-                    <img src={Postgres} />
-                    <img src={noSql} />
-                  </div>
-                </li>
-                <li>
-                  <span>Jenkins, Ansible, Docker</span>
-                  <div>
-                    <img src={jenkins} />
-                    <img src={ansible} />
-                    <img src={docker} />
-                  </div>
-                </li>
-              </ul>
-             }/> 
+              <Accordion
+                title="Web Technologies"
+                content={
+                  <ul className="technologies-features">
+                    <li>
+                      <span>Serverless Architecture</span>
+                      <div>
+                        <img src={serverless} alt="serverless" />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Nodejs</span>
+                      <div>
+                        <img src={nodejs} alt="nodejs" />
+                      </div>
+                    </li>
+                    <li>
+                      <span>SpringMVC/SpringBoot</span>
+                      <div>
+                        <img src={springMVC} />
+                        <img src={springBoot} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Ruby on Rails</span>
+                      <div>
+                        <img src={rubyOnRails} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>.NET MVC/ASP.NET</span>
+                      <div>
+                        <img src={dotNet} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Angular, React, React Native</span>
+                      <div>
+                        <img src={angular} />
+                        <img src={react} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>MySQL, Postgres, NoSQL</span>
+                      <div>
+                        <img src={mySql} />
+                        <img src={Postgres} />
+                        <img src={sql} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Jenkins, Ansible, Docker</span>
+                      <div>
+                        <img src={jenkins} />
+                        <img src={ansible} />
+                        <img src={docker} />
+                      </div>
+                    </li>
+                  </ul>
+                }
+              />
 
-             <Accordion title="Mobile Technologies" content= {
-                <ul className="technologies-features">
-                <li>
-                  <span>Swift</span>
-                  <div>
-                    <img src={swift} />
-                  </div>
-                </li>
-                <li>
-                  <span>Java/Kotlin</span>
-                  <div>
-                    <img src={java} />
-                    <img src={kotlin} />
-                  </div>
-                </li>
-                <li>
-                  <span>ReactNative</span>
-                  <div>
-                    <img src={react} />
-                  </div>
-                </li>
-                <li>
-                  <span>AWS Mobile Services</span>
-                  <div>
-                    <img src={aws} />
-                  </div>
-                </li>
-                <li>
-                  <span>AppSync/AmplifyJS</span>
-                  <div>
-                    <img src={appSync} />
-                  </div>
-                </li>
-                <li>
-                  <span>Xamarin, PhoneGap</span>
-                  <div>
-                    <img src={xamarin} />
-                    <img src={phoneGap} />
-                  </div>
-                </li>
-              </ul>
-             } />
-          
-             <Accordion title="Testing Technologies" content= {
-                   <ul className="technologies-features">
-                   <li>
-                     <span>Jest - Unit Test</span>
-                     <div>
-                      <img src={jest} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>Selenium/Protractor</span>
-                     <div>
-                      <img src={selenium} />
-                      <img src={protractor} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>Cypress </span>
-                     <div>
-                       <img src={cypress} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>SilkTest</span>
-                     <div>
-                       <img src={skilkTest} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>MS Test Professional</span>
-                     <div>
-                       <img src={msTest} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>SoapUI</span>
-                     <div>
-                       <img src={soapUI} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>AutoIT</span>
-                     <div>
-                       <img src={autoIot} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>TestShell Studio</span>
-                     <div>
-                       <img src={testShell} />
-                     </div>
-                   </li>
-                   <li>
-                     <span>BDD Framework</span>
-                     <div>
-                       <img src={bddFramework} />
-                     </div>
-                   </li>
-                 </ul>
-             } />
+              <Accordion
+                title="Mobile Technologies"
+                content={
+                  <ul className="technologies-features">
+                    <li>
+                      <span>Swift</span>
+                      <div>
+                        <img src={swift} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Java/Kotlin</span>
+                      <div>
+                        <img src={java} />
+                        <img src={kotlin} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>ReactNative</span>
+                      <div>
+                        <img src={react} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>AWS Mobile Services</span>
+                      <div>
+                        <img src={aws} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>AppSync/AmplifyJS</span>
+                      <div>
+                        <img src={appSync} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Xamarin, PhoneGap</span>
+                      <div>
+                        <img src={xamarin} />
+                        <img src={phoneGap} />
+                      </div>
+                    </li>
+                  </ul>
+                }
+              />
 
-             <Accordion title="Programming Languages" content={
-                <ul className="technologies-features">
-                <li>
-                  <span>JavaScript/TypeScript</span>
-                  <div>
-                    <img src={javascript} />
-                  </div>
-                </li>
-                <li>
-                  <span>Python</span>
-                  <div>
-                    <img src={python} />
-                  </div>
-                </li>
-                <li>
-                  <span>Java</span>
-                  <div>
-                    <img src={java} />
-                  </div>
-                </li>
-                <li>
-                  <span>C/CPP</span>
-                  <div>
-                    <img src={c} />
-                  </div>
-                </li>
-                <li>
-                  <span>PHP</span>
-                  <div>
-                    <img src={php} />
-                  </div>
-                </li>
-                <li>
-                  <span>Swift</span>
-                  <div>
-                    <img src={swift} />
-                  </div>
-                </li>
-                <li>
-                  <span>C# (C- Sharp)</span>
-                  <div>
-                    <img src={cSharp} />
-                  </div>
-                </li>
-                <li>
-                  <span>Ruby</span>
-                  <div>
-                    <img src={rubyOnRails} />
-                  </div>
-                </li>
-                <li>
-                  <span>SQL</span>
-                  <div>
-                    <img src={sql} />
-                  </div>
-                </li>
-                </ul>
-             } />
-             
-             <Accordion title="DEVOPS" content={
-                <ul className="technologies-features">
-                <li>
-                  <span>Jenkins</span>
-                  <div>
-                    <img src={jenkins} />
-                  </div>
-                </li>
-                <li>
-                  <span>Ansible/Chef</span>
-                  <div>
-                    <img src={ansible} />
-                    <img src={chef} />
-                  </div>
-                </li>
-                <li>
-                  <span>Docker</span>
-                  <div>
-                    <img src={docker} />
-                  </div>
-                </li>
-                <li>
-                  <span>AWS CloudFormation/CDK</span>
-                  <div>
-                    <img src={awsCloud} />
-                  </div>
-                </li>
-                <li>
-                  <span>AWS Developer Tools</span>
-                  <div>
-                    <img src={aws} />
-                  </div>
-                </li>
-                <li>
-                  <span>Vargrant</span>
-                  <div>
-                    <img src={vargrant} />
-                  </div>
-                </li>
-              </ul>
-             } />
+              <Accordion
+                title="Testing Technologies"
+                content={
+                  <ul className="technologies-features">
+                    <li>
+                      <span>Jest - Unit Test</span>
+                      <div>
+                        <img src={jest} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Selenium/Protractor</span>
+                      <div>
+                        <img src={selenium} />
+                        <img src={protractor} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Cypress </span>
+                      <div>
+                        <img src={cypress} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>SilkTest</span>
+                      <div>
+                        <img src={skilkTest} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>MS Test Professional</span>
+                      <div>
+                        <img src={msTest} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>SoapUI</span>
+                      <div>
+                        <img src={soapUI} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>AutoIT</span>
+                      <div>
+                        <img src={autoIot} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>TestShell Studio</span>
+                      <div>
+                        <img src={testShell} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>BDD Framework</span>
+                      <div>
+                        <img src={bddFramework} />
+                      </div>
+                    </li>
+                  </ul>
+                }
+              />
+
+              <Accordion
+                title="Programming Languages"
+                content={
+                  <ul className="technologies-features">
+                    <li>
+                      <span>JavaScript/TypeScript</span>
+                      <div>
+                        <img src={javascript} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Python</span>
+                      <div>
+                        <img src={python} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Java</span>
+                      <div>
+                        <img src={java} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>C/CPP</span>
+                      <div>
+                        <img src={c} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>PHP</span>
+                      <div>
+                        <img src={php} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Swift</span>
+                      <div>
+                        <img src={swift} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>C# (C- Sharp)</span>
+                      <div>
+                        <img src={cSharp} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Ruby</span>
+                      <div>
+                        <img src={rubyOnRails} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>SQL</span>
+                      <div>
+                        <img src={sql} />
+                      </div>
+                    </li>
+                  </ul>
+                }
+              />
+
+              <Accordion
+                title="DEVOPS"
+                content={
+                  <ul className="technologies-features">
+                    <li>
+                      <span>Jenkins</span>
+                      <div>
+                        <img src={jenkins} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Ansible/Chef</span>
+                      <div>
+                        <img src={ansible} />
+                        <img src={chef} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Docker</span>
+                      <div>
+                        <img src={docker} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>AWS CloudFormation/CDK</span>
+                      <div>
+                        <img src={awsCloud} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>AWS Developer Tools</span>
+                      <div>
+                        <img src={aws} />
+                      </div>
+                    </li>
+                    <li>
+                      <span>Vargrant</span>
+                      <div>
+                        <img src={vargrant} />
+                      </div>
+                    </li>
+                  </ul>
+                }
+              />
             </div>
           </div>
         </div>

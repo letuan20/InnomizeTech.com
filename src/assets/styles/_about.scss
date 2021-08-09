@@ -5,7 +5,7 @@ About Area CSS
   position: relative;
   z-index: 1;
   padding-bottom: 52px;
-  background: #FAFAFA;
+  background: #fafafa;
   .container-fluid {
     max-width: 1228px;
     padding: 0;
@@ -19,7 +19,7 @@ About Area CSS
 }
 .our-mission-area {
   padding-bottom: 40px;
-  background: #FAFAFA;
+  background: #fafafa;
   .container-fluid {
     max-width: 1228px;
     padding: 0;
@@ -163,8 +163,8 @@ About Area CSS
         color: var(--title);
         letter-spacing: var(--character-spacing-0);
         font: {
-          style:  var(--font-style-normal);
-          weight: 600 ;
+          style: var(--font-style-normal);
+          weight: 600;
           size: var(--font-size-20);
           family: var(--font-family-poppins);
         }
@@ -184,7 +184,7 @@ About Area CSS
           display: block;
           width: 32px;
           margin-bottom: 8px;
-        }       
+        }
       }
     }
     .content-list {

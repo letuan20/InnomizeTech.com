@@ -20,8 +20,7 @@
 //         }
 //     }
 //   };
-  
- 
+
 // const Testimonials = () => {
 //   const [display, setDisplay] = React.useState(false);
 //   React.useEffect(() => {
@@ -39,23 +38,23 @@
 //         {display ? (
 //           <OwlCarousel {...options}  className="testimonials-slides owl-carousel owl-theme"
 //           >
-//             <div className="single-testimonials-item">       
-//                 <img width={188} height={188} src={activity1} alt="testimonial" />            
+//             <div className="single-testimonials-item">
+//                 <img width={188} height={188} src={activity1} alt="testimonial" />
 //             </div>
-//             <div className="single-testimonials-item">       
-//                 <img width={188} height={188} src={activity2} alt="testimonial" />            
+//             <div className="single-testimonials-item">
+//                 <img width={188} height={188} src={activity2} alt="testimonial" />
 //             </div>
-//             <div className="single-testimonials-item">       
-//                 <img width={188} height={188} src={activity3} alt="testimonial" />            
+//             <div className="single-testimonials-item">
+//                 <img width={188} height={188} src={activity3} alt="testimonial" />
 //             </div>
-//             <div className="single-testimonials-item">       
-//                 <img width={188} height={188} src={activity4} alt="testimonial" />            
+//             <div className="single-testimonials-item">
+//                 <img width={188} height={188} src={activity4} alt="testimonial" />
 //             </div>
-//             <div className="single-testimonials-item">       
-//                 <img width={188} height={188} src={activity5} alt="testimonial" />            
+//             <div className="single-testimonials-item">
+//                 <img width={188} height={188} src={activity5} alt="testimonial" />
 //             </div>
 //           </OwlCarousel>
-     
+
 //         ) : (
 //           ''
 //         )}
@@ -65,8 +64,8 @@
 // };
 // export default Testimonials;
 
-import React, { useState } from "react";
-import Slider from "react-slick";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
 
 import activity1 from '../../assets/images/gallery/activity-1.jpg';
 import activity2 from '../../assets/images/gallery/activity-2.jpg';
@@ -78,62 +77,54 @@ const IMAGES = [
   {
     id: 1,
     src: activity1,
-    alt: "Placeholder image",
+    alt: 'Placeholder image',
   },
   {
     id: 2,
     src: activity4,
-    alt: "Placeholder image",
+    alt: 'Placeholder image',
   },
   {
     id: 3,
     src: activity3,
-    alt: "Placeholder image",
+    alt: 'Placeholder image',
   },
   {
     id: 4,
     src: activity4,
-    alt: "Placeholder image",
+    alt: 'Placeholder image',
   },
   {
     id: 5,
     src: activity5,
-    alt: "Placeholder image",
+    alt: 'Placeholder image',
   },
   {
     id: 6,
     src: activity1,
-    alt: "Placeholder image",
-  }
+    alt: 'Placeholder image',
+  },
 ];
 
-
 const NextArrow = ({ onClick }) => {
-  return (
-    <div className="nextArrow" onClick={onClick}>
-     
-    </div>
-  );
+  return <div className="nextArrow" onClick={onClick}></div>;
 };
 
 const PrevArrow = ({ onClick }) => {
-  return (
-    <div className="prevArrow" onClick={onClick}>
-          </div>
-  );
+  return <div className="prevArrow" onClick={onClick}></div>;
 };
 
-const ImageSlider = ({  slidesToShow = 5 }) => {
+const ImageSlider = ({ slidesToShow = 5 }) => {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
-    className: "center",
+    className: 'center',
     centerMode: true,
     infinite: true,
     dots: false,
     speed: 300,
-    slidesToShow: slidesToShow,
-    centerPadding: "60",
+    slidesToShow: 5,
+    centerPadding: '60',
     swipeToSlide: true,
     focusOnSelect: true,
     nextArrow: <NextArrow onClick />,
@@ -144,24 +135,24 @@ const ImageSlider = ({  slidesToShow = 5 }) => {
         breakpoint: 1490,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 820,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const templateImages = IMAGES.map((image, idx) => {
     if (image !== null) {
       return (
         <div
-          className={idx === imageIndex ? "activeSlide" : "slide"}
+          className={idx === imageIndex ? 'activeSlide' : 'slide'}
           key={image.id}
         >
           <div className="slideWrapper">

@@ -68,8 +68,8 @@ Our Mission Area CSS
         color: var(--title);
         letter-spacing: var(--character-spacing-0);
         font: {
-          style:  var(--font-style-normal);
-          weight: 600 ;
+          style: var(--font-style-normal);
+          weight: 600;
           size: var(--font-size-20);
           family: var(--font-family-poppins);
         }
@@ -179,15 +179,14 @@ Services Area CSS
   .box-link {
     margin-top: 16px;
     margin-bottom: 8px;
-      letter-spacing: var(--character-spacing-0);
-      color: var(--color-e5181e);
-      font: {
-        style: var(--font-style-normal);
-        weight: bold;
-        size: var(--font-size-24);
-        family: var(--font-family-poppins);
-      }
-    
+    letter-spacing: var(--character-spacing-0);
+    color: var(--color-e5181e);
+    font: {
+      style: var(--font-style-normal);
+      weight: bold;
+      size: var(--font-size-24);
+      family: var(--font-family-poppins);
+    }
   }
 
   .red_line {
@@ -648,10 +647,10 @@ Services Area CSS
     margin-bottom: 40px;
     font: {
       style: var(--font-style-normal);
-      weight: bold; 
+      weight: bold;
       size: var(--font-size-20);
       family: var(--font-family-poppins);
-    } 
+    }
   }
   .row {
     justify-content: space-between;
@@ -680,7 +679,7 @@ Services Area CSS
             weight: bold;
             size: var(--font-size-24);
             family: var(--font-family-poppins);
-          }  
+          }
         }
       }
     }
@@ -710,7 +709,7 @@ Services Area CSS
     margin: {
       top: 15px;
       bottom: 30px;
-    }   
+    }
   }
   .accordion-item {
     margin-left: -15px;
@@ -735,7 +734,7 @@ Services Area CSS
         line-height: 24px;
         text-align: center;
         &::before {
-          content: "+";
+          content: '+';
         }
       }
       .minus {
@@ -747,7 +746,7 @@ Services Area CSS
         line-height: 24px;
         text-align: center;
         &::before {
-          content: "-";
+          content: '-';
         }
       }
     }
@@ -779,14 +778,14 @@ Services Area CSS
           color: var(--title);
           text-align: left;
           position: relative;
-          display: block;  
+          display: block;
         }
         div {
           img {
             &:not(:last-child) {
               margin-right: 12px;
-              }
             }
+          }
         }
       }
     }

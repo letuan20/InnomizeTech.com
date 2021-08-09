@@ -5,13 +5,11 @@ import bannerImg from '../../assets/images/banner-img1.png';
 import scrollIcon from '../../assets/images/icons/scrolldown-icon.png';
 
 const Banner = () => {
-
   const scrollDown = () => {
     window.scroll({
-      top:  window.innerHeight -  document.getElementById("navbar")!.offsetHeight  ,
-      behavior: 'smooth'
+      top: window.innerHeight - document.getElementById('navbar')!.offsetHeight,
+      behavior: 'smooth',
     });
-    
   };
   return (
     <div className="seo-agency-banner">
@@ -42,7 +40,12 @@ const Banner = () => {
                   <Link to="/services" className="default-btn">
                     Our Services <span></span>
                   </Link>
-                  <img src={scrollIcon}  onClick={scrollDown} alt="scroll" className="hero-scroll" />
+                  <img
+                    src={scrollIcon}
+                    onClick={scrollDown}
+                    alt="scroll"
+                    className="hero-scroll"
+                  />
                 </div>
               </ReactWOW>
             </div>
@@ -54,10 +57,8 @@ const Banner = () => {
                 <img src={bannerImg} alt="banner" />
               </div>
             </ReactWOW>
-          </div>    
-          
+          </div>
         </div>
-
       </div>
     </div>
   );
