@@ -1,0 +1,10 @@
+<svg id="Ansible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_237" data-name="Rectangle 237" width="48" height="48" transform="translate(-3854 6460)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_71" data-name="Mask Group 71" transform="translate(3854 -6460)" clip-path="url(#clip-path)">
+    <path id="Subtraction_9" data-name="Subtraction 9" d="M18,35.5A17.5,17.5,0,0,1,11.188,1.876a17.5,17.5,0,0,1,13.624,32.25A17.39,17.39,0,0,1,18,35.5ZM15.454,19.686h0l8.239,6.656a1.336,1.336,0,0,0,.881.389,1.141,1.141,0,0,0,1.167-1.14,1.517,1.517,0,0,0-.109-.471L19.278,9.829a1.029,1.029,0,0,0-.984-.674,1.062,1.062,0,0,0-1.012.674L10.308,26.6h2.386l2.76-6.915Zm6.97,3.086h0l-6.238-4.914,2.109-5.281,4.13,10.194Z" transform="translate(-3847.5 6466.5)" fill="#c00"/>
+  </g>
+</svg>

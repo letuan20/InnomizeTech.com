@@ -1,0 +1,14 @@
+<svg id="MS_Test_Professional" data-name="MS Test Professional" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_250" data-name="Rectangle 250" width="48" height="48" transform="translate(-4449 6458)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_78" data-name="Mask Group 78" transform="translate(4449 -6458)" clip-path="url(#clip-path)">
+    <g id="visual-studio" transform="translate(-4443.5 6463.5)">
+      <circle id="Ellipse_280" data-name="Ellipse 280" cx="18.5" cy="18.5" r="18.5" transform="translate(0.5 -0.5)" fill="#6e64c3"/>
+      <path id="Path_2317" data-name="Path 2317" d="M128.015,102.921l-5.105-2.063-8.993,8.714-5.433-4.122-2.061,1.03.026,10.889L119.51,130.43a18.5,18.5,0,0,0,16.222-18.36q0-.753-.06-1.491Z" transform="translate(-98.508 -93.793)" fill="#5046af"/>
+      <path id="Path_2318" data-name="Path 2318" d="M128.015,102.921l-5.105-2.063-8.993,8.714-5.433-4.122-2.061,1.03.026,10.889,2.061,1.03,5.433-4.122,8.993,8.714,5.105-2.063Zm-18.989,11.31v-4.612l2.55,2.306h.026Zm13.372,1.534-5.126-3.84h-.026l5.152-3.84v7.68Z" transform="translate(-98.508 -93.793)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

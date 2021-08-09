@@ -1,0 +1,14 @@
+<svg id="Vargrant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_270" data-name="Rectangle 270" width="48" height="48" transform="translate(5632 3561)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_92" data-name="Mask Group 92" transform="translate(-5632 -3561)" clip-path="url(#clip-path)">
+    <g id="vagrant-seeklogo.com" transform="translate(5639.994 3569)">
+      <path id="Path_2371" data-name="Path 2371" d="M140.6,20.234l-7.445,4.252-.21,2.638-5.654,12.764-3.361,2.22.407,9.161,6.337-3.653,9.925-24.3Z" transform="translate(-108.069 -17.645)" fill="#1159cc"/>
+      <path id="Path_2372" data-name="Path 2372" d="M58.683,36.86V33.933l-.03-.017-4.924,2.444.21,2.947,6.145,13.376L63.413,50.8l-.3-3.593Z" transform="translate(-46.849 -29.576)" fill="#1159cc"/>
+      <path id="Path_2373" data-name="Path 2373" d="M28.1,0,20.707,4.326h0v0h0V7.284L16.268,17.63v3.457L13.31,22.8,7.4,9.486v-2.6l4.435-2.554L4.441,0,.006,2.589V5.76L9.987,30l6.281,3.623v-9.1L19.222,22.8l-.035-.022,5.951-13.3v-2.6l7.393-4.3Z" transform="translate(0)" fill="#127eff"/>
+    </g>
+  </g>
+</svg>

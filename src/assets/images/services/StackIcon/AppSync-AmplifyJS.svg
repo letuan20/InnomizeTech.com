@@ -1,0 +1,18 @@
+<svg id="AppSync_AmplifyJS" data-name="AppSync/AmplifyJS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_225" data-name="Rectangle 225" width="48" height="48" transform="translate(4145 3915)" fill="#262626" stroke="#262626" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_64" data-name="Mask Group 64" transform="translate(-4145 -3915)" clip-path="url(#clip-path)">
+    <g id="Group_1068" data-name="Group 1068" transform="translate(-93.772 -87.865)">
+      <path id="Path_2226" data-name="Path 2226" d="M22.924,1.3C6.345-5.044-2.865,13.377,4.708,22.895M0,22.076c2.047.409,2.968.921,4.81,1.126.512-.409,1.228-4.4,1.535-5.015m3.275,8.9C26.2,33.436,35.409,15.015,27.836,5.5m4.707.819c-2.047-.409-2.968-.921-4.81-1.126-.512.409-1.228,4.4-1.535,5.015" transform="translate(4246.5 4012.669)" fill="none" stroke="#262626" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      <g id="Group_1067" data-name="Group 1067" transform="translate(4255.755 4019.497)">
+        <path id="Path_2229" data-name="Path 2229" d="M2.047,0A2.047,2.047,0,1,1,0,2.047,2.047,2.047,0,0,1,2.047,0Z" transform="translate(5.219)" fill="none" stroke="#262626" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_2228" data-name="Path 2228" d="M2.047,0A2.047,2.047,0,1,1,0,2.047,2.047,2.047,0,0,1,2.047,0Z" transform="translate(10.438 9.21)" fill="none" stroke="#262626" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_2230" data-name="Path 2230" d="M2.047,0A2.047,2.047,0,1,1,0,2.047,2.047,2.047,0,0,1,2.047,0Z" transform="translate(0 9.21)" fill="none" stroke="#262626" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_2227" data-name="Path 2227" d="M36.579,33.654H30.233m2.3-7.357-3.305,5.593m8.261.058-1.426-2.614L34.38,26.246" transform="translate(-26.14 -22.397)" fill="none" stroke="#262626" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

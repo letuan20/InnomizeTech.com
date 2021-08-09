@@ -1,0 +1,29 @@
+<svg id="Kotlin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_479" data-name="Rectangle 479" width="48" height="48" transform="translate(4116 3374)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.168" y1="0.919" x2="0.762" y2="-0.011" gradientUnits="objectBoundingBox">
+      <stop offset="0.108" stop-color="#c757bc"/>
+      <stop offset="0.173" stop-color="#cd5ca9"/>
+      <stop offset="0.492" stop-color="#e8744f"/>
+      <stop offset="0.716" stop-color="#f88316"/>
+      <stop offset="0.823" stop-color="#ff8900"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.319" y1="1.359" x2="0.773" y2="0.456" gradientUnits="objectBoundingBox">
+      <stop offset="0.296" stop-color="#00afff"/>
+      <stop offset="0.694" stop-color="#5282ff"/>
+      <stop offset="1" stop-color="#945dff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.024" y1="0.523" x2="0.61" y2="-0.08" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Kotlin-2" data-name="Kotlin" transform="translate(-4116 -3374)" clip-path="url(#clip-path)">
+    <g id="kotlin-icon" transform="translate(4126.951 3384.951)">
+      <g id="Group_1412" data-name="Group 1412">
+        <path id="Path_2552" data-name="Path 2552" d="M13.52.006,0,14.213V26.919L13.494,13.4,26.919,0Z" fill="url(#linear-gradient)"/>
+        <path id="Path_2553" data-name="Path 2553" d="M0,45.387l13.494-13.52,13.425,13.52Z" transform="translate(0 -18.465)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_2554" data-name="Path 2554" d="M0,.015H13.52L0,14.222Z" transform="translate(0 -0.009)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

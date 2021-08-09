@@ -8,6 +8,10 @@ Solutions Area CSS
     max-width: 1228px;
     .section-title {
       max-width: 1020px;
+      .sub-title {
+        color: var(--color-e5181e);
+        font-size: 17px;
+      }
     }
     .row {
       justify-content: space-between;
@@ -15,7 +19,7 @@ Solutions Area CSS
   }
 }
 .single-solutions-box {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 29px 16px 24px;
   border-radius: 5px;
   transition: $transition;
@@ -36,7 +40,7 @@ Solutions Area CSS
     text-align: center;
     margin-bottom: 16px;
     font: {
-      size: var(--font-size-20);
+      size: var(--font-size-24);
       style: var(--font-style-normal);
       weight: bold;
       family: var(--font-family-poppins);

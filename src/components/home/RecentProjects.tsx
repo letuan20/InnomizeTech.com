@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import permits from '../../assets/images/projects/permits.png';
-import tutoring from '../../assets/images/projects/1-1-tutoring.png';
-import totter from '../../assets/images/projects/totter.png';
+import permits from '../../assets/images/projects/permits.jpg';
+import tutoring from '../../assets/images/projects/1-1-tutoring.jpg';
+import totter from '../../assets/images/projects/totter.jpg';
 
 const RecentProjects = () => {
   return (

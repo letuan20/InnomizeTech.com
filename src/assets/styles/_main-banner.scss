@@ -29,12 +29,11 @@ Main Banner Area CSS
   }
 }
 .main-banner-content {
-  margin-top: 160px;
 
   h1 {
     font-style: var(--font-style-normal);
     font-weight: bold;
-    font-size: var(--font-size-48) !important;
+    font-size: 57px !important;
     font-family: var(--font-family-poppins);
     letter-spacing: var(--character-spacing-0);
     color: var(--title);
@@ -42,8 +41,7 @@ Main Banner Area CSS
     line-height: 1;
     top: 158px;
     left: 69px;
-    width: 538px;
-    height: 187px;
+    margin-bottom: 24px;
     span {
       font-style: var(--font-style-normal);
       font-weight: bold;
@@ -66,10 +64,9 @@ Main Banner Area CSS
     top: 369px;
     left: 69px;
     width: 396px;
-    height: 102px;
   }
   .btn-box {
-    margin-top: 39px;
+    margin-top: 24px;
 
     .default-btn {
       background: var(--color-e5181e) 0% 0% no-repeat padding-box;
@@ -830,8 +827,21 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   border-bottom: 1px solid #f7f7f7;
+  height: 100vh;
   .container {
     padding-left: 0;
+    height: 100%;
+    .row {
+      height: 100%;    
+    }
+    .hero-scroll {
+      position: absolute;
+      left: 15px;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      margin-top: 81px;
+    }
   }
   .container-fluid {
     max-width: 1360px;

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="vuesax_broken_cloud-connection" data-name="vuesax/broken/cloud-connection" transform="translate(-492 -252)">
+    <g id="cloud-connection" transform="translate(492 252)">
+      <g id="Group" transform="translate(4.418 2.665)">
+        <path id="Vector" d="M.567,10.015c-3.72-10.347,12-14.467,13.8-3.613,4.56.573,6.667,6.12,4.16,9.627" transform="translate(3.561 0)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M4.075,0c-5.44.387-5.427,8.267,0,8.653h12.88" transform="translate(0 10.015)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Vector-3" data-name="Vector" d="M0,0V4" transform="translate(16 21.333)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,2.667A2.667,2.667,0,1,1,2.667,5.333" transform="translate(13.333 25.333)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-5" data-name="Vector" d="M5.333,0H0" transform="translate(18.667 28)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-6" data-name="Vector" d="M5.333,0H0" transform="translate(8 28)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H32V32H0Z" transform="translate(32 32) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

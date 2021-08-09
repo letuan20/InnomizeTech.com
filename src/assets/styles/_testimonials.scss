@@ -24,19 +24,21 @@ Testimonials Area CSS
     }
   }
 }
-// .owl-item {
-//   width: 1200px !important;
-// }
+
+.owl-carousel .owl-stage-outer {
+  max-width: 1020px;
+  margin: auto;
+}
 .single-testimonials-item {
-  margin-bottom: 30px;
   background-color: transparent;
   border-radius: 5px;
   position: relative;
   z-index: 1;
-  padding: 0px 50px 50px;
   text-align: center;
   display: flex;
   flex-direction: row;
+  margin-right: 30px;
+  max-width: 1020px;
   p {
     margin-bottom: 0;
     font-size: 18px;
@@ -173,11 +175,12 @@ Testimonials Area CSS
       .owl-prev,
       .owl-next {
         position: absolute;
-        left: -40px;
+        left: -20px;
         background: url('../images/icons/arrow-left.png') no-repeat;
         width: 64px;
         height: 64px;
         top: 18%;
+        font-size: 0px;
         &:hover {
           background: url('../images/icons/arrow-left.png') no-repeat;
         }
@@ -185,7 +188,7 @@ Testimonials Area CSS
       .owl-next {
         background: url('../images/icons/arrow-right.png') no-repeat;
         left: auto;
-        right: -40px;
+        right: -20px;
         &:hover {
           background: url('../images/icons/arrow-right.png') no-repeat;
         }

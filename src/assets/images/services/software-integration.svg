@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="vuesax_linear_celo-_celo_" data-name="vuesax/linear/celo-(celo)" transform="translate(-608 -341)">
+    <g id="celo-_celo_" data-name="celo-(celo)" transform="translate(608 341)">
+      <path id="BG_1" data-name="BG 1" d="M0,0H32V32H0Z" fill="none" opacity="0.58"/>
+      <path id="Vector" d="M18.667,9.333A9.333,9.333,0,1,1,9.333,0,9.333,9.333,0,0,1,18.667,9.333Z" transform="translate(10.667 2.667)" fill="none" stroke="#e5181e" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M18.667,9.333A9.333,9.333,0,1,1,9.333,0,9.333,9.333,0,0,1,18.667,9.333Z" transform="translate(2.667 10.667)" fill="none" stroke="#e5181e" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

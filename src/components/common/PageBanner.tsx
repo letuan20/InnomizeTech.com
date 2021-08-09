@@ -1,15 +1,17 @@
 import React from 'react';
-import banner from '../../assets/images/Banner.svg';
 
 const PageBanner = ({
   pageTitle,
+  video,
   homePageUrl,
   homePageText,
   activePageText,
 }) => {
   return (
     <div className="page-title-area">
-      <img src={banner} alt="banner" />
+     <video style={{ objectFit: 'cover', width: '100%'}} height="350" autoPlay muted>
+        <source src= {video} type="video/mp4" />
+      </video> 
       <div className="container">
         <div className="page-title-content">
           <h2>{pageTitle}</h2>

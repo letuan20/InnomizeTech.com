@@ -1,0 +1,13 @@
+<svg id="Angular" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_232" data-name="Rectangle 232" width="48" height="48" transform="translate(-4386 6645)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_67" data-name="Mask Group 67" transform="translate(4386 -6645)" clip-path="url(#clip-path)">
+    <g id="Group_1077" data-name="Group 1077" transform="translate(-114.151 -26.458)">
+      <path id="Subtraction_5" data-name="Subtraction 5" d="M17.185,36.917h0L2.621,28.85,0,6.128,17.185,0,34.37,6.128,31.749,28.85,17.185,36.917ZM12.608,22.778h9.118l2.16,5.39h4.006L17.185,4.08,6.442,28.168h4.006l2.159-5.389Zm7.715-3.323H14.047l3.137-7.55,3.138,7.549Z" transform="translate(-4265.034 6677)" fill="#dd0031"/>
+      <path id="Subtraction_6" data-name="Subtraction 6" d="M0,36.917V22.778H4.541l2.16,5.39h4L0,4.08V0L17.185,6.128,14.565,28.85,0,36.916ZM3.139,19.456H0v-7.55l3.138,7.549Z" transform="translate(-4247.85 6677)" fill="#c3002f"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="SilkTest" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_251" data-name="Rectangle 251" width="48" height="48" transform="translate(-4610 6458)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_77" data-name="Mask Group 77" transform="translate(4610 -6458)" clip-path="url(#clip-path)">
+    <path id="Path_2316" data-name="Path 2316" d="M905.457,106v30h30V106Zm8.835,2.093h8.089v1.641H919.3v9.051h-1.954v-9.051h-3.053Zm-4.813,10.859a6.217,6.217,0,0,1-2.89-.68l.432-1.617a5.417,5.417,0,0,0,2.584.681c1.246,0,1.944-.586,1.944-1.46,0-.807-.541-1.283-1.895-1.774-1.766-.627-2.895-1.574-2.895-3.107,0-1.752,1.464-3.07,3.784-3.07a5.684,5.684,0,0,1,2.563.529l-.467,1.576a4.632,4.632,0,0,0-2.136-.508c-1.24,0-1.766.66-1.766,1.288,0,.82.618,1.206,2.046,1.75,1.857.709,2.751,1.641,2.751,3.178C913.534,117.46,912.238,118.952,909.479,118.952Zm24.361,1.112-13.384,14.353-6.165-5.135v-3.65l6.165,5.135L933.841,116.6Z" transform="translate(-5506.457 6361)" fill="#6d862b"/>
+  </g>
+</svg>

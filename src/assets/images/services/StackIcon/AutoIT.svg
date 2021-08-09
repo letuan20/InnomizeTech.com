@@ -1,0 +1,14 @@
+<svg id="AutoIT" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_258" data-name="Rectangle 258" width="48" height="48" transform="translate(-4586 6599)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_82" data-name="Mask Group 82" transform="translate(4586 -6599)" clip-path="url(#clip-path)">
+    <g id="file_type_autoit_icon_130734" transform="translate(-4581 6604)">
+      <circle id="Ellipse_281" data-name="Ellipse 281" cx="15.086" cy="15.086" r="15.086" transform="translate(3.742 3.742)" fill="#5d83ac"/>
+      <path id="Path_2322" data-name="Path 2322" d="M2,18.828A16.828,16.828,0,1,1,18.828,35.655,16.828,16.828,0,0,1,2,18.828ZM18.828,5.352A13.475,13.475,0,1,0,32.3,18.828,13.475,13.475,0,0,0,18.828,5.352Z" transform="translate(0 0)" fill="#f0f0f0"/>
+      <path id="Path_2323" data-name="Path 2323" d="M28.018,22.259,20.326,11.124a3.763,3.763,0,0,0-.984-.984,2.837,2.837,0,0,0-2.935.028,4.259,4.259,0,0,0-.976.962l-7.9,11.13h4.51l5.779-8.173,2.209,3.257q.313.442.654.948t.6.841q-.442-.037-1.04-.037H16l-2.3,3.166Z" transform="translate(1.118 1.564)" fill="#f0f0f0"/>
+    </g>
+  </g>
+</svg>

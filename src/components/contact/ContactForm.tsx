@@ -1,15 +1,13 @@
 import React from 'react';
 
-import starIcon from '../../assets/images/star-icon.png';
-import contact from '../../assets/images/innomize-map.png';
+import contact from '../../assets/images/innomize-map.jpg';
 
 const ContactForm = () => {
   return (
-    <section className="contact-area pb-100">
+    <section className="contact-area">
       <div className="container">
         <div className="section-title">
           <span className="sub-title">
-            <img src={starIcon} alt="contact" />
             Get in Touch
           </span>
           <h2>Ready to Get Started?</h2>
@@ -26,10 +24,45 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-12  d-flex align-items-center">
-            <a href="mailto:info@innomizetech.com" className="default-btn">
-              <i className="flaticon-book"></i> Get In Touch <span></span>
-            </a>
+          <div className="col-lg-6 col-md-12 contact-form" >
+            <p>
+            Tell us about your project and let’s explore our capabilities.
+            </p>
+          <form>
+            <ul>
+              <li>
+              <label>Full Name <span>*</span></label>
+              <input type="text" />
+              </li>
+              <li>
+              <label>Company</label>
+              <input type="text" />
+              </li>
+              <li>
+              <label>Phone number</label>
+              <input type="text" />
+              </li>
+              <li>
+              <label>Email <span>*</span></label>
+              <input type="text" />
+              </li>
+              <li>
+              <label>Message</label>
+              <textarea>
+              </textarea>
+              </li>
+              <li>
+              <label></label>
+              <select>
+                <option value="What did you hear about us">What did you hear about us</option>
+              </select>
+              </li>
+              <li>
+              <label></label>
+              <input type="submit" value="Submit" />
+              </li>          
+            </ul>
+          </form>
           </div>
         </div>
       </div>

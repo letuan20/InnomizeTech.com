@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: letuan20/InnomizeTech
+  branch: master
+
+media_folder: static/assets
+public_folder: assets
+  
+collections:
+
+  - name: career
+    label: Career jobs
+    folder: careers
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: quantity, label: Quantity }
+      - { name: id, label: Id }
+      - { name: job, label: The Job, widget: markdown }
+      - { name: mustHave, label: Requirements must have, widget: markdown }
+      - { name: niceToHave, label: Requirements nice to have, widget: markdown }
+      - { name: salary, label: Salary }
+      - { name: date, label: Date, widget: datetime }
+
+       
+

@@ -15,5 +15,6 @@ description:
     'Experience with Azure, PowerPI, PowerApps',
     'eCommerce experience with Magento / PrestaShop',
   ]
-slug: senior-engineers
+slug: odoo-developer
+date: July 22, 2021
 ---

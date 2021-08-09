@@ -11,6 +11,8 @@ import Testimonials from '../components/common/Testimonials';
 import SEO from '../components/seo';
 import StartProject from '../components/common/StartProject';
 
+import video from "../assets/images/Videos/About Us.mp4";
+
 class About extends React.Component {
   render() {
     return (
@@ -22,6 +24,7 @@ class About extends React.Component {
           homePageText="Home"
           homePageUrl="/"
           activePageText="About Us"
+          video = {video}
         />
         <AboutUsContent />
         <WhyChooseUs />

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import starIcon from '../../assets/images/star-icon.png';
 import icon1 from '../../assets/images/icon-1.png';
 import icon2 from '../../assets/images/icon-2.png';
 import icon3 from '../../assets/images/icon-3.png';

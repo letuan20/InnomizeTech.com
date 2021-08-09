@@ -15,5 +15,6 @@ description: [
     'Familiar with Foundation or Bootstrap',
     'Agile Software Development methodology',
   ]
-slug: senior-engineers
+slug: full-stack-developers
+date: July 20, 2021
 ---

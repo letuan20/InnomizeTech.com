@@ -53,7 +53,7 @@ $value_nine: 1550px;
   }
   .page-title-area {
     .container {
-      top: 50%;
+      top: 45%;
     }
   }
   .single-testimonials-item {
@@ -67,6 +67,15 @@ $value_nine: 1550px;
       }
       p {
         text-align: center;
+      }
+    }
+  }
+  .how-its-work-area { 
+    .container {
+      .row {
+        .col-12 {
+          padding: 0;
+        }
       }
     }
   }
@@ -115,7 +124,18 @@ $value_nine: 1550px;
   .navbar-area {
     background-color: #fff;
     border-bottom: 1px solid #f7f7f7;
-  }
+  } 
+  .services-details-desc {
+    .row {
+      [class*='col-'] {
+        .single-industries-serve-box {
+          p {
+            font-size: 15px;
+          }
+        }
+      } 
+    } 
+  } 
   .tarn-nav {
     .container-fluid {
       padding-left: 20px;
@@ -126,6 +146,8 @@ $value_nine: 1550px;
       .navbar-collapse {
         justify-content: flex-end;
         overflow-y: auto;
+        margin: 0 -15px;
+        padding: 0 15px;
       }
       .navbar-nav {
         .nav-item {
@@ -192,6 +214,12 @@ $value_nine: 1550px;
       left: 19px;
       font-size: 14px;
     }
+  }
+  .main-banner-content .default-btn { 
+    padding: 11px 20px 11px 20px;
+    display: block;
+    margin: auto;
+    width: fit-content
   }
   .section-title {
     max-width: 100%;
@@ -309,7 +337,7 @@ $value_nine: 1550px;
     }
   }
   .main-banner-image {
-    margin-top: 55px;
+    margin-top: 10px;
   }
   .banner-section {
     background-position: center center;
@@ -931,7 +959,7 @@ $value_nine: 1550px;
     }
   }
   .single-services-box {
-    padding: 30px 20px 60px;
+    padding: 30px 20px 30px;
 
     .icon {
       img {
@@ -1053,11 +1081,6 @@ $value_nine: 1550px;
       margin: {
         top: 15px;
         bottom: 5px;
-      }
-      padding: {
-        top: 18px;
-        bottom: 18px;
-        left: 15px;
       }
     }
     .technologies-features {
@@ -1796,6 +1819,9 @@ $value_nine: 1550px;
       width: unset;
       margin-left: 0;
       margin-top: 15px;
+      p {
+        font-size: 15.5px;
+      }
     }
     padding: 70px 20px 25px;
 
@@ -1806,9 +1832,7 @@ $value_nine: 1550px;
     &::before {
       height: 95%;
     }
-    p {
-      font-size: 15.5px;
-    }
+   
     .client-info {
       margin-top: 20px;
 
@@ -2399,8 +2423,7 @@ $value_nine: 1550px;
   .page-title-area {
     background-position: center center;
     padding: {
-      top: 150px;
-      bottom: 60px;
+      bottom: 40px;
     }
     &.page-title-style-two {
       padding: {
@@ -2409,27 +2432,32 @@ $value_nine: 1550px;
       }
     }
   }
-  .page-title-content {
-    text-align: center;
-
-    h2 {
-      font-size: 28px;
-    }
-    ul {
-      margin-top: 12px;
-
-      li {
-        font-size: 14.5px;
-        &:first-child {
-          margin-left: 0;
+  .page-title-area {
+    .container {
+      .page-title-content {
+        text-align: center;
+        padding: 0;
+        h2 {
+          font-size: 28px;
         }
-        &::before {
-          top: 4.5px;
-          font-size: 10px;
+        ul {
+          margin-top: 12px;
+    
+          li {
+            font-size: 14.5px;
+            &:first-child {
+              margin-left: 0;
+            }
+            &::before {
+              top: 4.5px;
+              font-size: 10px;
+            }
+          }
         }
       }
     }
-  }
+  } 
+ 
   .shape-img1,
   .shape-img2,
   .shape-img3 {
@@ -2489,14 +2517,17 @@ $value_nine: 1550px;
   }
 
   .contact-info-box {
-    padding-left: 80px;
-
-    h3 {
-      font-size: 20px;
+    .text {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
     }
     .icon {
       width: 60px;
-      height: 80px;
+      height: 60px;
       font-size: 35px;
     }
   }
@@ -2507,9 +2538,12 @@ $value_nine: 1550px;
       top: 30px;
     }
     form {
-      .form-group {
-        .form-control {
-          height: 50px;
+      ul {
+        li {
+          display: block;
+          input,textarea,select {
+            width: 100%;
+          }
         }
       }
     }
@@ -2828,8 +2862,8 @@ $value_nine: 1550px;
   }
   .seo-agency-banner {
     padding: {
-      top: 160px;
-      bottom: 80px;
+      top: 120px;
+      bottom: 0px;
     }
   }
   .digital-agency-banner {
@@ -2936,6 +2970,14 @@ $value_nine: 1550px;
 
 /* Min width 576px to Max width 767px */
 @media only #{$media} and ($feature_min : $value_one) and ($feature_max : $value_two) {
+
+  .services-details-desc {
+    .row {
+      [class*='col-'] {
+        max-width: 45%;
+      }
+    } 
+  } 
   .single-services-box {
     h3 {
       font-size: 18px;
@@ -3078,6 +3120,11 @@ $value_nine: 1550px;
   .navbar {
     .navbar-collapse {
       background: white;
+      margin: 0 -15px;
+      padding: 0 15px;
+    }
+    .culture {
+      margin-bottom: 80px;
     }
   }
 }
@@ -4208,8 +4255,7 @@ $value_nine: 1550px;
   .page-title-area {
     background-position: center center;
     padding: {
-      bottom: 80px;
-      top: 160px;
+      bottom: 40px;
     }
     &.page-title-style-two {
       padding: {
@@ -4355,9 +4401,15 @@ $value_nine: 1550px;
   }
 
   .contact-info-box {
-    h3 {
-      font-size: 22px;
+    .text {
+      h3 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
+  
   }
   .contact-form {
     margin: {
@@ -4667,8 +4719,8 @@ $value_nine: 1550px;
 
   .seo-agency-banner {
     padding: {
-      top: 200px;
-      bottom: 100px;
+      top: 120px;
+      bottom: 70px;
     }
     .container-fluid {
       max-width: 720px;
@@ -6004,6 +6056,15 @@ $value_nine: 1550px;
 }
 /* Min width 992px */
 @media only #{$media} and ($feature_min : $value_five) {
+  .seo-agency-banner {
+    .container {
+      .hero-scroll {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  } 
+ 
   .solutions-area {
     .container {
       .row {
@@ -6020,6 +6081,14 @@ $value_nine: 1550px;
   }
   .about-img {
     max-width: 584px;
+  }
+
+  .services-details-desc {
+    .row { 
+      [class*='col-'] { 
+        max-width: 292px;
+      }
+    }
   }
 }
 

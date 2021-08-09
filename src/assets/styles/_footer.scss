@@ -4,7 +4,6 @@ Footer Area CSS
 .footer-area {
   position: relative;
   z-index: 1;
-  padding-bottom: 65px;
   &.bg-color {
     &::before {
       content: ' ';
@@ -22,15 +21,15 @@ Footer Area CSS
 }
 .single-footer-widget {
   .logo {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-size: 15px;
     display: inline-block;
-    margin-top: 56px;
+    margin-top: 40px;
   }
   .introduce {
     letter-spacing: var(--character-spacing-0);
     color: var(--title);
-    margin-bottom: 74px;
+    margin-bottom: 40px;
     font: {
       style: var(--font-style-normal);
       weight: var(--font-weight-normal);
@@ -53,8 +52,8 @@ Footer Area CSS
         margin-right: 0;
       }
       a {
-        width: 68px;
-        height: 68px;
+        width: 32px;
+        height: 32px;
         text-align: center;
         font-size: 18px;
         position: relative;
@@ -64,7 +63,7 @@ Footer Area CSS
   }
   h3 {
     margin-bottom: 25px;
-    margin-top: 121px;
+    margin-top: 40px;
     font: {
       style: var(--font-style-normal);
       weight: bold;
@@ -142,13 +141,22 @@ Footer Area CSS
   }
 }
 .footer-bottom-area {
-  margin-top: 70px;
-  border-top: 1px solid #f3f2ee;
+  margin-top: 80px;
+  border-top: 1px solid #6b6b84;
   padding: {
-    top: 25px;
-    bottom: 25px;
+    bottom: 12px;
+    top: 12px;
   }
   p {
+    letter-spacing: var(--character-spacing-0);
+    color: var(--title);
+    text-align: center;
+    font: {
+      style: var(--font-style-normal);
+      weight: var(--font-weight-normal);
+      size: 17px;
+      family: var(--font-family-poppins);
+    }
     i {
       position: relative;
       top: 1.3px;

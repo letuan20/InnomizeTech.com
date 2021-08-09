@@ -5,6 +5,32 @@ import service3 from '../../assets/images/services/service3.png';
 import service4 from '../../assets/images/services/service4.png';
 import starIcon from '../../assets/images/star-icon.png';
 
+import cloud from '../../assets/images/services/cloud.svg';
+import cloudIntegrate from '../../assets/images/services/cloud-integrate.svg';
+import cloudMigration from '../../assets/images/services/cloud-migration.svg';
+import cloudOptimization from '../../assets/images/services/cloud-optimization.svg';
+import devops from '../../assets/images/services/devops.svg';
+import serverless from '../../assets/images/services/serverless.svg';
+
+import web from '../../assets/images/services/web.svg';
+import mobile from '../../assets/images/services/mobile.svg';
+import optimizing from '../../assets/images/services/optimizing.svg';
+import productMigration from '../../assets/images/services/product-migration.svg';
+import uiux from '../../assets/images/services/uiux.svg';
+import softwareIntegration from '../../assets/images/services/software-integration.svg';
+
+import bringIdeas from '../../assets/images/services/bring-ideas.svg';
+import cpuSetting from '../../assets/images/services/cpu-setting.svg';
+import freeUp from '../../assets/images/services/free-up.svg';
+import noRecruitmentCosts from '../../assets/images/services/no-recruitment-costs.svg';
+import scalable from '../../assets/images/services/scalable.svg';
+import wideRange from '../../assets/images/services/wide-range.svg';
+
+import setting2 from '../../assets/images/services/setting-2.svg';
+import category2 from '../../assets/images/services/category-2.svg';
+import eCommerceIntegration from '../../assets/images/services/eCommerce-integration.svg';
+import enterpriseIntegration from '../../assets/images/services/enterprise-integration.svg';
+
 const OurServices = () => {
   return (
     <React.Fragment>
@@ -33,27 +59,27 @@ const OurServices = () => {
                   </p>
                   <ul className="about-list mb-0">
                     <li>
-                      <i className="circle"></i>
+                     <img src={serverless} />
                       Serverless Arch
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={cloud} />
                       Cloud Consulting
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={cloudMigration} />
                       Cloud Migration
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={cloudOptimization} />
                       Cloud Optimization
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={cloudIntegrate} />
                       Cloud Integration
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={devops} />
                       DevSecOps
                     </li>
                   </ul>
@@ -85,27 +111,27 @@ const OurServices = () => {
 
                   <ul className="our-mission-list mb-0">
                     <li>
-                      <i className="circle"></i>
+                      <img src={web} />
                       Web Development
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={mobile} />
                       Mobile Development
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={productMigration} />
                       Product Migration
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={optimizing} />
                       Platform Optimizing
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={uiux} />
                       UX/UI Design
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={softwareIntegration} />
                       Software Integration
                     </li>
                   </ul>
@@ -148,28 +174,28 @@ const OurServices = () => {
                   </p>
                   <ul className="about-list mb-0">
                     <li>
-                      <i className="circle"></i>
+                      <img src={cpuSetting} />
                       In-house control level resources
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={wideRange} />
                       Wide range of technology expertise
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={bringIdeas} />
                       Bring fresh ideas to you and your own in-house IT
                       department
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={freeUp} />
                       Free up your IT department to focus on critical tasks
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={noRecruitmentCosts} />
                       No recruitment costs
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={scalable} />
                       Scalable resources
                     </li>
                   </ul>
@@ -202,19 +228,19 @@ const OurServices = () => {
 
                   <ul className="our-mission-list mb-0">
                     <li>
-                      <i className="circle"></i>
+                      <img src={setting2} />
                       Optimized Solutions: ERP, CRM, HRM
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={category2} alt=""/>
                       Odoo Installation and Customization
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={enterpriseIntegration} />
                       Enterprise Integration
                     </li>
                     <li>
-                      <i className="circle"></i>
+                      <img src={eCommerceIntegration} alt=""/>
                       E-commerce Integration
                     </li>
                   </ul>

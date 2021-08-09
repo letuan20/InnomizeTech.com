@@ -4,7 +4,7 @@
 .project-start-area {
   position: relative;
   z-index: 1;
-  background: transparent url('../images/red-bg.png') no-repeat;
+  background: transparent url('../images/red-bg.jpg') no-repeat;
   background-size: cover;
 
   .project-start-content {
@@ -235,12 +235,12 @@ Case Study Area CSS
         letter-spacing: var(--character-spacing-0);
         color: var(--title);
         text-align: left;
+        text-transform: capitalize;
         margin-bottom: 40px;
-        margin-left: -15px;
         font: {
           style: var(--font-style-normal);
           weight: bold;
-          size: 42px;
+          size: 44px;
           family: var(--font-family-poppins);
         }
       }
@@ -257,6 +257,7 @@ Case Study Area CSS
     }
 
     .row {
+      margin: 0;
       .col-lg-4 {
         &:first-child {
           padding-right: 10px;

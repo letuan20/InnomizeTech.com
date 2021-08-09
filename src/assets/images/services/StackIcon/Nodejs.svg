@@ -1,0 +1,13 @@
+<svg id="Nodejs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_218" data-name="Rectangle 218" width="48" height="48" transform="translate(3706 3328)" fill="#669f64" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_55" data-name="Mask Group 55" transform="translate(-3706 -3328)" clip-path="url(#clip-path)">
+    <g id="Group_1036" data-name="Group 1036" transform="translate(3519.191 3034.825)">
+      <path id="Path_2147" data-name="Path 2147" d="M253.314,345.184a3.047,3.047,0,0,0-3.136-2.644c-2.828,0-4.765.369-4.765,1.937s5.5,1.568,7.593,2.183,3.935,2.213,3.013,5.042-3.751,3.136-8.116,3.136a5.072,5.072,0,0,1-5.349-5.042h2.459s-.308,2.213,2.582,2.582,5.653.576,6.025-1.66c.492-2.951-9.346-1.476-10.206-4.365-.727-2.442-.308-5.656,4.611-6.148s7.624,1.68,7.624,4.919Z" transform="translate(-34.834 -30.248)" fill="#669f64"/>
+      <path id="Path_2148" data-name="Path 2148" d="M194.722,326.462l5.437,3.139a4.1,4.1,0,0,0,6.147-3.549V310.429H204.09v15.008a2.238,2.238,0,0,1-3.357,1.938l-3.795-2.191V309.167l13.871-8.007,13.871,8.007v16.017l-13.871,8.007-4-2.307-2.609,1.052,6.6,3.813,16.087-9.288V307.887L210.809,298.6l-16.087,9.288v18.574Z" transform="translate(0 0)" fill="#669f64"/>
+    </g>
+  </g>
+</svg>

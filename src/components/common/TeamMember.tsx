@@ -1,10 +1,22 @@
 import React from 'react';
-import AnhHoang from '../../assets/images/team/AnhHoang.png';
-import HiepDinh from '../../assets/images/team/HiepDinh.png';
-import HoangLe from '../../assets/images/team/HoangLe.png';
-import KhoaTran from '../../assets/images/team/KhoaTran.png';
-import PhongTran from '../../assets/images/team/PhongTran.png';
-import TuanNguyen from '../../assets/images/team/TuanNguyen.png';
+import AnhHoang from '../../assets/images/team/Anh Hoang.png';
+import AnhHoangGray from '../../assets/images/team/Anh Hoang-Grayscale.png';
+
+import HiepDinh from '../../assets/images/team/Hiep Dinh.png';
+import HiepDinhGray from '../../assets/images/team/Hiep Dinh-Grayscale.png';
+
+import HoangLe from '../../assets/images/team/Hoang Le.png';
+import HoangLeGray from '../../assets/images/team/Hoang Le-Grayscale.png';
+
+import KhoaTran from '../../assets/images/team/Khoa Tran.png';
+import KhoaTranGray from '../../assets/images/team/Khoa Tran-Grayscale.png';
+
+import PhongTran from '../../assets/images/team/Phong Tran.png';
+import PhongTranGray from '../../assets/images/team/Phong Tran-Grayscale.png';
+
+import TuanNguyen from '../../assets/images/team/Tuan Nguyen.png';
+import TuanNguyenGray from '../../assets/images/team/Tuan Nguyen-Grayscale.png';
+
 
 const TeamMember = () => {
   return (
@@ -24,7 +36,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={HoangLe} alt="team" />
+                <img src={HoangLe} className="image-normal" alt="team" />
+                <img src={HoangLeGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Hoang Le</h3>
@@ -36,7 +49,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={PhongTran} alt="team" />
+                <img src={PhongTran} className="image-normal" alt="team" />
+                <img src={PhongTranGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Phong Tran</h3>
@@ -48,7 +62,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={KhoaTran} alt="team" />
+                <img src={KhoaTran} className="image-normal" alt="team" />
+                <img src={KhoaTranGray} className="image-gray"/>
               </div>
               <div className="content">
                 <h3>Khoa Tran</h3>
@@ -60,7 +75,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={HiepDinh} alt="team" />
+                <img src={HiepDinh} className="image-normal" alt="team" />
+                <img src={HiepDinhGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Hiep Dinh</h3>
@@ -72,7 +88,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={TuanNguyen} alt="team" />
+                <img src={TuanNguyen} className="image-normal" alt="team" />
+                <img src={TuanNguyenGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Tuan Nguyen</h3>
@@ -84,7 +101,8 @@ const TeamMember = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={AnhHoang} alt="team" />
+                <img src={AnhHoang} className="image-normal" alt="team" />
+                <img src={AnhHoangGray} className="image-gray" />
               </div>
               <div className="content">
                 <h3>Anh Hoang</h3>

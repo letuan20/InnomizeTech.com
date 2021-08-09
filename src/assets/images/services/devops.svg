@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_1351" data-name="Group 1351" transform="translate(1021 -2349)">
+    <g id="Group" transform="translate(-1018.333 2351.667)">
+      <path id="Vector" d="M0,0A9.327,9.327,0,0,0,9.333,9.333L7.933,7" transform="translate(0 17.333)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M9.333,9.333A9.327,9.327,0,0,0,0,0L1.4,2.333" transform="translate(17.333 0)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Vector-3" data-name="Vector" d="M0,0H32V32H0Z" transform="translate(-989 2381) rotate(180)" fill="none" opacity="0"/>
+    <g id="Group_1350" data-name="Group 1350" transform="translate(-1014.034 2356.478)">
+      <path id="Vector-4" data-name="Vector" d="M5.417,2.709A2.709,2.709,0,1,1,2.709,0,2.709,2.709,0,0,1,5.417,2.709Z" transform="translate(6.32 5.814)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-5" data-name="Vector" d="M0,9.317V7.728A1.721,1.721,0,0,1,1.716,6.012c1.634,0,2.3-1.156,1.481-2.573A1.715,1.715,0,0,1,3.828,1.1L5.39.207A1.507,1.507,0,0,1,7.449.748l.1.172c.813,1.418,2.149,1.418,2.971,0l.1-.172A1.507,1.507,0,0,1,12.677.207l1.562.894a1.715,1.715,0,0,1,.632,2.339c-.822,1.418-.153,2.573,1.481,2.573a1.721,1.721,0,0,1,1.716,1.716V9.317a1.721,1.721,0,0,1-1.716,1.716c-1.634,0-2.3,1.156-1.481,2.573a1.713,1.713,0,0,1-.632,2.339l-1.562.894a1.507,1.507,0,0,1-2.059-.542l-.1-.172c-.813-1.418-2.149-1.418-2.971,0l-.1.172a1.507,1.507,0,0,1-2.059.542l-1.562-.894A1.715,1.715,0,0,1,3.2,13.606c.822-1.418.153-2.573-1.481-2.573A1.721,1.721,0,0,1,0,9.317Z" transform="translate(0 0)" fill="none" stroke="#e5181e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
