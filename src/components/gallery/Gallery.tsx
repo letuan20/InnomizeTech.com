@@ -8,29 +8,6 @@ import activity5 from '../../assets/images/gallery/activity-5.jpg';
 import $ from 'jquery';
 
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'));
-// loop: true,
-// nav: true,
-// dots: false,
-// margin: 30,
-// smartSpeed: 600,
-// fluidSpeed: false,
-// autoplayHoverPause: true,
-// autoplay: true,
-// navText: [
-//   "<i class='flaticon-left-1'></i>",
-//   "<i class='flaticon-right-1'></i>",
-// ],
-// responsive: {
-//   0: {
-//     items: 1,
-//   },
-//   768: {
-//     items: 1,
-//   },
-//   992: {
-//     items: 1,
-//   },
-// },
 
 const options = {
   center: true,
