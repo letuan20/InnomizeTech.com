@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/App/Layout';
-import Navbar from '../components/App/Navbar';
+import Layout from '../components/app/Layout';
+import Navbar from '../components/app/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import Footer from '../components/App/Footer';
+import Footer from '../components/app/Footer';
 import AboutUsContent from '../components/about-us/AboutUsContent';
 import WhyChooseUs from '../components/about-us/WhyChooseUs';
 import TeamMembers from '../components/Common/TeamMember';

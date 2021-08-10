@@ -695,3 +695,29 @@ How its work  Area CSS
     }
   }
 }
+
+/*================================================
+About Area Career CSS
+=================================================*/
+
+.about-area-career {
+  padding-top: 40px;
+  .container {
+    max-width: 100%;
+    .section-title {
+      max-width: 1020px;
+      margin-bottom: 42px;
+    }
+    [class*='col-'] {
+      padding: 0;
+      .img-activity {
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        z-index: 1;
+    }
+      img {
+        z-index: 0;
+        width: 100%;
+      }
+    }
+  }
+}

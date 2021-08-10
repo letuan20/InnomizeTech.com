@@ -2,9 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import SEO from '../components/seo';
-import Navbar from '../components/App/Navbar';
-import Footer from '../components/App/Footer';
-import Layout from '../components/App/Layout';
+import Navbar from '../components/app/Navbar';
+import Footer from '../components/app/Footer';
+import Layout from '../components/app/Layout';
 import Banner from '../components/home/Banner';
 import OurSolutions from '../components/home/OurSolutions';
 import OurServices from '../components/home/OurServices';

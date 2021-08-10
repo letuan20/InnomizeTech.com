@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/App/Layout';
+import Layout from '../components/app/Layout';
 import SEO from '../components/seo';
 
 interface NotFoundPageProps {
