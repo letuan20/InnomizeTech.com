@@ -747,9 +747,12 @@ $value_nine: 1550px;
           margin-top: 20px;
           padding-left: 63px;
           font-size: 16px;
-          margin-left: 0;
-          margin-right: 0;
-
+          &:nth-child(odd) {
+            margin-right: 0;
+          }
+          &:nth-child(even) {
+            margin-left: 0;
+          }
           i {
             width: 35px;
             height: 35px;
@@ -868,9 +871,12 @@ $value_nine: 1550px;
           margin-top: 20px;
           padding-left: 63px;
           font-size: 16px;
-          margin-left: 0;
-          margin-right: 0;
-
+          &:nth-child(odd) {
+            margin-right: 0;
+          }
+          &:nth-child(even) {
+            margin-left: 0;
+          }
           i {
             width: 35px;
             height: 35px;
@@ -2968,6 +2974,13 @@ $value_nine: 1550px;
       padding-left: 15px;
       padding-right: 15px;
     }
+    .container {
+      .row {
+        [class*='col-'] {
+          padding: 0!important;
+        }
+      }
+    }
   }
 
   .courses-details-area {
@@ -2986,6 +2999,14 @@ $value_nine: 1550px;
     } 
   } 
 
+  .contact-banner {
+    img {
+      height: calc(100%/3);
+    }
+    .container {
+        top: 50%;
+    }
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -3141,6 +3162,7 @@ $value_nine: 1550px;
       background: white;
       margin: 0 -15px;
       padding: 0 15px;
+      box-shadow: 0 0px 0px rgba(65, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     .culture {
       margin-bottom: 80px;

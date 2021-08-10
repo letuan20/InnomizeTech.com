@@ -37,7 +37,7 @@ const OurServices = () => {
       {/* Service Left Image Style */}
       <div className="about-area">
         <div className="container-fluid">
-          <div className="row align-items-center">
+          <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-img">
                 <img src={service1} alt="service" />
@@ -94,7 +94,7 @@ const OurServices = () => {
       {/* Service Right Image Style */}
       <div className="our-mission-area ">
         <div className="container-fluid">
-          <div className="row align-items-center">
+          <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-content">
                 <div className="content">
@@ -141,7 +141,7 @@ const OurServices = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-image">
-                <img src={service4} alt="service" />
+                <img src={service2} alt="service" />
               </div>
             </div>
           </div>
@@ -152,10 +152,10 @@ const OurServices = () => {
       {/* Service Left Image Style */}
       <div className="about-area">
         <div className="container-fluid">
-          <div className="row align-items-center">
+          <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-img">
-                <img src={service2} alt="service" />
+                <img src={service3} alt="service" />
               </div>
             </div>
 
@@ -210,7 +210,7 @@ const OurServices = () => {
       {/* Service Right Image Style */}
       <div className="our-mission-area">
         <div className="container-fluid">
-          <div className="row align-items-center">
+          <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-content">
                 <div className="content">
@@ -250,7 +250,7 @@ const OurServices = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-image">
-                <img src={service3} alt="service" />
+                <img src={service4} alt="service" />
               </div>
             </div>
           </div>

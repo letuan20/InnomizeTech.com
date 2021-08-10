@@ -70,7 +70,7 @@ About Area CSS
       font: {
         style: var(--font-style-normal);
         weight: bold;
-        size: var(--font-size-48);
+        size: 44px;
         family: var(--font-family-poppins);
       }
     }
@@ -304,6 +304,7 @@ About Area CSS
   text-align: center;
   position: relative;
   z-index: 1;
+  padding-top: 56px;
   .shape {
     position: absolute;
     left: -15px;

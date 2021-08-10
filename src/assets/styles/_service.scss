@@ -146,7 +146,7 @@ Our Mission Area CSS
   text-align: center;
   position: relative;
   z-index: 1;
-
+  padding-top: 56px;
   .shape {
     position: absolute;
     right: -15px;
@@ -764,7 +764,6 @@ Services Area CSS
         flex: 0 0 33.333333%;
         max-width: 450px;
         padding-top: 12px;
-        justify-content: space-between;
         display: flex;
         span {
           font: {
@@ -773,6 +772,8 @@ Services Area CSS
             size: 17px;
             family: var(--font-family-poppins);
           }
+          width: 58%;
+          padding-right: 40px;
           padding-top: 12px;
           letter-spacing: var(--character-spacing-0);
           color: var(--title);
