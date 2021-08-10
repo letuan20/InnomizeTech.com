@@ -2968,6 +2968,23 @@ $value_nine: 1550px;
       padding-right: 15px;
     }
   }
+
+  .courses-details-area {
+    .container {
+      .row {
+        .courses-details-desc {
+          .career {
+            max-width: 100%;
+            margin: {
+              left: 0!important;
+              right: 0;
+            };
+          }
+        }
+      } 
+    } 
+  } 
+
 }
 
 /* Min width 576px to Max width 767px */
@@ -6090,6 +6107,47 @@ $value_nine: 1550px;
       }
     }
   }
+
+  .gallery-area {
+    .owl-carousel {
+      margin-bottom: 80px;
+      height: 285px;
+    }
+    .owl-item.active.center {
+      width: 276px!important;
+    }
+    .owl-stage {
+      width: calc(300% + 100px)!important; 
+    }
+    .owl-item {
+      div {
+        cursor: pointer;
+        margin: 16% 5%;
+        transition: margin 0.4s ease;
+      }
+    } 
+    .owl-item.center {
+      div  {
+        margin: 0 ;
+      }
+    } 
+    .owl-carousel {
+      .owl-nav {
+        .owl-prev,.owl-next {
+          position: absolute;
+        }
+      }
+    }
+  }
+  .courses-details-area {
+    .container {
+      .row {
+        .benefits {
+          margin-top: 0;
+        }
+      } 
+    } 
+  } 
 }
 
 /* Min width 1200px to Max width 1355px */

@@ -134,7 +134,7 @@ const CourseDetailsContent = () => {
               {careers.allMarkdownRemark.nodes.map((career) => (
                 <div
                   key={career.frontmatter.id}
-                  className="col-lg-6 col-md-12 career"
+                  className="col-lg-6 col-sm-12 col-md-6 career"
                 >
                   <h3>{career.frontmatter.title}</h3>
                   <p>

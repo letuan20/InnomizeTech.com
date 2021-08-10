@@ -274,6 +274,21 @@ Case Study Area CSS
           padding-right: 10px;
         }
       }
+        
+        .see-all {
+          letter-spacing: var(--character-spacing-0);
+          color: var(--color-e5181e);
+          text-align: right;
+          font: {
+            style: var(--font-style-normal);
+            weight: var(--font-weight-normal);
+            size: var(--font-size-20);
+            family: var(--font-family-poppins);
+          }
+          img {
+            margin-left: 8px;
+          }
+      }
     }
     .read-more-btn {
       letter-spacing: var(--character-spacing-0);
