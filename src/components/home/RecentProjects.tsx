@@ -7,7 +7,7 @@ import redArrow from '../../assets/images/red-arrow.png';
 
 const RecentProjects = () => {
   return (
-    <section className="projects-area bg-color pb-70">
+    <section className="projects-area bg-color">
       <div className="container">
         <div className="section-title">
           <span className="sub-title">Recent Projects</span>

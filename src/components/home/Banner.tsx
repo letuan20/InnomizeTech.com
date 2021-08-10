@@ -40,12 +40,6 @@ const Banner = () => {
                   <Link to="/services" className="default-btn">
                     Our Services <span></span>
                   </Link>
-                  <img
-                    src={scrollIcon}
-                    onClick={scrollDown}
-                    alt="scroll"
-                    className="hero-scroll"
-                  />
                 </div>
               </ReactWOW>
             </div>
@@ -59,6 +53,12 @@ const Banner = () => {
             </ReactWOW>
           </div>
         </div>
+        <img
+                    src={scrollIcon}
+                    onClick={scrollDown}
+                    alt="scroll"
+                    className="hero-scroll"
+                  />
       </div>
     </div>
   );

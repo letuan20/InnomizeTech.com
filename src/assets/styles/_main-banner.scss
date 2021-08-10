@@ -835,11 +835,11 @@ Main Banner Area CSS
     }
     .hero-scroll {
       position: absolute;
-      left: 15px;
       cursor: pointer;
       opacity: 0;
       visibility: hidden;
-      margin-top: 81px;
+      margin: auto;
+      bottom: 32px;
     }
   }
   .container-fluid {
