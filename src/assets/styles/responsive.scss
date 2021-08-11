@@ -82,6 +82,13 @@ $value_nine: 1550px;
 }
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
+  .seo-agency-banner {
+    .container {
+      .hero-scroll {
+        left: 45%;
+      }
+    }
+  }
   body {
     font-size: 15px;
   }
@@ -2874,6 +2881,7 @@ $value_nine: 1550px;
       top: 120px;
       bottom: 0px;
     }
+    margin-bottom: 40px;
   }
   .digital-agency-banner {
     padding: {
@@ -3162,7 +3170,7 @@ $value_nine: 1550px;
       background: white;
       margin: 0 -15px;
       padding: 0 15px;
-      box-shadow: 0 0px 0px rgba(65, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+      box-shadow: 0 0px 0px rgba(65, 29, 29, 0.13), 0 6px 6px rgba(0,0,0,0.12);
     }
     .culture {
       margin-bottom: 80px;

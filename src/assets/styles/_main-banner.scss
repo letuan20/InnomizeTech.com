@@ -840,7 +840,15 @@ Main Banner Area CSS
       visibility: hidden;
       margin: auto;
       bottom: 32px;
+      animation: slide 4s linear infinite;
+
     }
+    @keyframes slide {
+      0% { opacity:0; transform: translateX(15vw); }	
+     20% { opacity:1; transform: translateX(9vw); }	
+     80% { opacity:1; transform: translateX(-9vw); }	
+    100% { opacity:0; transform: translateX(-15vw); }	
+  }
   }
   .container-fluid {
     max-width: 1360px;
