@@ -157,7 +157,7 @@ Courses Area CSS
 .courses-details-area {
   .container {
     .row {
-      margin-bottom: 80px;
+      padding-bottom: 40px;
       .courses-details-desc {
         padding-left: -15px;
         h3 {
@@ -205,6 +205,7 @@ Courses Area CSS
           border-radius: 4px;
           padding: 16px;
           max-width: calc(50% - 12px);
+          transition: 0.5s;
           margin: {
             bottom: 24px;
           }
@@ -267,6 +268,13 @@ Courses Area CSS
         }
       }
     }
+  }
+  .career-opportunities {
+    background: var(--color-f7f7f7) 0% 0% no-repeat padding-box;
+    padding: {
+      top: 40px;
+      bottom: 80px
+    };
   }
 }
 

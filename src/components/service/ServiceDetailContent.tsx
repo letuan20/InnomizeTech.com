@@ -147,7 +147,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
               </div>
-
+           
               <Accordion
                 title="Web Technologies"
                 content={
@@ -382,7 +382,7 @@ const ServiceDetailsContent = () => {
               />
 
               <Accordion
-                title="DEVOPS"
+                title="Devops"
                 content={
                   <ul className="technologies-features">
                     <li>
@@ -425,6 +425,7 @@ const ServiceDetailsContent = () => {
                   </ul>
                 }
               />
+           
             </div>
           </div>
         </div>

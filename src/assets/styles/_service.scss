@@ -661,6 +661,7 @@ Services Area CSS
       border: 1px solid var(--color-d9d9d9);
       padding: 0;
       margin-bottom: 24px;
+      max-width: 45%;
       .single-industries-serve-box {
         display: flex;
         margin: 0;
@@ -714,7 +715,8 @@ Services Area CSS
   .accordion-item {
     margin-left: -15px;
     margin-bottom: 12px;
-
+    transition: 0.5s;
+    display: inline-block;
     .accordion-title {
       display: flex;
       border-top: 1px solid var(--color-d9d9d9);
@@ -750,45 +752,48 @@ Services Area CSS
         }
       }
     }
-    .technologies-features {
-      padding-left: 0;
-      list-style-type: none;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin: {
-        bottom: 25px;
-        top: -5px;
-      }
-      li {
-        flex: 0 0 33.333333%;
-        max-width: 450px;
-        padding-top: 12px;
+    .accordion-content {
+      .technologies-features {
+        transition: height 200ms;
+        padding-left: 0;
+        list-style-type: none;
         display: flex;
-        span {
-          font: {
-            style: var(--font-style-normal);
-            weight: var(--font-weight-normal);
-            size: 17px;
-            family: var(--font-family-poppins);
-          }
-          width: 58%;
-          padding-right: 40px;
-          padding-top: 12px;
-          letter-spacing: var(--character-spacing-0);
-          color: var(--title);
-          text-align: left;
-          position: relative;
-          display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: {
+          bottom: 25px;
+          top: -5px;
         }
-        div {
-          img {
-            &:not(:last-child) {
-              margin-right: 12px;
+        li {
+          flex: 0 0 33.333333%;
+          max-width: 450px;
+          padding-top: 12px;
+          display: flex;
+          span {
+            font: {
+              style: var(--font-style-normal);
+              weight: var(--font-weight-normal);
+              size: 17px;
+              family: var(--font-family-poppins);
+            }
+            width: 58%;
+            padding-right: 40px;
+            padding-top: 12px;
+            letter-spacing: var(--character-spacing-0);
+            color: var(--title);
+            text-align: left;
+            position: relative;
+            display: block;
+          }
+          div {
+            img {
+              &:not(:last-child) {
+                margin-right: 12px;
+              }
             }
           }
         }
-      }
+        }
     }
   }
 

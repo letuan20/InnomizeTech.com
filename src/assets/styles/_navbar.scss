@@ -45,12 +45,14 @@ Navbar Area CSS
         margin: {
           left: 40px;
         }
-        padding-top: 24px;
-        padding-bottom: 26px;
+        padding: {
+          top: 27px;
+          bottom: 27px;
+        }
         a {
           font-style: var(--font-style-normal);
           font-weight: var(--font-weight-normal);
-          font-size: var(--font-size-20);
+          font-size: 17px;
           line-height: var(--line-spacing-30);
           font-family: var(--font-family-poppins);
           letter-spacing: var(--character-spacing-0);

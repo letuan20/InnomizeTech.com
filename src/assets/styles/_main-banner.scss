@@ -44,7 +44,7 @@ Main Banner Area CSS
     span {
       font-style: var(--font-style-normal);
       font-weight: bold;
-      font-size: var(--font-size-48);
+      font-size: 57px !important;
       font-family: var(--font-family-poppins);
       letter-spacing: var(--character-spacing-0);
       color: '#E5181E';
@@ -840,14 +840,15 @@ Main Banner Area CSS
       visibility: hidden;
       margin: auto;
       bottom: 32px;
-      animation: slide 4s linear infinite;
-
+      .path {
+        animation: slide 2s linear infinite;
+      }
     }
     @keyframes slide {
-      0% { opacity:0; transform: translateX(15vw); }	
-     20% { opacity:1; transform: translateX(9vw); }	
-     80% { opacity:1; transform: translateX(-9vw); }	
-    100% { opacity:0; transform: translateX(-15vw); }	
+      0% { opacity:0; transform: translateY(-2vh); }	
+     50% { opacity:1; transform: translateY(3vh); }	
+     80% { opacity:1; transform: translateY(5vh); }	
+    100% { opacity:0; transform: translateY(9vh); }	
   }
   }
   .container-fluid {

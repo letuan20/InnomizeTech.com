@@ -2,7 +2,7 @@ import React from 'react';
 import ReactWOW from 'react-wow';
 import { Link } from 'gatsby';
 import bannerImg from '../../assets/images/banner-img1.png';
-import scrollIcon from '../../assets/images/icons/scrolldown-icon.png';
+import scrollIcon from '../../assets/images/icons/scrolldown-icon.svg';
 
 const Banner = () => {
 
@@ -56,12 +56,60 @@ const Banner = () => {
         </div>
         <ReactWOW delay=".3s" animation="fadeInDown"
         >
-          <img
-                      src={scrollIcon}
-                      onClick={scrollDown}
-                      alt="scroll"
-                      className="hero-scroll"
-                    />
+           <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      width={32}
+      height={65.75}
+      viewBox="0 0 32 65.75"
+      className="hero-scroll"
+      onClick={scrollDown}
+    >
+      <defs>
+        <style>
+          {
+            ".prefix__b{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}"
+          }
+        </style>
+      </defs>
+      <g>
+        <path fill="none" d="M0 0h32v32H0z" />
+        <rect
+          className="prefix__b"
+          width={19}
+          height={24}
+          rx={5}
+          transform="translate(6.5 4)"
+        />
+        <path className="prefix__b" d="M16 14V9" />
+      </g>
+      <path
+        d="M23.5 36.5L16 44l-7.5-7.5"
+        stroke="#262626"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        fill="none"
+        className="path"
+      />
+      <path
+        d="M23.5 46.5L16 54l-7.5-7.5"
+        stroke="#8c8c8c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        fill="none"
+        className="path"
+      />
+      <path
+        d="M23.5 57.5L16 65l-7.5-7.5"
+        stroke="#d9d9d9"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        fill="none"
+        className="path"
+      />
+    </svg>
         </ReactWOW>
       </div>
     </div>

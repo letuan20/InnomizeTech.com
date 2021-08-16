@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="65.75" viewBox="0 0 32 65.75">
+<defs>
+<style>.a,.b,.c,.d,.e{fill:none;}.b{stroke:#000;}.b,.c,.d,.e{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}.c{stroke:#262626;}.d{stroke:#8c8c8c;}.e{stroke:#d9d9d9;}</style>
+</defs>
+<g transform="translate(-69 -565)">
+<g transform="translate(69 565)">
+<rect class="a" width="32" height="32"/>
+<rect class="b" width="19" height="24" rx="5" transform="translate(6.5 4)"/>
+<line class="b" y1="5" transform="translate(16 9)"/>
+</g>
+<path class="c" d="M63,96l-7.5,7.5L48,96" transform="translate(29.5 505.5)"/>
+<path class="d" d="M63,96l-7.5,7.5L48,96" transform="translate(29.5 515.5)"/>
+<path class="e" d="M63,96l-7.5,7.5L48,96" transform="translate(29.5 526.5)"/>
+</g>
+</svg>

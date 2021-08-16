@@ -126,27 +126,32 @@ const CourseDetailsContent = () => {
           </div>
         </div>
 
+      </div>
+    <div className="career-opportunities">
+      <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-md-12 culture">
-            <div className="courses-details-desc">
-              <h3 style={{ marginBottom: '24px' }}>Current Opportunities</h3>
+            <div className="col-lg-12 col-md-12 culture">
+              <div className="courses-details-desc">
+                <h3 style={{ marginBottom: '24px' }}>Current Opportunities</h3>
 
-              {careers.allMarkdownRemark.nodes.map((career) => (
-                <div
-                  key={career.frontmatter.id}
-                  className="col-lg-6 col-sm-12 col-md-6 career"
-                >
-                  <h3>{career.frontmatter.title}</h3>
-                  <p>
-                    Quantity: {career.frontmatter.quantity} |{' '}
-                    {career.frontmatter.date}{' '}
-                  </p>
-                </div>
-              ))}
+                {careers.allMarkdownRemark.nodes.map((career) => (
+                  <div
+                    key={career.frontmatter.id}
+                    className="col-lg-6 col-sm-12 col-md-6 career"
+                  >
+                    <h3>{career.frontmatter.title}</h3>
+                    <p>
+                      Quantity: {career.frontmatter.quantity} |{' '}
+                      {career.frontmatter.date}{' '}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
       </div>
+   
+    </div>
     </div>
   );
 };
