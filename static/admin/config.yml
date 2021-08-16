@@ -1,9 +1,11 @@
 backend:
-  name: test-repo
-  
+  name: github
+  repo: letuan20/InnomizeTech.com
+  branch: master
+
 media_folder: static/assets
 public_folder: assets
-  
+
 collections:
   - name: blog
     label: Blog
@@ -13,4 +15,5 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: author, label: Author }
       - { name: body, label: Body, widget: markdown }
