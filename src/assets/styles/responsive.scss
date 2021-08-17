@@ -79,9 +79,11 @@ $value_nine: 1550px;
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
   .seo-agency-banner {
+    height: unset;
     .container {
       .hero-scroll {
         left: 45%;
+        bottom: 60px;
       }
     }
   }
@@ -676,17 +678,17 @@ $value_nine: 1550px;
   }
   .single-solutions-box {
     padding: 20px;
-
+    margin-bottom: 24px;
     .icon {
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       font-size: 45px;
       img {
-        width: 65px;
+        width: 56px;
       }
     }
     h3 {
       margin-bottom: 12px;
-      font-size: 20px;
+      font-size:var(--font-size-17)
     }
     .view-details-btn {
       font-size: 15px;
@@ -705,7 +707,7 @@ $value_nine: 1550px;
 
     .content {
       max-width: 100%;
-
+      text-align: left;
       .sub-title {
         margin-bottom: 12px;
         font-size: 14px;
@@ -859,7 +861,7 @@ $value_nine: 1550px;
     .content {
       max-width: 100%;
       margin-left: 0;
-
+      text-align: left;
       .sub-title {
         margin-bottom: 12px;
         font-size: 14px;
@@ -1338,8 +1340,14 @@ $value_nine: 1550px;
   }
 
   .courses-details-desc {
-    margin-top: 30px;
-
+    h3 {
+      font-size: var(--font-size-17)!important;
+    }
+    ul {
+      li {
+        font-size: 15px!important;
+      }
+    }
     .nav {
       padding: {
         left: 15px;
@@ -2432,7 +2440,11 @@ $value_nine: 1550px;
   .page-title-area {
     background-position: center center;
     padding: {
+      top: 70px;
       bottom: 40px;
+    }
+    video {
+      max-height: 176px;
     }
     &.page-title-style-two {
       padding: {
@@ -2541,10 +2553,10 @@ $value_nine: 1550px;
     }
   }
   .contact-form {
-    padding: 25px 20px;
+    padding: 24px 16px;
     margin: {
       left: 0;
-      top: 30px;
+      top: 24px;
     }
     form {
       ul {
@@ -2819,6 +2831,7 @@ $value_nine: 1550px;
   }
   .single-footer-widget {
     margin-bottom: 30px;
+    text-align: center;
     h3 {
       margin-bottom: 20px;
       font-size: 20px;
@@ -3004,7 +3017,7 @@ $value_nine: 1550px;
 
   .contact-banner {
     img {
-      height: calc(100%/3);
+      max-height: 176px;
     }
     .container {
         top: 50%;
@@ -3019,7 +3032,45 @@ $value_nine: 1550px;
         }
       } 
     } 
-  }  
+  }
+  
+  .contact-area {
+    padding-top: 40px;
+  }
+  .contact-info-area {
+    padding-bottom: 40px;
+  }
+  .courses-details-area {
+    .container {
+      .row {
+        .benefits {
+          h3 {
+           font-size: var(--font-size-17);
+          }
+          ul {
+            li {
+              font-size: 15px;
+              img {
+                padding-right: 15px;
+              }
+            }
+          }
+        } 
+      } 
+    } 
+  } 
+  .gallery-area  {
+    .section-title {
+      h2 {
+        font-size: var(--font-size-17);
+      }
+    } 
+  }
+  .courses-details-area {
+    .career-opportunities {
+      padding-bottom: 0px;
+    }
+  } 
 }
 
 /* Min width 576px to Max width 767px */

@@ -119,6 +119,7 @@ Contact Area CSS
           width: 423px;
           height: 40px;
           border-radius: 4px;
+          resize: none;
         }
         select {
           letter-spacing: var(--character-spacing-0);
@@ -130,6 +131,18 @@ Contact Area CSS
             weight: var(--font-weight-normal);
             size: 17px;
             family: var(--font-family-poppins);
+          }
+          &::after { 
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid #000;
           }
         }
         input[type='submit'] {
