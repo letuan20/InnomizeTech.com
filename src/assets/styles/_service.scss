@@ -751,6 +751,7 @@ Services Area CSS
       }
     }
     .accordion-content {
+      transition: all 500ms;
       .technologies-features {
         transition: height 200ms;
         padding-left: 0;

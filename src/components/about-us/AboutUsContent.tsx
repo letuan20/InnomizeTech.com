@@ -7,7 +7,7 @@ import icon4 from '../../assets/images/about/Senior Engineers.svg';
 
 const AboutUsContent = () => {
   return (
-    <section className="about-area">
+    <section className="about-area about-us">
       <div className="container-fluid">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
@@ -28,23 +28,31 @@ const AboutUsContent = () => {
                 <ul className="features-list">
                   <li>
                     <img src={icon1} alt="banner" />
-                    <h3>15 Years</h3>
-                    <p>Experiences</p>
+                    <div className="content">
+                      <h3>15 Years</h3>
+                      <p>Experiences</p>
+                    </div>
                   </li>
                   <li>
                     <img src={icon2} alt="banner" />
-                    <h3>15+ Years</h3>
-                    <p>Cloud Computing</p>
+                    <div className="content">
+                      <h3>15+ Years</h3>
+                      <p>Cloud Computing</p>
+                    </div>
                   </li>
                   <li>
                     <img src={icon3} alt="banner" />
-                    <h3>100%</h3>
-                    <p>Satisfaction rate</p>
+                    <div className="content">
+                      <h3>100%</h3>
+                      <p>Satisfaction rate</p>
+                    </div>
                   </li>
                   <li>
                     <img src={icon4} alt="banner" />
-                    <h3>80%</h3>
-                    <p>Senior Engineers</p>
+                    <div className="content">
+                      <h3>80%</h3>
+                      <p>Senior Engineers</p>
+                    </div>
                   </li>
                 </ul>
               </div>

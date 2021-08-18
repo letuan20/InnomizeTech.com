@@ -826,7 +826,6 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   border-bottom: 1px solid #f7f7f7;
-  height: 100vh;
   .container {
     padding-left: 0;
     height: 100%;
@@ -840,6 +839,10 @@ Main Banner Area CSS
       bottom: 32px;
       .path {
         animation: slide 2s linear infinite;
+      }
+      &.disable {
+        opacity: 0;
+        visibility: hidden;
       }
     }
     @keyframes slide {

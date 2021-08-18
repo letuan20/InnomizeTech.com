@@ -1,19 +1,31 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import ReactWOW from 'react-wow';
 import { Link } from 'gatsby';
 import bannerImg from '../../assets/images/banner-img1.png';
-import scrollIcon from '../../assets/images/icons/scrolldown-icon.svg';
 
 const Banner = () => {
 
+  const [thePosition, setThePosition] = useState(true);
+
+ useEffect(() => {
+    document.addEventListener('scroll', () => {
+      if (window.scrollY > 70) {
+        setThePosition(false);
+      } else {
+        setThePosition(true);
+      }
+    });
+    /* tslint:disable:align */
+  }, []);
+
   const scrollDown = () => {
     window.scroll({
-      top: window.innerHeight - document.getElementById('navbar')!.offsetHeight + 40,
+      top: document.getElementById('seo-agency-banner')!.offsetHeight - document.getElementById('navbar')!.offsetHeight ,
       behavior: 'smooth',
     });
   };
   return (
-    <div className="seo-agency-banner">
+    <div id="seo-agency-banner" className="seo-agency-banner">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
@@ -61,7 +73,7 @@ const Banner = () => {
       width={32}
       height={65.75}
       viewBox="0 0 32 65.75"
-      className="hero-scroll"
+      className={`hero-scroll ${thePosition ? '' : 'disable'}`}
       onClick={scrollDown}
     >
       <defs>

@@ -2,6 +2,9 @@ import React from 'react';
 
 import contact from '../../assets/images/innomize-map.jpg';
 
+import arrow from '../../assets/images/icons/arrow.svg';
+
+
 const ContactForm = () => {
   return (
     <section className="contact-area">
@@ -52,13 +55,14 @@ const ContactForm = () => {
                   <label>Message</label>
                   <textarea></textarea>
                 </li>
-                <li>
+                <li style={{ position: 'relative' }}>
                   <label></label>
                   <select>
                     <option value="What did you hear about us">
                       What did you hear about us
                     </option>
                   </select>
+                  <img src={arrow} />
                 </li>
                 <li>
                   <label></label>

@@ -63,10 +63,10 @@ const ServiceDetailsContent = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12">
             <div className="services-details-desc">
-              <h3>Business Domains</h3>
+              <h3 className="title">Business Domains</h3>
 
               <div className="row">
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={erp} alt="erp" />
@@ -75,7 +75,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={healthCare} alt="health Care" />
@@ -84,7 +84,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={eCommerce} alt="E-commerce" />
@@ -93,7 +93,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={finance} alt="Finance" />
@@ -102,7 +102,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={realEstate} alt="Real Estate" />
@@ -111,7 +111,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={fitness} alt="fitness" />
@@ -120,7 +120,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={eLearning} alt="eLearning" />
@@ -129,7 +129,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={retails} alt="retails" />
@@ -138,7 +138,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div className="single-industries-serve-box">
                     <div className="icon">
                       <img src={law} alt="law" />

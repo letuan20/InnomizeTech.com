@@ -17,14 +17,14 @@ const options = {
   smartSpeed: 600,
   fluidSpeed: false,
   autoplayHoverPause: true,
-  autoplay: true,
+  autoplay: false,
   navText: [
     "<i class='flaticon-left-1'></i>",
     "<i class='flaticon-right-1'></i>",
   ],
   responsive: {
     0: {
-      items: 1,
+      items: 4,
     },
     768: {
       items: 4,

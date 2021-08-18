@@ -209,5 +209,19 @@ module.exports = {
         path: `${__dirname}/src/md-files/careers/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/blog/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `Images blogs`,
+        path: `${__dirname}/static/assets/`,
+      },
+    },
   ],
 };

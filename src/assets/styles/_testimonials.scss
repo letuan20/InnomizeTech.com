@@ -24,6 +24,26 @@ Testimonials Area CSS
     }
   }
 }
+.owl-dots {
+  opacity: 0!important;
+  visibility: hidden!important;
+  .owl-dot {
+    span {
+      width: 16px!important;
+      height: 16px!important;
+    }
+    &.active {
+      span {
+        background: var(--color-e5181e)!important;
+      }
+    }
+    &:hover {
+      span {
+        background: var(--color-e5181e)!important;
+      }
+    }
+  } 
+}
 
 .owl-carousel .owl-stage-outer {
   max-width: 1020px;
