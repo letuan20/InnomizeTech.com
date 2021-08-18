@@ -3,8 +3,8 @@ backend:
   repo: letuan20/InnomizeTech.com
   branch: master
 
-media_folder: static/assets
-public_folder: assets
+media_folder: src/assets/images/blog/
+public_folder: blog
 
 collections:
   - name: blog
