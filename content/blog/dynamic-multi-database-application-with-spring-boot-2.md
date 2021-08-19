@@ -1,8 +1,8 @@
 ---
-path: dynamic-multi-database-application-with-spring-boot
+path: dynamic-multi-database-application-with-spring
 date: 2021-08-19T08:25:54.389Z
-hashtags: Java, Spring Boot, Hibernate
-title: Dynamic Multi Database Application with Spring Boot
+hashtags: Java, Spring Boot
+title: Dynamic Multi Database Application with Spring
 author: " Hiep Dinh"
 position: Leader
 image: https://cdn-images-1.medium.com/max/400/0*Wi4mPW2xLbZ9nwXQ
