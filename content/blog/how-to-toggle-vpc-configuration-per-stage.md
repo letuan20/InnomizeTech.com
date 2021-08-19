@@ -1,6 +1,7 @@
 ---
 path: how-to-toggle-vpc-configuration-per-stage
 date: 2021-08-19T00:03:51.454Z
+hashtags: AWS, AWS Lambda, Serverless, How To
 title: How to toggle Vpc configuration per stage?
 author: " Hoang Le"
 position: Co-Founder, CEO
