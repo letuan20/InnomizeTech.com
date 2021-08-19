@@ -1,19 +1,31 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/app/Layout';
+import Navbar from '../components/app/Navbar';
+import PageBanner from '../components/Common/PageBanner';
+import Footer from '../components/app/Footer';
 
-import BlogRoll from '../components/templates/blogPost';
+import ProjectStartArea from '../components/home/ProjectStartArea';
+import OurBlog from '../components/home/OurBlog';
 
-class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <h1>Latest Posts</h1>
-        <section>
-          <div className="content">
-          </div>
-        </section>
-      </React.Fragment>
-    )
-  }
-}
+import video from '../assets/images/Videos/Blog.mp4';
 
-export default BlogIndexPage
+const Blog = () => {
+  return (
+    <Layout>
+      <Navbar />
+      <PageBanner
+        pageTitle="Blog"
+        homePageText="Home"
+        homePageUrl="/"
+        activePageText="Blog"
+        video={video}
+      />
+      <OurBlog />
+      <ProjectStartArea />
+
+      <Footer />
+    </Layout>
+  );
+};
+
+export default Blog;

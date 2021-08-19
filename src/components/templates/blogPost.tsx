@@ -1,25 +1,20 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from '../app/Layout';
 import SEO from '../seo';
 import Navbar from '../app/Navbar';
+import BlogBanner from '../blog-detail/BlogBanner';
+import BlogContent from '../blog-detail/BlogDetailContent';
 import Footer from '../app/Footer';
 
 const BlogPost = ({ data }) => {
- 
   return (
     <Layout>
       <SEO />
       <Navbar />
-      <div>
-        <h2>{data.markdownRemark.frontmatter.title}</h2>
-        <Img
-          fixed={data.markdownRemark.frontmatter.image.childImageSharp.fixed}
-        />
-        <div> {data.markdownRemark.frontmatter.description}</div>
-      </div>
+      <BlogBanner data = {data} />
+      <BlogContent data = {data} />
       <Footer />
     </Layout>
    
@@ -35,16 +30,19 @@ export const BlogPostTemplateQuery = graphql`
         slug
       }
       frontmatter {
+        position
+        date
         title
-        description
+        author
         image {
           childImageSharp {
-            fixed(width: 200) {
-              ...GatsbyImageSharpFixed
-            }
+            fluid {
+                  ...GatsbyImageSharpFluid
+                }
           }
         }
       }
+      html
     }
   }
 `

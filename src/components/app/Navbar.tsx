@@ -109,7 +109,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      to="https://medium.com/innomizetech"
+                      to="/blog"
                       activeClassName="active"
                       className="nav-link"
                     >

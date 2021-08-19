@@ -2,7 +2,6 @@
 path: how-to-toggle-vpc-configuration-per-stage
 date: 2021-08-19T00:03:51.454Z
 title: How to toggle Vpc configuration per stage?
-description: sdfghjkl
 author: " Hoang Le"
 position: Co-Founder, CEO
 image: assets/0_0zpadhuajxdudwov.png
