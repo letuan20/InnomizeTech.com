@@ -1,6 +1,6 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
-// import CoursesDetailsSidebar from './CoursesDetailsSidebar'
+import { useStaticQuery, graphql } from 'gatsby';
+
 import Gallery from '../gallery/Gallery';
 
 import icon1 from '../../assets/images/career/icon-1.svg';

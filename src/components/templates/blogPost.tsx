@@ -30,6 +30,7 @@ export const BlogPostTemplateQuery = graphql`
         slug
       }
       frontmatter {
+        hashtags
         position
         date
         title

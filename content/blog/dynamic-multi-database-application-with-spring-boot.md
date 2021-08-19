@@ -9,92 +9,38 @@ image: https://cdn-images-1.medium.com/max/400/0*Wi4mPW2xLbZ9nwXQ
 ---
 <!--StartFragment-->
 
-## The Maven Dependencies
+This post is originally published on [our blog](https://blog.innomizetech.com/2019/11/05/how-to-toggle-vpc-configuration-per-stage/).
 
-Creating a DataSource implementation programmatically is straightforward, overall.\
-Here is the list of Maven dependencies.
+[This guy has asked the serverless forum](https://forum.serverless.com/t/exclude-vpc-config-for-different-enviornments/9756) for a solution to implement it. That is why I wanted to write this post to describe how to toggle **VPC** configuration per stage. I hope it can help you and save your time :)
 
-```
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter</artifactId>
-</dependency>
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
-<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-</dependency>
-```
+If you are working on the [Serverless](https://serverless.com/) framework to build your application on AWS. You possibly wanted to run your Lambda functions under your private Vpc to protect your functions and hide it from the world. But sometimes, you might want to run your function without **VPC** such as for non-production environments.
 
-To support MySQL, our classpath must include the MySQL database connector dependency. We use starter-web to demonstrate usage via an HTTP request.
+![](https://miro.medium.com/max/1278/0*0ZpAdhUaJxduDwOV)
 
-## Datasource Router
+*Vpc on AWS Lambda*
 
-AbstractRoutingDatasource requires information to know which actual DataSource to route to. This information is typically referred to as a Context.\
-In our example, we’ll use the notion of a DBTypeEnum as our context with the following implementation:
+Basically, we can disable **Vpc** configuration for Lambda function by either:
 
-```
+* Omit the **vpc** property in the **provider** configuration.
+* Or you can set both **securityGroupIds** and **subnetIds** as an empty array.
 
-```
+Based on the above logic, we can define a property in the **custom** prop as below:
 
-Another common use case involves using the notion of an Environment to define the context. In such a scenario, the context could be an enum containing PRODUCTION, DEVELOPMENT, and TESTING.\
-The context holder implementation is a container that stores the current context as a ThreadLocal reference.
+[A serverless example for configuring different vpc per stage](https://medium.com/media/286e12b3f405d835d9f4aec67d6df198)
 
-```
+With the above configurations, deploy to the **dev** stage will not add your lambda functions to a Vpc, but deploy to the **prod** stage will add your lambda functions to your desired Vpc.
 
-```
+You can refer to some plugins I added in the *serverless.yml* file, it can be used to create your Vpc automatically or discover from the AWS account.
 
-Finally, we define our ClientDataSourceRouter to extend the Spring AbstractRoutingDataSource.
+* [serverless-vpc-plugin](https://www.npmjs.com/package/serverless-vpc-plugin)
+* [serverless-vpc-discovery](https://www.npmjs.com/package/serverless-vpc-discovery)
 
-```
+If you want to have a try, you can check out [our repo](https://github.com/hoang-innomizetech/serverless-toggle-vpc-example) on Github.
 
-```
+Should you run into issues while practicing the steps outlined in this article, I encourage you to reach out to me. You can get in touch with me through my Twitter handle [@hoangleitvn](https://twitter.com/hoangleitvn)
 
-## Database Connection Settings with application.properties file
+Visit our [blog](https://blog.innomizetech.com/) for more interesting articles. If you have any questions or need help you can contact me via [Twitter](https://twitter.com/hoangleitvn).
 
-```
-
-```
-
-## Configuration
-
-```
-
-```
-
-In this example, the **mainDataSource** is the default data source and we can use it to retrieve client/customer information (via authentication process,…).
-
-# Testing the dynamic multiple data sources
-
-**Creating a JPA Entity**
-
-```
-
-```
-
-**A Simple Repository Layer**
-
-```
-
-```
-
-**Testing**\
-Lastly, we need to check that our programmatically-configured DataSource is actually working. We can easily accomplish this with a rest API. Note, when using our AbstractRoutingDataSource, we first set the context(via AOP, authentication process,…) and then perform our operation.
-
-```
-
-```
-
-# Conclusion
-
-When dealing with just one data source and Spring Boot, data source configuration is simple. Spring Boot can provide a lot of autoconfiguration. However, if you need to connect to multiple data sources with Spring Boot, additional configuration is needed.\
-You need to provide configuration data to Spring Boot, customized for each data source.
+Thank you for reading!
 
 <!--EndFragment-->

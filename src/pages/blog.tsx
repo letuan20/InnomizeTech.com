@@ -5,7 +5,7 @@ import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/app/Footer';
 
 import ProjectStartArea from '../components/home/ProjectStartArea';
-import OurBlog from '../components/home/OurBlog';
+import BlogComponents from '../components/blog/BlogComponents';
 
 import video from '../assets/images/Videos/Blog.mp4';
 
@@ -20,7 +20,7 @@ const Blog = () => {
         activePageText="Blog"
         video={video}
       />
-      <OurBlog />
+      <BlogComponents />
       <ProjectStartArea />
 
       <Footer />
