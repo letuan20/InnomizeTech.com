@@ -147,7 +147,7 @@ const ServiceDetailsContent = () => {
                   </div>
                 </div>
               </div>
-           
+
               <Accordion
                 title="Web Technologies"
                 content={
@@ -425,7 +425,6 @@ const ServiceDetailsContent = () => {
                   </ul>
                 }
               />
-           
             </div>
           </div>
         </div>

@@ -4,7 +4,6 @@ import contact from '../../assets/images/innomize-map.jpg';
 
 import arrow from '../../assets/images/icons/arrow.svg';
 
-
 const ContactForm = () => {
   return (
     <section className="contact-area">

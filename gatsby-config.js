@@ -209,23 +209,24 @@ module.exports = {
         path: `${__dirname}/src/md-files/careers/`,
       },
     },
-    {    
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
-      name: `markdown-pages`,
-      path: `${__dirname}/content/blog`,
+        name: `markdown-pages`,
+        path: `${__dirname}/content/blog`,
+      },
     },
-  },
-  {    
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
-         path: `${__dirname}/static/assets`,
-         name: 'images markdown pages', },
-        },
-  {     
+        path: `${__dirname}/static/assets`,
+        name: 'images markdown pages',
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
-         plugins: [
+        plugins: [
           {
             resolve: `gatsby-plugin-netlify-cms-paths`,
             options: {
@@ -234,7 +235,7 @@ module.exports = {
             },
           },
         ],
-     },
+      },
     },
   ],
 };

@@ -33,7 +33,7 @@ const TeamMember = () => {
 
         <div className="row">
           <div className="col-lg-4 col-sm-6">
-            <div className="single-scientist-item-box">
+            <div className="single-scientist-item-box top">
               <div className="image">
                 <img src={HoangLe} className="image-normal" alt="team" />
                 <img src={HoangLeGray} className="image-gray" />
@@ -46,7 +46,7 @@ const TeamMember = () => {
           </div>
 
           <div className="col-lg-4 col-sm-6">
-            <div className="single-scientist-item-box">
+            <div className="single-scientist-item-box top">
               <div className="image">
                 <img src={PhongTran} className="image-normal" alt="team" />
                 <img src={PhongTranGray} className="image-gray" />
@@ -59,7 +59,7 @@ const TeamMember = () => {
           </div>
 
           <div className="col-lg-4 col-sm-6">
-            <div className="single-scientist-item-box">
+            <div className="single-scientist-item-box top">
               <div className="image">
                 <img src={KhoaTran} className="image-normal" alt="team" />
                 <img src={KhoaTranGray} className="image-gray" />

@@ -125,11 +125,10 @@ const CourseDetailsContent = () => {
             </div>
           </div>
         </div>
-
       </div>
-    <div className="career-opportunities">
-      <div className="container">
-        <div className="row">
+      <div className="career-opportunities">
+        <div className="container">
+          <div className="row">
             <div className="col-lg-12 col-md-12 culture">
               <div className="courses-details-desc">
                 <h3 style={{ marginBottom: '24px' }}>Current Opportunities</h3>
@@ -149,9 +148,8 @@ const CourseDetailsContent = () => {
               </div>
             </div>
           </div>
+        </div>
       </div>
-   
-    </div>
     </div>
   );
 };

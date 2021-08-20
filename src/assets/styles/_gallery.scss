@@ -1,5 +1,4 @@
 .gallery-area {
-
   .section-title {
     margin-bottom: 24px;
     h2 {
@@ -10,21 +9,21 @@
         style: var(--font-style-normal);
         weight: bold;
         size: var(--font-size-20);
-        family:  var(--font-family-poppins);
+        family: var(--font-family-poppins);
       }
     }
   }
   .owl-nav.disabled {
-    display: unset!important;
+    display: unset !important;
   }
- 
+
   .owl-carousel {
     margin-bottom: 80px;
   }
   .owl-carousel .owl-stage-outer {
     max-width: unset;
   }
- 
+
   .owl-carousel {
     .owl-nav {
       display: flex;

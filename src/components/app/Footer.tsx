@@ -25,40 +25,6 @@ const Footer = () => {
                 is eager to work and encouraged by the creative ability of every
                 member of our team. Come and see us!
               </p>
-
-              <ul className="social-link">
-                <li>
-                  <Link
-                    to="https://www.facebook.com/innomizetech/"
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={facebook} alt="facebook" />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="https://twitter.com/innomizetech/"
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={twitter} alt="twitter" />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="https://www.linkedin.com/company/innomizetech/"
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={linkedin} alt="linkedin" />
-                  </Link>
-                </li>
-              </ul>
- 
             </div>
           </div>
           <div className="col-lg-2 col-sm-6">
@@ -123,7 +89,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <ul className="social-link mobile">
+              <ul className="social-link">
                 <li>
                   <Link
                     to="https://www.facebook.com/innomizetech/"
@@ -155,7 +121,6 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
- 
             </div>
           </div>
         </div>

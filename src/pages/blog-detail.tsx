@@ -27,7 +27,7 @@ class About extends React.Component {
           activePageText="About Us"
           video={video}
         />
-     
+
         <StartProject />
         <Footer />
       </Layout>

@@ -37,7 +37,6 @@ About Area CSS
 }
 .about-content {
   .content {
-
     .sub-title {
       position: relative;
       display: block;
@@ -106,7 +105,7 @@ About Area CSS
         border-radius: 5px;
         padding: 15px 0px 15px 84px;
         position: relative;
-        background-color: $white-color;
+        background-color: var(--color-f7f7f7);
         transition: $transition;
 
         &:nth-child(odd) {
@@ -618,8 +617,10 @@ How It's Work Area CSS
 Scientist Area CSS
 =================================================*/
 .scientist-area {
-  padding-top: 40px;
-  padding-bottom: 38px;
+  padding: {
+    top: 40px;
+    bottom: 40px;
+  }
   background: #ffffff;
 
   .section-title {
@@ -628,10 +629,14 @@ Scientist Area CSS
 }
 .single-scientist-item-box {
   padding: 0 33px 0;
+  &.top {
+    margin-bottom: 56px;
+  }
   .image {
     text-align: center;
     border-bottom: 2px solid var(--color-e5181e);
     position: relative;
+    transition: 0.5s;
     .image-normal {
       opacity: 0;
       visibility: hidden;
@@ -712,9 +717,11 @@ About Area Career CSS
     [class*='col-'] {
       padding: 0;
       .img-activity {
-        background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        background: transparent
+          linear-gradient(180deg, #ffffff 0%, #ffffff00 100%) 0% 0% no-repeat
+          padding-box;
         z-index: 1;
-    }
+      }
       img {
         z-index: 0;
         width: 100%;

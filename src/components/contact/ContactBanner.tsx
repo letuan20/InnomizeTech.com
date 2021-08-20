@@ -9,8 +9,11 @@ const ContactBanner = ({
   activePageText,
 }) => {
   return (
-    <div className="page-title-area contact-banner" style={{ paddingBottom: 0 }}>
-      <img src={banner} style={{ height: '350px',objectFit:'cover' }} />
+    <div
+      className="page-title-area contact-banner"
+      style={{ paddingBottom: 0 }}
+    >
+      <img src={banner} style={{ height: '350px', objectFit: 'cover' }} />
       <div className="container">
         <div className="page-title-content">
           <h2>{pageTitle}</h2>

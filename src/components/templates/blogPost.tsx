@@ -1,5 +1,5 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../app/Layout';
 import SEO from '../seo';
@@ -13,15 +13,14 @@ const BlogPost = ({ data }) => {
     <Layout>
       <SEO />
       <Navbar />
-      <BlogBanner data = {data} />
-      <BlogContent data = {data} />
+      <BlogBanner data={data} />
+      <BlogContent data={data} />
       <Footer />
     </Layout>
-   
-  )
-}
+  );
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const BlogPostTemplateQuery = graphql`
   query BlogPostTemplateQuery($slug: String) {
@@ -35,15 +34,9 @@ export const BlogPostTemplateQuery = graphql`
         date
         title
         author
-        image {
-          childImageSharp {
-            fluid {
-                  ...GatsbyImageSharpFluid
-                }
-          }
-        }
+        image
       }
       html
     }
   }
-`
+`;

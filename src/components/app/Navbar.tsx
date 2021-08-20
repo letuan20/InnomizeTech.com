@@ -20,7 +20,6 @@ const Navbar = () => {
         elementId?.classList.remove('is-sticky');
       }
     });
-    window.scrollTo(0, 0);
   });
 
   const classOne = collapsed
@@ -149,7 +148,6 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-            
             </nav>
           </div>
         </div>

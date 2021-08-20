@@ -1,25 +1,23 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import iconFacebook from '../../assets/images/blog/facebook-icon.svg';
 import iconTwitter from '../../assets/images/blog/twitter-icon.svg';
 import iconLinkedIn from '../../assets/images/blog/linkedIn-icon.svg';
 
-const BlogDetailContent = ({data}) => {
+const BlogDetailContent = ({ data }) => {
+  const { html } = data.markdownRemark;
 
-  const [hashtags,setHashTags] = useState([]);
-
-  useEffect(() => {
-    setHashTags(data.markdownRemark.frontmatter.hashtags.split(','))
-  },[data])
-  const {html} = data.markdownRemark;
-
-  console.log(hashtags);
-  
   return (
     <section className="blog-detail-content">
       <div className="container">
         <div className="row">
-          <div dangerouslySetInnerHTML={{__html: html}} style={{ paddingBottom: '12px',borderBottom: '1px solid var(--color-d9d9d9)'}}></div>
+          <div
+            dangerouslySetInnerHTML={{ __html: html }}
+            style={{
+              paddingBottom: '12px',
+              borderBottom: '1px solid var(--color-d9d9d9)',
+            }}
+          ></div>
           <div className="other-content related-blog">
             <h2>Related post</h2>
           </div>

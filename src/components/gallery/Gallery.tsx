@@ -32,8 +32,8 @@ const options = {
     992: {
       items: 5,
     },
-  }
-  };
+  },
+};
 
 const Gallery = () => {
   const [display, setDisplay] = React.useState(false);
@@ -49,25 +49,23 @@ const Gallery = () => {
           <h2>We Word Hard, And Play Even Harder</h2>
         </div>
         {display ? (
-          <OwlCarousel {...options}  className="owl-carousel"
-          >
+          <OwlCarousel {...options} className="owl-carousel">
             <div className="single-gallery">
-                <img width={188} height={188} src={activity1} alt="testimonial" />
+              <img width={188} height={188} src={activity1} alt="testimonial" />
             </div>
             <div className="single-gallery">
-                <img width={188} height={188} src={activity2} alt="testimonial" />
+              <img width={188} height={188} src={activity2} alt="testimonial" />
             </div>
             <div className="single-gallery">
-                <img width={188} height={188} src={activity3} alt="testimonial" />
+              <img width={188} height={188} src={activity3} alt="testimonial" />
             </div>
             <div className="single-gallery">
-                <img width={188} height={188} src={activity4} alt="testimonial" />
+              <img width={188} height={188} src={activity4} alt="testimonial" />
             </div>
             <div className="single-gallery">
-                <img width={188} height={188} src={activity5} alt="testimonial" />
+              <img width={188} height={188} src={activity5} alt="testimonial" />
             </div>
           </OwlCarousel>
-
         ) : (
           ''
         )}

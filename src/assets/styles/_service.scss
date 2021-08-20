@@ -572,6 +572,9 @@ Services Area CSS
 /*================================================
   Services Details Area CSS
   =================================================*/
+.services-details-area {
+  padding: 0;
+}
 .services-details-image {
   position: relative;
   margin-bottom: 30px;
@@ -643,7 +646,6 @@ Services Area CSS
     letter-spacing: var(--character-spacing-0);
     color: var(--title);
     text-align: left;
-    margin-left: -15px;
     margin-bottom: 40px;
     font: {
       style: var(--font-style-normal);
@@ -651,11 +653,17 @@ Services Area CSS
       size: var(--font-size-20);
       family: var(--font-family-poppins);
     }
+    &.title {
+      font-size: 24px;
+    }
   }
   .row {
     justify-content: space-between;
-    margin-bottom: 77px;
-
+    margin: {
+      left: 0;
+      right: 0;
+      bottom: 77px;
+    }
     [class*='col-'] {
       background: var(--color-f7f7f7) 0% 0% no-repeat padding-box;
       border: 1px solid var(--color-d9d9d9);
@@ -713,9 +721,10 @@ Services Area CSS
     }
   }
   .accordion-item {
-    margin-left: -15px;
+    padding: 0;
     margin-bottom: 12px;
-    transition: 0.5s;
+    transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
     .accordion-title {
       display: flex;
       border-top: 1px solid var(--color-d9d9d9);
@@ -751,9 +760,9 @@ Services Area CSS
       }
     }
     .accordion-content {
-      transition: all 500ms;
+      transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
       .technologies-features {
-        transition: height 200ms;
+        transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
         padding-left: 0;
         list-style-type: none;
         display: flex;
@@ -792,7 +801,7 @@ Services Area CSS
             }
           }
         }
-        }
+      }
     }
   }
 

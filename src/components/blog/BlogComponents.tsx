@@ -13,10 +13,11 @@ import iconLinkedIn from '../../assets/images/blog/linkedIn-icon.svg';
 import moment from 'moment';
 
 const OurBlog = () => {
-
   const blogs = useStaticQuery(graphql`
-      query QueryBlogs {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/blog/"}}) {
+    query QueryBlogs {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/blog/" } }
+      ) {
         nodes {
           frontmatter {
             path
@@ -25,93 +26,105 @@ const OurBlog = () => {
             date
             title
             author
-            image {
-              childImageSharp {
-                fluid {
-                      ...GatsbyImageSharpFluid
-                    }
-              }
-            }
+            image
           }
         }
       }
     }
-  `) 
-  
+  `);
+
   return (
     <>
-   <section className="blog-area">
-      <div className="container">
-      <div className="other-content">
-          <div className="col-lg-8 col-md-6 trending-blog">
-        <Link to = {`/blog/${blogs.allMarkdownRemark.nodes[0].frontmatter.path}`}>
-  <div className="single-blog-post">
-    <div className="post-image">
-        {blogs.allMarkdownRemark.nodes[0].frontmatter.image ? 
-         <Image fluid={blogs.allMarkdownRemark.nodes[0].frontmatter.image.childImageSharp.fluid} style={{ height: '288px' }} /> : 
-         <div style={{ height: '288px'}}></div>
-      }
-        </div>
+      <section className="blog-area">
+        <div className="container">
+          <div className="other-content">
+            <div className="col-lg-8 col-md-6 trending-blog">
+              <Link
+                to={`/blog/${blogs.allMarkdownRemark.nodes[0].frontmatter.path}`}
+              >
+                <div className="single-blog-post">
+                  <div className="post-image">
+                    {blogs.allMarkdownRemark.nodes[0].frontmatter.image ? (
+                      <Image
+                        fluid={
+                          blogs.allMarkdownRemark.nodes[0].frontmatter.image
+                        }
+                        style={{ height: '288px' }}
+                      />
+                    ) : (
+                      <div style={{ height: '288px' }}></div>
+                    )}
+                  </div>
 
-    <div className="post-content">
-      <h2>Trending</h2>
-      <h3>
-         {blogs.allMarkdownRemark.nodes[0].frontmatter.title}
-      </h3>
-      <ul className="post-meta d-flex justify-content-between align-items-center">
-        <li>
-          <div className="post-author d-flex align-items-center">
-            <img
-              src={hoangle}
-              className="rounded-circle"
-              alt="blog"
-            />
-            <span>{blogs.allMarkdownRemark.nodes[0].frontmatter.author}</span>
-          </div>
-        </li>
-        <li>{moment(blogs.allMarkdownRemark.nodes[0].frontmatter.date).format('ll')}</li>
-      </ul>
-   
-    </div>
-  </div>
-  </Link>
-          </div>
-          <div className="col-lg-4 col-md-6 info-blog">
-            <div className="other-content follow-us">
-            <input type="search" id="search" name="search" placeholder="Search..."/>
-              <h2>Follow us on</h2>
-              <ul>
-                <li>
-                  <img src={iconFacebook} />
-                  <p>Facebook</p>
-                </li>
-                <li>
-                  <img src={iconLinkedIn} />
-                  <p>LinkedIn</p>
-                </li>
-                <li>
-                  <img src={iconTwitter} />
-                  <p>Twitter</p>
-                </li>
-              </ul>
+                  <div className="post-content">
+                    <h2>Trending</h2>
+                    <h3>
+                      {blogs.allMarkdownRemark.nodes[0].frontmatter.title}
+                    </h3>
+                    <ul className="post-meta d-flex justify-content-between align-items-center">
+                      <li>
+                        <div className="post-author d-flex align-items-center">
+                          <img
+                            src={hoangle}
+                            className="rounded-circle"
+                            alt="blog"
+                          />
+                          <span>
+                            {
+                              blogs.allMarkdownRemark.nodes[0].frontmatter
+                                .author
+                            }
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        {moment(
+                          blogs.allMarkdownRemark.nodes[0].frontmatter.date,
+                        ).format('ll')}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 info-blog">
+              <div className="other-content follow-us">
+                <input
+                  type="search"
+                  id="search"
+                  name="search"
+                  placeholder="Search..."
+                />
+                <h2>Follow us on</h2>
+                <ul>
+                  <li>
+                    <img src={iconFacebook} />
+                    <p>Facebook</p>
+                  </li>
+                  <li>
+                    <img src={iconLinkedIn} />
+                    <p>LinkedIn</p>
+                  </li>
+                  <li>
+                    <img src={iconTwitter} />
+                    <p>Twitter</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          </div>
-      </div>
-    </section>
-    <section className="blog-area" style={{ backgroundColor:'white'}}>
-      <div className="container">
-        <div className="row">
-          {blogs.allMarkdownRemark.nodes.map((blog) => (
-            <BlogComponent blog={blog} />
-        ))}
-        
         </div>
-      </div>
-    </section>
-  
-   </>
- 
+      </section>
+      <section className="blog-area" style={{ backgroundColor: 'white' }}>
+        <div className="container">
+          <div className="row">
+            {blogs.allMarkdownRemark.nodes.map((blog) => (
+              <BlogComponent blog={blog} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

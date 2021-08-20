@@ -838,7 +838,7 @@ Main Banner Area CSS
       margin: auto;
       bottom: 32px;
       .path {
-        animation: slide 2s linear infinite;
+        animation: slide 1.5s linear infinite;
       }
       &.disable {
         opacity: 0;
@@ -846,11 +846,19 @@ Main Banner Area CSS
       }
     }
     @keyframes slide {
-      0% { opacity:0; transform: translateY(-2vh); }	
-     50% { opacity:1; transform: translateY(3vh); }	
-     80% { opacity:1; transform: translateY(5vh); }	
-    100% { opacity:0; transform: translateY(9vh); }	
-  }
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
   }
   .container-fluid {
     max-width: 1360px;

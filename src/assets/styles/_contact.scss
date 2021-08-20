@@ -120,6 +120,7 @@ Contact Area CSS
           height: 40px;
           border-radius: 4px;
           resize: none;
+          padding-left: 12px;
         }
         select {
           letter-spacing: var(--character-spacing-0);
@@ -132,8 +133,8 @@ Contact Area CSS
             size: 17px;
             family: var(--font-family-poppins);
           }
-          &::after { 
-            content: "";
+          &::after {
+            content: '';
             position: absolute;
             width: 40px;
             height: 40px;
