@@ -7,6 +7,19 @@ import hoangle from '../../assets/images/hoangle.jpeg';
 import moment from 'moment';
 
 const BlogComponent = ({ blog }) => {
+  // const [arr, setArr] = useState<string[]>([]);
+
+  // useEffect(() => {
+  //   async function test() {
+  //     const values = blog.frontmatter.hashtags;
+  //     let arrP: string[] = [];
+  //     let newVal: string[] = values.split(',');
+  //     arrP.push(...newVal);
+  //     await setArr(arrP);
+  //   }
+  //   test();
+  // }, [blog]);
+
   return (
     <div className="col-lg-4 col-md-6">
       <Link to={`/blog/${blog.frontmatter.path}`}>
@@ -33,11 +46,6 @@ const BlogComponent = ({ blog }) => {
               <li>{moment(blog.frontmatter.date).format('ll')}</li>
             </ul>
             <h3>{blog.frontmatter.title}</h3>
-            <ul>
-              {/* {hashtags.map((el)=>{
-            <li>{el}</li>
-          })} */}
-            </ul>
           </div>
         </div>
       </Link>

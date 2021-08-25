@@ -23,20 +23,20 @@ const BlogDetailContent = ({ data }) => {
           </div>
           <div className="other-content follow-us">
             <h2>Follow us on</h2>
-            <ul>
-              <li>
+            <div>
+              <button>
                 <img src={iconFacebook} />
-                <p>Facebook</p>
-              </li>
-              <li>
+                Facebook
+              </button>
+              <button>
                 <img src={iconLinkedIn} />
-                <p>LinkedIn</p>
-              </li>
-              <li>
+                LinkedIn
+              </button>
+              <button>
                 <img src={iconTwitter} />
-                <p>Twitter</p>
-              </li>
-            </ul>
+                Twitter
+              </button>
+            </div>
           </div>
           <div className="other-content">
             <h2>Recent Posts</h2>

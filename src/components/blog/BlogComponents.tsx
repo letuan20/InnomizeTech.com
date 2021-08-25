@@ -9,6 +9,7 @@ import hoangle from '../../assets/images/hoangle.jpeg';
 import iconFacebook from '../../assets/images/blog/facebook-icon.svg';
 import iconTwitter from '../../assets/images/blog/twitter-icon.svg';
 import iconLinkedIn from '../../assets/images/blog/linkedIn-icon.svg';
+import subcribe from '../../assets/images/blog/subcribe.svg';
 
 import moment from 'moment';
 
@@ -96,20 +97,29 @@ const OurBlog = () => {
                   placeholder="Search..."
                 />
                 <h2>Follow us on</h2>
-                <ul>
-                  <li>
+                <div>
+                  <button>
                     <img src={iconFacebook} />
-                    <p>Facebook</p>
-                  </li>
-                  <li>
+                    Facebook
+                  </button>
+                  <button>
                     <img src={iconLinkedIn} />
-                    <p>LinkedIn</p>
-                  </li>
-                  <li>
+                    LinkedIn
+                  </button>
+                  <button>
                     <img src={iconTwitter} />
-                    <p>Twitter</p>
-                  </li>
-                </ul>
+                    Twitter
+                  </button>
+                </div>
+              </div>
+              <div className="other-content subcribe">
+                <div>
+                  <h2>Get our new post</h2>
+                  <a className="default-btn" href="/contact">
+                    Subcribe
+                  </a>
+                </div>
+                <img src={subcribe} />
               </div>
             </div>
           </div>
