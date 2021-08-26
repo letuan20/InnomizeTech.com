@@ -1,5 +1,5 @@
 ---
-path: case-studies-details-permits
+path: permits-tracking-platform-case-studies
 technologies: |-
   ![](assets/aws.svg)
 
@@ -12,7 +12,7 @@ devops: |-
 project: Platform Project
 client: US Law Corporation
 location: New York, USA
-architecture: s
+architecture: AWS Lambda
 thumbnail: assets/permits.jpg
 featuredImage: "![](assets/1.png)"
 ---

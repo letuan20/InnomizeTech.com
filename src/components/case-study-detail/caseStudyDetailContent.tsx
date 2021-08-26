@@ -1,16 +1,47 @@
 import React, { useState, useEffect } from 'react';
 
-import iconFacebook from '../../assets/images/blog/facebook-icon.svg';
-import iconTwitter from '../../assets/images/blog/twitter-icon.svg';
-import iconLinkedIn from '../../assets/images/blog/linkedIn-icon.svg';
-
 const CaseStudyDetailContent = ({ data }) => {
   const { html } = data.markdownRemark;
 
+  console.log(data.markdownRemark.frontmatter.devops)
   return (
     <section className="blog-detail-content">
       <div className="container">
         <div className="row">
+          <div className="project-information">
+            <div className="information">
+              <div className="icon"></div>
+              <h3>Project</h3>
+              <p>{data.markdownRemark.frontmatter.project}</p>
+            </div>
+            <div className="information">
+              <div className="icon"></div>
+              <h3>Client</h3>
+              <p>{data.markdownRemark.frontmatter.client}</p>
+            </div>
+            <div className="information">
+              <div className="icon"></div>
+              <h3>Location</h3>
+              <p>{data.markdownRemark.frontmatter.location}</p>
+            </div>
+            <div className="information">
+              <div className="icon"></div>
+              <h3>Architecture</h3>
+              <p>{data.markdownRemark.frontmatter.architecture}</p>
+            </div>
+          </div>
+          <div className="project-technologies">
+            <div className="technologies">
+              <h3>Technologies</h3>
+           
+            </div>
+            <div className="technologies">
+              <h3>DevOps</h3>
+              {/* {data.markdownRemark.frontmatter.devops.map((el)=>(
+                <img src={el} />
+              ))} */}
+            </div>
+          </div>
           <div
             dangerouslySetInnerHTML={{ __html: html }}
             style={{
@@ -19,27 +50,7 @@ const CaseStudyDetailContent = ({ data }) => {
             }}
           ></div>
           <div className="other-content related-blog">
-            <h2>Related post</h2>
-          </div>
-          <div className="other-content follow-us">
-            <h2>Follow us on</h2>
-            <div>
-              <button>
-                <img src={iconFacebook} />
-                Facebook
-              </button>
-              <button>
-                <img src={iconLinkedIn} />
-                LinkedIn
-              </button>
-              <button>
-                <img src={iconTwitter} />
-                Twitter
-              </button>
-            </div>
-          </div>
-          <div className="other-content">
-            <h2>Recent Posts</h2>
+            <h2>Related case studies</h2>
           </div>
         </div>
       </div>

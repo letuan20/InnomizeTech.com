@@ -1,12 +1,12 @@
 ---
-path: case-studies-details-elearning-platform
+path: an-e-learning-platform
 technologies: "![](assets/react.svg)"
 title: An E-Learning Platform
 devops: "![](assets/jenkins.svg)"
 project: Web Project
 client: US Firm, E-Learning
 location: New York, USA
-architecture: d
+architecture: AWS Lambda, Amazon Cognito, Amazon Fargate
 thumbnail: assets/e-learning.jpg
 featuredImage: "![](assets/1.png)"
 ---

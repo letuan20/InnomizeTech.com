@@ -4,29 +4,26 @@ import Img from 'gatsby-image';
 
 // Functional components
 const CaseStudies = () => {
+ 
   const data = useStaticQuery(graphql`
-    query QueryServices {
-      allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/projects/" } }
-        sort: { fields: frontmatter___id }
-      ) {
-        nodes {
-          frontmatter {
-            id
-            slug
-            subtitle
-            title
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 364, maxHeight: 275) {
-                  ...GatsbyImageSharpFluid
-                }
+   query QueryCaseStudies {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/case-studies/"}}) {
+      nodes {
+        frontmatter {
+          title
+          path
+          project
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 364, maxHeight: 275) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
         }
       }
     }
+  }
   `);
 
   return (
@@ -35,11 +32,11 @@ const CaseStudies = () => {
         <div className="row">
           {data.allMarkdownRemark.nodes.map((service) => (
             <div
-              key={service.frontmatter.id}
+              key={service.frontmatter.path}
               className="col-lg-4 col-md-6 col-sm-6"
             >
               <div className="single-services-box">
-                <Link to="/">
+                <Link to={`/case-studies/${service.frontmatter.path}`}>
                   <Img
                     fluid={service.frontmatter.thumbnail.childImageSharp.fluid}
                     alt="service"
@@ -47,7 +44,7 @@ const CaseStudies = () => {
                   <h3 className="box-link">{service.frontmatter.title}</h3>
                   <div className="red_line"></div>
                   <p className="box-description">
-                    {service.frontmatter.subtitle}
+                    {service.frontmatter.project}
                   </p>
                 </Link>
               </div>

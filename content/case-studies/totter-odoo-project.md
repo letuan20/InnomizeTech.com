@@ -1,5 +1,5 @@
 ---
-path: case-studies-details-erp-platform
+path: totter-odoo-project
 technologies: |-
   ![](assets/aws.svg)
 
@@ -9,7 +9,7 @@ devops: "![](assets/jenkins.svg)"
 project: ERP Project
 client: US Firm
 location: New York, USA
-architecture: d
+architecture: AWS Lambda
 thumbnail: assets/totter.jpg
 featuredImage: "![](assets/1.png)"
 ---

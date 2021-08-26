@@ -1,5 +1,5 @@
 ---
-path: case-studies-details-billing-platform
+path: billing-platform-case-studies
 technologies: |-
   ![](assets/javascript-typescript.svg)
 
@@ -14,7 +14,7 @@ devops: |-
 project: Platform Project
 client: US Finance Firm
 location: New York, USA
-architecture: d
+architecture: AWS Lambda, Amazon Cognito, Amazon Fargate
 thumbnail: assets/billing.jpg
 featuredImage: |-
   ![](assets/1.png)

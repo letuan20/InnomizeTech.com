@@ -1,12 +1,12 @@
 ---
-path: case-studies-details-prepaid
+path: prepaid-portal
 technologies: "![](assets/aws.svg)"
 title: Prepaid Portal
 devops: "![](assets/jenkins.svg)"
 project: Platform Project
 client: US Firm
 location: New York, USA
-architecture: d
+architecture: AWS Lambda
 thumbnail: assets/portal.jpg
 featuredImage: "![](assets/1.png)"
 ---

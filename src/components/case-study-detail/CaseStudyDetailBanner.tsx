@@ -1,6 +1,6 @@
 import React from 'react';
 
-import banner from '../../assets/images/main-banner/contact-banner.jpg';
+import banner from '../../assets/images/projects/case-studies-detail.svg';
 
 const CaseStudyDetailBanner = ({
   pageTitle
@@ -13,7 +13,7 @@ const CaseStudyDetailBanner = ({
       <img src={banner} style={{ height: '350px', objectFit: 'cover' }} />
       <div className="container">
         <div className="page-title-content">
-          <h2>{pageTitle}</h2>
+          <h2 style={{ color: '#262626' }}>{pageTitle}</h2>
         </div>
       </div>
     </div>

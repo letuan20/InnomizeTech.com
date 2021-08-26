@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import Navbar from '../components/app/Navbar';
 import CaseStudyDetailBanner from '../components/case-study-detail/CaseStudyDetailBanner';
 import CaseStudyDetailContent from '../components/case-study-detail/caseStudyDetailContent';
+import StartProject from '../components/Common/StartProject';
 import Footer from '../components/app/Footer';
 
 const CaseStudy = ({ data }) => {
@@ -15,6 +16,7 @@ const CaseStudy = ({ data }) => {
       <Navbar />
       <CaseStudyDetailBanner pageTitle={data.markdownRemark.frontmatter.title} />
       <CaseStudyDetailContent data={data} />
+      <StartProject />
       <Footer />
     </Layout>
   );
@@ -36,13 +38,6 @@ export const CaseStudyPostTemplateQuery = graphql`
         devops
         client
         architecture
-        thumbnail {
-          childImageSharp {
-            fluid {
-              src
-            }
-          }
-        }
         featuredImage
         path
         title

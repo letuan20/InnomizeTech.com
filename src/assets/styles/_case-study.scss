@@ -692,3 +692,56 @@ Case Study Area CSS
     }
   }
 }
+
+.project-information {
+  border: 1px solid var(--color-d9d9d9);
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  width: 100%;
+  padding: 24px 168px;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 95px;
+  .information {
+    .icon {
+      width: 96px;
+      height: 96px;
+      margin: 0px auto 12px;
+      background: var(--color-ffd9da) 0% 0% no-repeat padding-box;
+      border: 1px solid var(--color-e5181e);
+      border-radius: 100px;
+    }
+    h3 {
+      line-height: var(--line-spacing-35);
+      letter-spacing: var(--character-spacing-0);
+      color: var(--title);
+      text-align: center;
+      font: {
+        style: var(--font-style-normal);
+        weight: bold;
+        size: var(--font-size-24);
+        family: var(--font-family-poppins);
+      }
+    }
+    p {
+      line-height: var(--line-spacing-30);
+      letter-spacing: var(--character-spacing-0);
+      color: var(--title);
+      text-align: center;
+      font: {
+        style: var(--font-style-normal);
+        weight: var(--font-weight-normal);
+        size:  var(--font-size-20);
+        family: var(--font-family-poppins);
+      }
+    }
+  }
+}
+.project-technologies {
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--color-d9d9d9);
+  width: 100%;
+  .technologies {
+    margin-bottom: 24px
+  }
+}
