@@ -19,3 +19,18 @@ collections:
       - { name: position, label: Position }
       - { name: image, label: Image, widget: image }
       - { name: body, label: Body, widget: markdown }
+  - name: casestudies
+    label: Case Studies
+    folder: content/case-studies
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: project, label: Project }
+      - { name: client, label: Client }
+      - { name: location, label: Location }
+      - { name: architecture, label: Position }
+      - { name: thumbnail, label: Thumbnail, widget: image }
+      - { name: body, label: Body, widget: markdown }
+      - { name: featuredImage, label: Project Images, widget: markdown }
+
