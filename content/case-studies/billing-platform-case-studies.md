@@ -6,7 +6,7 @@ technologies: |-
   ![](assets/aws.svg)
 
   ![](assets/react.svg)
-title: Billing Platform Case Studies
+title: Billing Management Platform
 devops: |-
   ![](assets/jenkins.svg)
 
