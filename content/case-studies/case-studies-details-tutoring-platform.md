@@ -8,6 +8,7 @@ technologies: |-
   ![](assets/docker.svg)
 
   ![](assets/react.svg)
+title: 1-1 Tutoring Platform
 devops: |-
   ![](assets/jenkins.svg)
 
@@ -15,8 +16,8 @@ devops: |-
 project: Web Project
 client: US Firm, E-Learning
 location: New York, USA
+architecture: Serverless
 thumbnail: assets/1-1-tutoring.jpg
-title: One-on-One Tutoring Platform Case Studies
 featuredImage: |-
   ![](assets/1.png)
 
@@ -25,7 +26,6 @@ featuredImage: |-
   ![](assets/1.png)
 
   ![](assets/1.png)
-architecture: Serverless
 ---
 <!--StartFragment-->
 
