@@ -4,7 +4,7 @@ technologies: |-
   ![](assets/aws.svg)
 
   ![](assets/react.svg)
-title: Permits Tracking Platform Case Studies
+title: Permits Platform
 devops: |-
   ![](assets/jenkins.svg)
 
