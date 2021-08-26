@@ -25,7 +25,8 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
+      - { name: technologies, label: Technologies, widget: markdown }
+      - { name: devops, label: DevOps, widget: markdown }
       - { name: project, label: Project }
       - { name: client, label: Client }
       - { name: location, label: Location }
