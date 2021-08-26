@@ -219,6 +219,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `case-studies-pages`,
+        path: `${__dirname}/content/case-studies`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/static/assets`,
         name: 'images markdown pages',
       },

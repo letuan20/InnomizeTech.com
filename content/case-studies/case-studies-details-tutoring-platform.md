@@ -16,6 +16,7 @@ project: Web Project
 client: US Firm, E-Learning
 location: New York, USA
 thumbnail: assets/1-1-tutoring.jpg
+title: One-on-One Tutoring Platform Case Studies
 featuredImage: |-
   ![](assets/1.png)
 
@@ -24,7 +25,6 @@ featuredImage: |-
   ![](assets/1.png)
 
   ![](assets/1.png)
-date: 2021-08-26T01:15:58.323Z
 architecture: Serverless
 ---
 <!--StartFragment-->

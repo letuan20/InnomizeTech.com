@@ -11,7 +11,7 @@ import Testimonials from '../components/Common/Testimonials';
 import SEO from '../components/seo';
 import StartProject from '../components/Common/StartProject';
 
-import BlogPost from '../components/templates/blogPost';
+import BlogPost from '../templates/blogPost';
 import video from '../assets/images/Videos/About Us.mp4';
 
 class About extends React.Component {

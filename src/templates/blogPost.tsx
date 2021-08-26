@@ -1,12 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../app/Layout';
-import SEO from '../seo';
-import Navbar from '../app/Navbar';
-import BlogBanner from '../blog-detail/BlogBanner';
-import BlogContent from '../blog-detail/BlogDetailContent';
-import Footer from '../app/Footer';
+import Layout from '../components/app/Layout';
+import SEO from '../components/seo';
+import Navbar from '../components/app/Navbar';
+import BlogBanner from '../components/blog-detail/BlogBanner';
+import BlogContent from '../components/blog-detail/BlogDetailContent';
+import Footer from '../components/app/Footer';
 
 const BlogPost = ({ data }) => {
   return (

@@ -26,6 +26,7 @@ collections:
     fields:
       - { name: path, label: Path }
       - { name: technologies, label: Technologies, widget: markdown }
+      - { name: title, label: Title }
       - { name: devops, label: DevOps, widget: markdown }
       - { name: project, label: Project }
       - { name: client, label: Client }

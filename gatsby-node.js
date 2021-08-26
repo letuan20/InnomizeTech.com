@@ -22,21 +22,42 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { data } = await getPageData(graphql);
+
   data.blogPosts.edges.forEach(({ node }) => {
     const { slug } = node.fields;
     actions.createPage({
       path: `/blog${slug}`,
-      component: path.resolve('./src/components/templates/blogPost.tsx'),
+      component: path.resolve('./src/templates/blogPost.tsx'),
+      context: { slug: slug },
+    });
+  });
+  data.casePosts.edges.forEach(({ node }) => {
+    const { slug } = node.fields;
+    actions.createPage({
+      path: `/case-studies${slug}`,
+      component: path.resolve('./src/templates/caseStudy.tsx'),
       context: { slug: slug },
     });
   });
 };
+
 
 async function getPageData(graphql) {
   return await graphql(`
     {
       blogPosts: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/blog/" } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      casePosts: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/case-studies/" } }
       ) {
         edges {
           node {
